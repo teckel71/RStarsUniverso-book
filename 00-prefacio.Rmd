@@ -1,0 +1,31 @@
+# Prefacio {.unnumbered}
+
+```{r setup-prefacio, include=FALSE}
+knitr::opts_chunk$set(
+  echo      = FALSE,
+  warning   = FALSE,
+  message   = FALSE,
+  fig.align = "center",
+  out.width = "80%"
+)
+```
+
+![*"Nada como un buen dataset para hacer creíble a una civilización."*](figuras/00_prefacio.jpg){.portada-img width="100%"}
+
+Este libro es una **guía divulgativa** del universo narrativo *R-Stars*, el escenario de ciencia ficción que utilizamos como hilo conductor en los manuales técnicos del proyecto **R-Teca**: *R-Stars: La Guía* [@rstars-guia], *Estadística Empresarial* [@ee2026] y los que vendrán.
+
+No es un manual, ni un libro técnico, ni pretende enseñar nada de estadística, econometría o programación en R. Su propósito es más modesto —y probablemente más divertido—: reunir en un solo sitio, y contarlo con gusto narrativo, todo lo que hace falta saber sobre las compañías, los planetas, los personajes y las organizaciones que pueblan los ejercicios de los manuales serios. Así, cuando en el capítulo de regresión aparezca *Hyperdrive Express* con sede en Miranda, o cuando en un análisis clúster salga a relucir el *Informe Bluebird*, el lector no tendrá que reconstruir de memoria de qué le suena el nombre: sabrá exactamente de qué le hablamos.
+
+La idea surge de una necesidad concreta detectada en el aula. Los manuales del proyecto R-Teca están ambientados de manera consistente en el universo *R-Stars* —trescientas compañías de transporte interestelar, cinco galaxias, treinta planetas, cuatro grandes bases de datos ambientadas— y esa consistencia es una virtud didáctica: los datos ganan textura, los ejemplos ganan continuidad, el aburrimiento estadístico gana algo de sabor. Pero cuando el estudiante salta entre capítulos, o entre libros, empieza a preguntarse si *Arrakis* aparece por casualidad, si *Hyperdrive Express* es la misma empresa de la que se habló hace cincuenta páginas, o de dónde sale la unidad monetaria del sector. Este libro está pensado para responder a todas esas preguntas de golpe, de forma amena, y para que el marco de ficción deje de ser un ruido de fondo y pase a ser un compañero de viaje.
+
+El libro se organiza en tres grandes bloques. El **primer bloque** presenta el proyecto R-Teca y explica cómo usar este libro en combinación con los manuales serios. El **segundo bloque**, que es el corazón del texto, recorre el universo *R-Stars* propiamente: la cronología del sector interestelar, la física del *plasma warp* (para quien quiera saberla), la geografía galáctica, los personajes ilustres, las organizaciones que lo vertebran y las compañías y astilleros que dan vida al mercado. El **tercer bloque** vuelve a bajar al terreno práctico: describe las bases de datos que sostienen los manuales, muestra dónde se usa cada una y ofrece una guía de guiños cinematográficos y literarios para el lector con inclinaciones friki.
+
+El tono es deliberadamente ligero. Las notas al margen, las erratas históricas, los proverbios apócrifos y los chistes de piloto forman parte del método: sin ellos, esto sería un anexo administrativo. Pero eso no significa que la información sea prescindible. Cada capítulo consolida hechos que reaparecen —a veces disfrazados de nombre propio— en los ejercicios de los manuales. Perderlos es empobrecer los ejercicios; entenderlos es sacarles más partido.
+
+Quiero agradecer, como en los libros anteriores, a las compañeras y compañeros que —a veces sin saberlo— han contribuido con sus preguntas, sus tropiezos y sus buenas ideas a que este marco de ficción tomara forma. Y me disculpo por adelantado por los errores de continuidad interna que, en un universo con trescientas empresas, treinta planetas y cinco galaxias, son inevitables. Todo aviso será bienvenido para futuras revisiones.
+
+------------------------------------------------------------------------
+
+**Sobre el carácter gratuito de este libro.** Este manual es, y seguirá siendo, de acceso libre y gratuito. Se agradecen tanto los comentarios y sugerencias que ayuden a su mejora, como su cita en aquellos documentos en los que se utilice como referencia. La referencia recomendada, en formato APA, es la siguiente:
+
+> Tarancón Morán, M. Á. (2026). *R-Stars: El Universo* [libro electrónico]. Universidad de Castilla-La Mancha. <https://teckel71.github.io/RStarsUniverso-book/>

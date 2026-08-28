@@ -1,0 +1,77 @@
+# Compañías y astilleros del sector. {#companias-astilleros}
+
+```{r setup-cap06, include=FALSE}
+knitr::opts_chunk$set(
+  echo       = FALSE,
+  message    = FALSE,
+  warning    = FALSE,
+  fig.align  = "center",
+  out.width  = "90%"
+)
+```
+
+![*Trescientas compañías, tres astilleros y un mercado que nunca duerme.*](figuras/06_companias.jpg){.portada-img width="100%"}
+
+Trescientas compañías activas mueven casi ciento diez mil rutas anuales en cinco galaxias. Nadie las conoce todas —ni siquiera los analistas de la AITM las citan a diario—; pero un puñado de ellas concentra buena parte de las cabeceras del sector, y aparece de forma recurrente en los ejercicios de los manuales. Este capítulo repasa esas compañías, y presenta con algo más de detalle a los tres grandes fabricantes de cargueros: *Korrigan Heavy Works*, *Selene Dynamics* y *Arcturus Shipyards*.
+
+## Las formas jurídicas. {#formas-juridicas}
+
+En el sector coexisten tres formas jurídicas galácticas armonizadas por el TLCI:
+
+- **Compañía Galáctica (CG).** Estructura clásica, con propiedad concentrada y responsabilidad limitada. Predomina en compañías medianas y en las de origen no humano.
+- **Sociedad Limitada Galáctica (SLG).** Análoga a la SL terrestre; muy habitual en compañías familiares o de tamaño reducido.
+- **Sociedad Anónima Galáctica (SAG).** Empresas de capital abierto, sujetas a auditorías más estrictas de la ARTI. Todas las grandes cotizadas del sector adoptan esta forma.
+
+La base `interestelar_300` recoge esta variable como `FJUR` y la utiliza en varios ejercicios de los manuales.
+
+## Las compañías más citadas. {#companias-citadas}
+
+*(Nota: sección en construcción. Se irán añadiendo fichas breves de las principales compañías del sector a medida que aparezcan en los manuales.)*
+
+### Arrakis Freight. {#arrakis-freight}
+
+Compañía histórica del sector, ligada desde su fundación al negocio de la exportación de especia. CEO histórico: **Romulus Steiner**. Encabeza sistemáticamente los rankings del *Informe Bluebird* y es la empresa de referencia para hablar de fidelización de clientes en el sector.
+
+### Vader & Company. {#vader-co}
+
+Una de las primeras compañías especializadas en cargamentos masivos a larga distancia. Célebre por sus márgenes operativos —de los más altos del sector— y, en no menor medida, por su severa política de recursos humanos y su departamento de atención al cliente notoriamente asfixiante.
+
+### Shuttlepod Movers. {#shuttlepod}
+
+Sociedad Anónima Galáctica con sede en Arrakis. CEO: **Tasha Tachybaptus**. Compañía de tamaño medio-alto, con una flota envejecida cuyo relevo es uno de los grandes temas abiertos del sector.
+
+### Hyperdrive Express. {#hyperdrive}
+
+Compañía de tamaño medio con sede en **Miranda** (Gran Nube de Magallanes). Flota renovada de 24 cargueros, más de un millar de rutas de largo alcance, márgenes por encima del 60 % y una rentabilidad económica cercana al 45 %. Es la compañía que aparece como caso de referencia en el capítulo introductorio de *Estadística Empresarial*.
+
+### Enterprise Logistics. {#enterprise}
+
+Compañía tradicional con base en **Coruscant**, cuyos astilleros orbitales son una postal recurrente del sector. Su lema oficial —*"llegar donde ningún carguero llegó antes"*— resume su reputación como pionera de rutas.
+
+### Kaiju Haulage Co. {#kaiju}
+
+Compañía con base en **Mustafar**, especializada en cargamentos de gran tonelaje. Su reputación técnica se ve permanentemente sometida a la inestabilidad política del planeta base.
+
+### Home One Cargo. {#home-one}
+
+Firma especializada en nichos digitales de alto margen. Su reciente adquisición por parte de **Arg-us Korp** ha reordenado el mapa competitivo en su segmento.
+
+### Otras compañías recurrentes. {#otras-companias}
+
+La base `interestelar_300` incluye, entre otras muchas, a *Nova Haulers*, *ExoCargo Alliance*, *Dune Dynamics*, *Spice Cargo Lines*, *Death Star Deliveries*, *Millennium Haulage*, *Tantive IV Cargo*, *Bug Hunter Logistics*, *Serenity Cargo Co.*, *Icarus Star Transport*, *Eva Movers*, *Elysium Freightlines* y *Star Gate Logistics*. Todas ellas comparten el mismo esquema de variables —financieras, operativas y de flota— y aparecen en distintos ejercicios de los manuales.
+
+## Los tres grandes astilleros. {#astilleros}
+
+El mercado de fabricación de cargueros está dominado por tres corporaciones. Sus naves —todas ellas propulsadas por **especia**— compiten en fiabilidad, rendimiento energético y precio. Los tres astilleros son la referencia común de los ejercicios sobre la base `astilleros_48`, utilizada en los capítulos sobre comparación de medias entre más de dos poblaciones y análisis de la covarianza.
+
+### Korrigan Heavy Works. {#korrigan}
+
+El fabricante clásico. Naves robustas, sobredimensionadas y algo caras de mantener, pero con una reputación de indestructibilidad que le mantiene una cuota de mercado estable.
+
+### Selene Dynamics. {#selene}
+
+El fabricante técnicamente más avanzado. Sus cargueros destacan sistemáticamente por un **rendimiento energético superior** y por una fiabilidad muy por encima de la media del sector. El *Informe Crestfall* la sitúa como referencia técnica desde hace tres bienios consecutivos.
+
+### Arcturus Shipyards. {#arcturus}
+
+El tercer gran fabricante. Estrategia agresiva de precios, catálogo amplio y presencia en todos los segmentos. Muy popular entre compañías medianas y en expansión.

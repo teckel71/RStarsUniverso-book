@@ -1,0 +1,77 @@
+# Personajes ilustres y organizaciones. {#personajes-organizaciones}
+
+```{r setup-cap05, include=FALSE}
+knitr::opts_chunk$set(
+  echo       = FALSE,
+  message    = FALSE,
+  warning    = FALSE,
+  fig.align  = "center",
+  out.width  = "90%"
+)
+```
+
+![*Dramatis personae de un sector de trescientas compañías.*](figuras/05_personajes.jpg){.portada-img width="100%"}
+
+El sector no sería lo que es sin un puñado de personajes —analistas, científicos, magnates— cuyas decisiones han moldeado su desarrollo, y sin un puñado de organizaciones que vertebran su regulación y sus datos. Los manuales del proyecto los invocan a menudo; conviene tenerlos presentes.
+
+## Los padres fundadores del dato. {#padres-dato}
+
+### Dr. Sagan Olbers. {#olbers}
+
+Antiguo oficial de logística de la *Federación de Rutas Espaciales de Andrómeda* y creador, en 2137, de la **Base de Datos Interestelar**. Se le atribuye una tenacidad legendaria y una paciencia todavía mayor: convencer a treinta magnates —de tres especies distintas— de compartir sus libros contables se considera, en algunos círculos, un logro comparable al descubrimiento del propio *plasma warp*.
+
+### Li Ti-Oh. {#li-ti-oh}
+
+Experta en transporte interestelar, radicada en Tatooine (Andrómeda). Autora del principal informe sectorial del año 2210 sobre orígenes, fortalezas y debilidades del comercio logístico. Sus análisis son de lectura obligada en las escuelas de negocio del sector.
+
+## La escuela AITM. {#escuela-aitm}
+
+Bajo el paraguas de la **Agencia Interplanetaria de Transporte de Mercancías** (AITM) opera un pequeño pero influyente grupo de investigadores cuyos informes marcan la agenda regulatoria del sector.
+
+### Dra. Xelia Bluebird. {#bluebird}
+
+Responsable del célebre *Informe Bluebird*, que segmenta a las 300 compañías del sector según sus índices de **fidelización**, **diversificación** y **digitalización**. El informe se publica cada dos años y sus conclusiones mueven cotizaciones bursátiles.
+
+### Dr. Oren Crestfall. {#crestfall}
+
+Analista técnico de la AITM. Dirige el *Informe Crestfall*, un estudio comparativo sobre la **fiabilidad** y el **rendimiento energético** de los cargueros producidos por los distintos astilleros. Sus *rankings* son temidos por los fabricantes y adorados por los aseguradores.
+
+### Mara Qyà. {#qya}
+
+Directora de la **Autoridad Reguladora del Transporte Interestelar (ARTI)**, el organismo encargado de auditar la salud financiera de las compañías del sector. Formada en econometría aplicada en la Universidad de Arrakis, es conocida en los pasillos de la ARTI como *"la mujer que no firma nada sin un p-valor"*. Bajo su dirección, la ARTI ha endurecido las auditorías periódicas y ha convertido el análisis previo de datos —depuración de *missing values*, detección de *outliers*, estudio de correlaciones— en un requisito formal antes de cualquier informe regulatorio.
+
+## Magnates y CEOs. {#magnates}
+
+### Romulus Steiner. {#steiner}
+
+Máximo accionista y CEO histórico de *Arrakis Freight*. Nacido en el sistema homónimo, es —como su nombre delata— uno de los primeros altos ejecutivos **no humanos** del sector; hecho que hoy nadie se molesta en subrayar, pero que en la década de 2130 fue tema recurrente de tertulia. Su apoyo temprano al Dr. Olbers fue determinante para el nacimiento de la Base de Datos Interestelar. En círculos periodísticos se le conoce como *"el hombre —o lo que sea— que abrió los libros"*.
+
+### Tasha Tachybaptus. {#tachybaptus}
+
+Actual CEO de *Shuttlepod Movers* (Sociedad Anónima Galáctica con sede en Arrakis). Su reto declarado es renovar la envejecida flota de la compañía sin comprometer su ya delicada liquidez; *"una ecuación con más incógnitas que ecuaciones"*, en palabras propias.
+
+### Arg-us Korp. {#korp}
+
+Magnate reciente, tan poderoso como esquivo. Originario de un sistema fronterizo de la Galaxia del Triángulo, es asimismo de origen **no humano** y —según los pocos periodistas que han conseguido entrevistarle— tiene una noción del tiempo levemente distinta de la humana, lo que dificulta enormemente el cierre de las reuniones. Ha protagonizado en los últimos años una serie de adquisiciones estratégicas, la más sonada de las cuales es la compra de *Home One Cargo*, una firma especializada en nichos digitales de alto margen.
+
+## Organizaciones e instituciones. {#organizaciones}
+
+### Agencia Interplanetaria de Transporte de Mercancías (AITM). {#aitm}
+
+Organismo intergaláctico —y **multiespecífico**— encargado de **estudiar, segmentar y supervisar** el funcionamiento del sector. La AITM publica los informes de referencia (entre ellos los citados de Bluebird y Crestfall), mantiene las estadísticas oficiales y actúa como interlocutor técnico ante los organismos reguladores de las cinco galaxias. Su sede principal está en la Vía Láctea, con delegaciones permanentes en Andrómeda y Magallanes.
+
+### Autoridad Reguladora del Transporte Interestelar (ARTI). {#arti}
+
+Organismo de **supervisión financiera** del sector, creado como brazo auditor independiente de la AITM. La ARTI tiene competencia para inspeccionar las cuentas de cualquier compañía de transporte interestelar, exigir la corrección de irregularidades y, en casos extremos, suspender temporalmente licencias de operación. Su directora actual, **Mara Qyà**, ha impuesto una cultura de análisis empírico riguroso: ningún informe de auditoría se emite sin un análisis previo de datos que incluya la depuración de valores faltantes, la detección de casos atípicos y el estudio de las relaciones entre las principales variables financieras.
+
+### Autoridad Galáctica de Transporte Interestelar (AGTI). {#agti}
+
+Organismo encargado de la **concesión de licencias de operación** en rutas intergalácticas de alto valor estratégico. Sus procesos son especialmente estrictos en las rutas Coruscant–Arrakis y similares, donde la seguridad de la especia condiciona toda la logística del sector.
+
+### Federación de Rutas Espaciales de Andrómeda. {#fre-andromeda}
+
+Institución logística histórica de la galaxia de Andrómeda, en la que se formó el Dr. Olbers antes de fundar la Base de Datos Interestelar. Continúa coordinando las rutas comerciales de Andrómeda y actúa como órgano consultivo de la AITM en materia intergaláctica.
+
+### Asociación Sectorial de Transporte Interestelar (ASTI). {#asti}
+
+Órgano de representación empresarial del sector. Encarga estudios de percepción y satisfacción de clientes —como el llevado a cabo por la consultora *Data-Evidence* que da lugar a la base `percepcion_interestelar`— y actúa como interlocutor colectivo del sector ante la AITM y los reguladores.

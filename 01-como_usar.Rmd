@@ -1,0 +1,66 @@
+# El proyecto R-Teca y cómo usar este libro. {#como-usar}
+
+```{r setup-cap01, include=FALSE}
+knitr::opts_chunk$set(
+  echo       = FALSE,
+  message    = FALSE,
+  warning    = FALSE,
+  fig.align  = "center",
+  out.width  = "90%"
+)
+```
+
+![*Un ecosistema de libros. Y detrás, un mismo universo.*](figuras/01_r_teca.jpg){.portada-img width="100%"}
+
+## Qué es R-Teca. {#que-es-rteca}
+
+*R-Teca* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde se recoge la instalación básica de R y RStudio, se proponen manuales para comenzar, y se listan los materiales originales del propio proyecto.
+
+Dentro de R-Teca, los materiales originales están organizados como **libros bookdown** publicados en GitHub Pages. En el momento de escribir estas líneas los libros disponibles son:
+
+- **R-Stars: La Guía** (<https://teckel71.github.io/RStars-book/>). Guía práctica del uso de R para análisis de datos y modelización econométrica. Cubre desde el almacenamiento y la manipulación de datos hasta las técnicas de análisis multivariante y mapeado perceptual.
+
+- **Estadística Empresarial** (<https://teckel71.github.io/EstadisticaEmpresarial-book/>). Manual teórico-práctico de la asignatura *Estadística Empresarial* del Grado en Administración y Dirección de Empresas de la Universidad de Castilla-La Mancha.
+
+- **R-Stars: El Universo** (este libro). Guía divulgativa del marco narrativo compartido por todos los manuales anteriores.
+
+Todos los libros del proyecto son de acceso gratuito, están escritos en R Markdown con **bookdown** y publicados como sitios estáticos en GitHub Pages. La coherencia entre ellos es deliberada: comparten estética, tratamiento tipográfico y, sobre todo, el universo narrativo *R-Stars* que motiva este texto.
+
+## Cómo encaja este libro con los demás. {#encaje}
+
+Los manuales técnicos del proyecto usan el universo *R-Stars* como fuente de ejemplos y de bases de datos. Ese universo es rico —a propósito—: cinco galaxias, treinta planetas, trescientas compañías, unas cuantas organizaciones sectoriales y un elenco de personajes recurrentes. Cuando el lector se enfrenta al primer manual, ese despliegue puede resultar desconcertante: uno no siempre sabe si el nombre que aparece en el enunciado es un detalle decorativo o una pieza con implicaciones para el ejercicio.
+
+**Este libro es el "sitio de referencia" del universo.** Sirve, alternativamente, para:
+
+- **Leerlo antes**, de corrido, como una novela corta divulgativa que da contexto y hace que los manuales se disfruten más.
+- **Consultarlo puntualmente** desde los manuales cada vez que aparece un nombre propio nuevo (una empresa, un planeta, un personaje, una organización).
+- **Explorarlo por curiosidad**, con o sin manuales delante, como quien hojea la guía de un juego de rol o el "worldbook" de una saga.
+
+Ninguno de los tres modos de lectura es superior a los otros. El libro está pensado para tolerar los tres.
+
+## Cómo está organizado. {#organizacion}
+
+El libro se divide en tres partes:
+
+**Parte I — Contexto y filosofía.** Este mismo capítulo. Explica de dónde sale el proyecto, cómo se lee el libro y qué relación mantiene con los manuales técnicos.
+
+**Parte II — El universo R-Stars.** El corazón del libro. Recorre, en un orden razonable, todo lo que hay que saber sobre el universo para moverse con soltura por los manuales:
+
+- La **cronología** del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2210.
+- La **física del plasma warp** (Cap. 3), para quien quiera saber por qué las naves de este universo se mueven a la velocidad a la que se mueven.
+- La **geografía galáctica** (Cap. 4): cinco galaxias, treinta planetas, sus zonas de riesgo y sus fronteras.
+- Los **personajes y organizaciones** (Cap. 5): dramatis personae del sector y las instituciones que lo regulan.
+- Las **compañías y astilleros** (Cap. 6): las principales empresas del transporte interestelar y los tres grandes fabricantes de cargueros.
+
+**Parte III — Bajada a tierra.** Cierra el libro conectando el mundo narrativo con el trabajo técnico:
+
+- Las **bases de datos del proyecto** (Cap. 7), su estructura y su uso didáctico en cada manual.
+- Los **guiños cinematográficos y literarios** (Cap. 8), con la tabla de referencias que dará al lector aficionado a la ciencia ficción alguna alegría inesperada.
+
+Al final se incluyen un glosario integrado en el capítulo de guiños, la **bibliografía** general del proyecto y la **licencia**.
+
+## Una advertencia amistosa. {#advertencia}
+
+Todo lo que se cuenta en este libro es **ficción**. Cualquier parecido con corporaciones reales, planetas cartografiados o personajes de sagas cinematográficas es intencionado y afectuoso. El universo *R-Stars* se construye sobre una premisa sencilla: en el año 2210 la humanidad ha colonizado, comerciado y en algunos casos negociado alto el fuego a lo largo de cinco galaxias, transporta mercancías entre ellas a velocidades cercanas a las de la luz, y —lo más importante para nosotros— **genera datos**. Muchos datos. Suficientes para llenar todos los libros del proyecto R-Teca.
+
+El resto son detalles.

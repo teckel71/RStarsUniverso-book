@@ -1,0 +1,18 @@
+---
+nocite: |
+  @*
+---
+
+`r if (knitr::is_html_output()) '
+# Bibliografía {-}
+
+Los libros del proyecto R-Teca —a los que este manual da contexto— son las referencias más directas para el lector que quiera profundizar en el análisis técnico:
+
+<div id="refs"></div>
+'`
+
+`r if (knitr::is_latex_output()) '
+# Bibliografía {-}
+
+Los libros del proyecto R-Teca —a los que este manual da contexto— son las referencias más directas para el lector que quiera profundizar en el análisis técnico:
+'`

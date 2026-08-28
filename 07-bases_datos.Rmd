@@ -1,0 +1,78 @@
+# Las bases de datos del universo R-Stars. {#bases-datos}
+
+```{r setup-cap07, include=FALSE}
+knitr::opts_chunk$set(
+  echo       = FALSE,
+  message    = FALSE,
+  warning    = FALSE,
+  fig.align  = "center",
+  out.width  = "90%"
+)
+```
+
+![*Cinco ficheros Excel. Un universo de decisiones empresariales.*](figuras/07_datos.jpg){.portada-img width="100%"}
+
+Todo el universo *R-Stars* se apoya, a efectos didácticos, en un conjunto de **bases de datos ficticias** que reproducen —con la lógica de una empresa real— los flujos financieros, operativos, laborales y regulatorios del sector. Este capítulo describe brevemente cada una de ellas y —lo que es más útil para el lector— indica **dónde aparecen** en los manuales del proyecto.
+
+## Convenciones comunes. {#convenciones-datos}
+
+Todas las bases se distribuyen como ficheros `.xlsx` con una estructura homogénea de tres hojas:
+
+- Una hoja **`Inicio`** con una breve descripción de la base y su aviso legal.
+- Una hoja **`Variables`** con la definición y las unidades de cada variable.
+- Una hoja **`Datos`** con los registros propiamente dichos.
+
+Buena parte de las variables monetarias se expresan en **PAVOs** —siglas de *Patrón Anual de Valor Operativo*, la unidad de cuenta armonizada por el TLCI para permitir el comercio entre galaxias sin conversiones de tipo de cambio—. Cuando el importe es elevado, se utiliza el múltiplo *Miles de PAVOs*.
+
+Para clasificar las variables se emplean cuatro categorías estadísticas: **métrica**, **atributo nominal**, **atributo ordinal** e **identificador**.
+
+## `interestelar_300`. {#interestelar-300}
+
+Contiene información **financiera y operativa** de una muestra representativa de **300 compañías** del sector del transporte interestelar de mercancías en un año de referencia. La base cubre las cinco galaxias operativas del sector y las tres formas jurídicas galácticas más habituales.
+
+**Estructura**: 300 filas × 29 columnas. Incluye variables como `ACTIVO`, `FPIOS`, `ING`, `MARGEN`, `RES`, `SOLVENCIA`, `LIQUIDEZ`, `APALANCA`, `RENECO`, `RENFIN`, `EMPLEA`, `FJUR`, `FLOTA`, `COSTOP`, `CAPEX`, `IMD`, `EFLO`, `RUTAS`, `IDIG`, `IDIVERSE`, `IFIDE`, `GMEDRUT`, `DIST` y `BMAL`.
+
+Es la **base principal** del proyecto R-Teca: se utiliza en la mayor parte de los capítulos de los manuales, tanto en los de análisis univariante y bivariante como en los de análisis multivariante (regresión, análisis clúster y modelos log-lineales, entre otros).
+
+## `trabajadores`. {#trabajadores}
+
+Contiene información laboral básica sobre los **trabajadores de una compañía del sector** en un año de referencia. La base incluye el salario percibido, el nivel de estudios y el departamento de asignación de cada empleado.
+
+**Estructura**: 49 filas × 4 columnas (`NOMBRE`, `SALARIO`, `NESTUDIOS`, `DEP`).
+
+Se utiliza principalmente en los capítulos de análisis bivariante (comparación de medias entre grupos, análisis de la varianza y tablas de contingencia).
+
+## `astilleros_48`. {#astilleros-48}
+
+Contiene información **técnica** sobre una muestra de **48 cargueros** fabricados por los tres grandes astilleros del sector: *Korrigan Heavy Works*, *Selene Dynamics* y *Arcturus Shipyards*. La base recoge indicadores de rendimiento energético, historial de incidencias graves, antigüedad y capacidad de carga.
+
+**Estructura**: 48 filas × 7 columnas (`NOMBRE`, `ASTILLERO`, `SEDE`, `IRE`, `IIG`, `ANTIGÜEDAD`, `TONELAJE`).
+
+Constituye la base sobre la que se elabora el *Informe Crestfall*, y se utiliza en los capítulos dedicados a la comparación de medias entre más de dos poblaciones, al análisis de la covarianza y a la regresión.
+
+## `licencias_100`. {#licencias-100}
+
+Contiene información sobre **100 compañías** del sector que solicitaron una **licencia de operación** en la ruta Coruscant (Galaxia de Andrómeda) – Arrakis (Gran Nube de Magallanes), gestionada por la Autoridad Galáctica de Transporte Interestelar (AGTI). De las 100 solicitantes, 40 obtuvieron la licencia y 60 fueron denegadas.
+
+**Estructura**: 100 filas × 12 columnas (`NOMBRE`, `SEDE`, `GALAXIA`, `EFLO`, `SOLVENCIA`, `FLOTA`, `RUTAS`, `IFIDE`, `IPUNT`, `TINCID`, `EXPERIENCIA`, `LICENCIA`).
+
+Las 100 compañías están extraídas de `interestelar_300`, y las variables compartidas conservan exactamente sus valores originales. Se utiliza en el capítulo de **modelos de elección discreta** de *R-Stars: La Guía* para la estimación de un modelo logit binomial.
+
+## `percepcion_interestelar`. {#percepcion-interestelar}
+
+Contiene las **valoraciones medias** que 30 clientes frecuentes han otorgado a **15 compañías** del sector en **6 atributos de servicio**, utilizando una escala Likert de 1 (muy deficiente) a 7 (excelente). La encuesta fue diseñada por la consultora *Data-Evidence* por encargo de la ASTI, con el objetivo de construir un mapa perceptual del sector.
+
+**Estructura**: 15 filas × 7 columnas (`EMPRESA`, `FIABILIDAD`, `PUNTUALIDAD`, `SEGURIDAD`, `PRECIO`, `ATENCION`, `INNOVACION`).
+
+Se utiliza en el capítulo de **técnicas de mapeado perceptual (Escalado Multidimensional)** de *R-Stars: La Guía*.
+
+## Nota sobre carga y uso. {#nota-carga}
+
+Para cargar las bases en R desde los *scripts* de los manuales se utiliza la función `readxl::read_excel()`, indicando explícitamente la hoja `Datos`:
+
+```{r echo=TRUE, eval=FALSE}
+library(readxl)
+datos <- read_excel("interestelar_300.xlsx", sheet = "Datos")
+```
+
+Todas las bases son **totalmente ficticias**: los nombres de empresas, planetas, sedes, trabajadores y naves están inspirados en distintas fuentes de la filmografía y la literatura de ciencia ficción, con intereses puramente didácticos. El siguiente capítulo repasa esos guiños con algo más de detalle.

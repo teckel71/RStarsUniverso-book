@@ -1,0 +1,80 @@
+# Guiños, glosario y coda. {#guinos-glosario}
+
+```{r setup-cap08, include=FALSE}
+knitr::opts_chunk$set(
+  echo       = FALSE,
+  message    = FALSE,
+  warning    = FALSE,
+  fig.align  = "center",
+  out.width  = "90%"
+)
+```
+
+![*Cada carguero de este universo debe algo a un cine, una novela o un cómic.*](figuras/08_guinos.jpg){.portada-img width="100%"}
+
+Como el lector atento habrá sospechado desde hace unas cuantas páginas, el universo *R-Stars* no es tan original como su rentabilidad media insinúa. Cada uno de los 30 planetas y cada una de las 300 compañías del sector rinde homenaje —a veces literal, a veces desviado, casi siempre en tono cariñoso— a alguna obra fundamental del **cine, la televisión o la literatura de ciencia ficción**. Este capítulo cierra el libro con tres piezas de referencia: una **tabla de guiños**, un **glosario** rápido y una breve coda personal.
+
+## La filmografía tras el universo R-Stars. {#filmografia}
+
+La tabla siguiente resume las principales fuentes de inspiración; la lista es representativa, no exhaustiva.
+
+| Obra o saga                                  | Año                         | Autoría / dirección                             | Ejemplos de guiños en *R-Stars*                                                                                                                                                                          |
+| -------------------------------------------- | --------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Star Wars**                                | 1977–                       | George Lucas *et al.*                           | Tatooine, Coruscant, Naboo, Dagobah, Mustafar, Endor, Hoth, Kashyyyk, Jedha, Scarif, Crait; Vader, Yoda, Skywalker, Boba Fett, Jabba, Lando, Kylo Ren, Snoke, Poe Dameron, Finn, Ahsoka, Ezra Bridger, Cassian, Jyn Erso; *Home One Cargo*, *Death Star Deliveries*, *Millennium Haulage*, *Tantive IV Cargo*. |
+| **Dune**                                     | 1965/1984/2021              | Frank Herbert (novela); D. Lynch; D. Villeneuve | Arrakis, **la especia**, Harkonnen, Atreides, Bene Gesserit, Sandworm; *Dune Dynamics*, *Spice Cargo Lines*.                                                                                             |
+| **Star Trek**                                | 1966–                       | Gene Roddenberry                                | Vulcano, Qo’noS, Romulus, Risa; Kirk, Spock, Uhura, Sulu, Chekov, Chakotay, Janeway, Sarek, Seven of Nine, Pike, T’Pol, Phlox; Klingon, Borg, Cardassian, Bajoran, Andorian, Betazoid, Dominion; *Enterprise Logistics*, *NX-01 Cargo Lines*. |
+| **Alien / Prometheus**                       | 1979–                       | Ridley Scott; James Cameron (*Aliens*)          | LV-223, LV-426; Nostromo, Weyland-Yutani, Ripley, Ash, Xenomorph, Prometheus, Sulaco, Sevastopol, Narcissus.                                                                                             |
+| **Blade Runner**                             | 1982                        | Ridley Scott                                    | Deckard, Roy Batty, Replicant, Tannhäuser (gate).                                                                                                                                                        |
+| **Battlestar Galactica**                     | 1978 / 2004                 | Glen A. Larson; Ronald D. Moore                 | Kobol, Caprica, Nueva Caprica; Adama, Starbuck, Apollo, Boomer, Cylon, Galactica, Pegasus, Viper, Ragnar, Dradis.                                                                                        |
+| **2001: Una odisea del espacio**             | 1968                        | Stanley Kubrick                                 | HAL 9000, Discovery One, Monolito, Dr. Bowman.                                                                                                                                                           |
+| **The Matrix**                               | 1999                        | Lana y Lilly Wachowski                          | Nebuchadnezzar, Zion.                                                                                                                                                                                    |
+| **Firefly / Serenity**                       | 2002 / 2005                 | Joss Whedon                                     | Miranda; *Serenity Cargo Co.*                                                                                                                                                                            |
+| **Avatar**                                   | 2009                        | James Cameron                                   | Pandora.                                                                                                                                                                                                 |
+| **El quinto elemento**                       | 1997                        | Luc Besson                                      | Fhloston Paradise; Leeloo.                                                                                                                                                                               |
+| **Starship Troopers**                        | 1997 (film) / 1959 (novela) | Paul Verhoeven; R. A. Heinlein                  | Klendathu, Planet P; Rico’s Roughnecks; *Bug Hunter Logistics*.                                                                                                                                          |
+| **The Expanse**                              | 2015–                       | J. S. A. Corey (novelas); Amazon (serie)        | Rocinante, Belter, Drummer, Naomi, Holden, Protogen, Eros, Behemoth.                                                                                                                                     |
+| **Interstellar**                             | 2014                        | Christopher Nolan                               | Miller, Mann (los dos planetas visitados).                                                                                                                                                               |
+| **Farscape**                                 | 1999                        | Rockne S. O’Bannon                              | Moya, Peacekeeper, Scorpio.                                                                                                                                                                              |
+| **Babylon 5**                                | 1993                        | J. Michael Straczynski                          | Babylon 5; Minbari, Vorlon, Centurion.                                                                                                                                                                   |
+| **Event Horizon**                            | 1997                        | Paul W. S. Anderson                             | *Event Horizon Haulage*.                                                                                                                                                                                 |
+| **Elysium**                                  | 2013                        | Neill Blomkamp                                  | *Elysium Freightlines*, *Elysium Star Transport*.                                                                                                                                                        |
+| **Solaris**                                  | 1972 / 2002                 | Stanisław Lem (novela); Tarkovsky; Soderbergh   | *Solaris Haulage*.                                                                                                                                                                                       |
+| **Foundation**                               | 1942–                       | Isaac Asimov (novelas); Apple TV+ (2021)        | Trantor; *Terminus Transport*.                                                                                                                                                                           |
+| **Robotech / Macross**                       | 1982 / 1985                 | Shōji Kawamori; Carl Macek                      | SDF-1, Zentraedi, Veritech.                                                                                                                                                                              |
+| **Portal**                                   | 2007                        | Valve                                           | *Aperture Cargo Systems*.                                                                                                                                                                                |
+| **Pacific Rim**                              | 2013                        | Guillermo del Toro                              | *Kaiju Haulage Co.*                                                                                                                                                                                      |
+| **Stargate**                                 | 1994                        | Roland Emmerich                                 | *Star Gate Logistics*.                                                                                                                                                                                   |
+| **Sunshine**                                 | 2007                        | Danny Boyle                                     | *Icarus Star Transport*.                                                                                                                                                                                 |
+| **Valerian y la ciudad de los mil planetas** | 2017                        | Luc Besson                                      | Mül; *Valerian Freight Co.*                                                                                                                                                                              |
+| **WALL·E**                                   | 2008                        | Andrew Stanton (Pixar)                          | EVA; *Eva Movers*, *Eva Star Transport*.                                                                                                                                                                 |
+| **Dark Star**                                | 1974                        | John Carpenter                                  | *Dark Star Haulage*.                                                                                                                                                                                     |
+| **Terminator**                               | 1984                        | James Cameron                                   | *Neural Net Freight*.                                                                                                                                                                                    |
+
+El resto de nombres del sector se reparte entre guiños puntuales (*Ripley Interstellar Freight*, *Ash Logistics*, *Nostromo Freight*), homenajes literarios sin adaptación cinematográfica canónica (los cargueros bautizados como *Hyperion* rinden pleitesía a Dan Simmons; los que llevan *Trantor* o *Foundation* a Asimov) y nombres de pura invención con sabor genérico a ciencia ficción (*Quantum Freightlines*, *Nebula Express*, *Warp Drive Logistics*, *Photon Pack Freight*, *Wormhole Transport Systems*).
+
+## Glosario del pasajero apresurado. {#glosario}
+
+Se recogen a continuación algunos términos que aparecen recurrentemente en los manuales, para consulta rápida:
+
+- **AITM.** Agencia Interplanetaria de Transporte de Mercancías. Organismo regulador y estadístico del sector.
+- **AGTI.** Autoridad Galáctica de Transporte Interestelar. Concede las licencias de operación en rutas intergalácticas estratégicas.
+- **ARTI.** Autoridad Reguladora del Transporte Interestelar. Brazo auditor independiente de la AITM, encargado de la supervisión financiera de las compañías del sector. Dirigida por Mara Qyà.
+- **ASTI.** Asociación Sectorial de Transporte Interestelar. Órgano de representación empresarial.
+- **Base de Datos Interestelar.** Registro unificado —creado en 2137 por el Dr. Sagan Olbers— con la información operativa y financiera de las 300 compañías del sector. Fuente primaria de los datos utilizados en los manuales.
+- **CG / SLG / SAG.** Compañía Galáctica / Sociedad Limitada Galáctica / Sociedad Anónima Galáctica. Las tres formas jurídicas armonizadas por el TLCI.
+- **Especia (natural).** Isómero natural de melangium extraído en Arrakis. Combustible único del *plasma warp* para viajes intergalácticos.
+- **Melangium.** Isótopo transuránico artificial ($^{297}$Mg) cuyo estado isomérico metaestable es la base física del *plasma warp*.
+- **PAVO.** *Patrón Anual de Valor Operativo*. Unidad monetaria armonizada por el TLCI.
+- **Plasma warp.** Tecnología de propulsión descubierta en 2084 que permite deformar localmente la métrica del espacio-tiempo.
+- **Primer contacto.** Denominación oficial del periodo 2087–2110, durante el cual la humanidad estableció relación con las primeras civilizaciones extraterrestres.
+- **Proto-especia.** Versión sintética del melangium, producida en laboratorio. Eficiencia baja; suficiente para viajes **intra**galácticos, insuficiente para **inter**galácticos.
+- **TLCI.** Tratado de Libre Comercio Interestelar (2135). Marco jurídico que rige los intercambios entre galaxias y especies.
+- **Zona roja.** Sistema estelar con actividad pirata documentada. Los seguros aplican recargos; los pilotos, precauciones adicionales.
+
+## Coda: y que la R os acompañe. {#coda}
+
+El universo *R-Stars* es, en el fondo, una excusa: una excusa para hablar de tablas, distribuciones, contrastes, modelos y clústeres sin caer en el tedio del *dataset* de flores (con todos los respetos a los iris de Fisher, que cumplen su función con dignidad hace ya más de noventa años). Cuando en los capítulos de los manuales aparezca un carguero de *Kaiju Haulage Co.* averiado en Mustafar, o un análisis clúster que separe a las compañías por su índice de digitalización, o un modelo log-lineal ajustado sobre la tabla de contingencia "galaxia × forma jurídica × estado financiero", conviene recordar que detrás de cada número hay —o querríamos que hubiera— un piloto en su cabina (humano, humanoide o vagamente reptiliano, según el turno) mirando por la ventanilla la Nube de Magallanes.
+
+Y si el lector, llegado a este punto, decide que quiere abrir su propia compañía de transporte interestelar, que lo haga sabiendo que la rentabilidad media del sector supera el 60%, pero también que un cargamento de especia arrakiana no se financia con una hipoteca al uso y que los seguros de casco en el sistema de Klendathu no bajan del 12%.
+
+Que la **R** os acompañe.
