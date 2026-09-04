@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>1 El proyecto R-Stars y cómo usar este libro. | R-Stars: El Universo</title>
+<meta name="author" content="Miguel Ángel Tarancón Morán">
+<meta name="description" content="Un ecosistema de libros. Y detrás, un mismo universo.  1.1 Qué es R-Stars. R-Stars es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a...">
+<meta name="generator" content="bookdown 0.46 with bs4_book()">
+<meta property="og:title" content="1 El proyecto R-Stars y cómo usar este libro. | R-Stars: El Universo">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://teckel71.github.io/RStarsUniverso-book/como-usar.html">
+<meta property="og:image" content="https://teckel71.github.io/RStarsUniverso-book/figuras/RSU_portada.jpg">
+<meta property="og:description" content="Un ecosistema de libros. Y detrás, un mismo universo.  1.1 Qué es R-Stars. R-Stars es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="1 El proyecto R-Stars y cómo usar este libro. | R-Stars: El Universo">
+<meta name="twitter:description" content="Un ecosistema de libros. Y detrás, un mismo universo.  1.1 Qué es R-Stars. R-Stars es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a...">
+<meta name="twitter:image" content="https://teckel71.github.io/RStarsUniverso-book/figuras/RSU_portada.jpg">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="libs/Source_Serif_4-0.4.10/font.css" rel="stylesheet">
+<link href="libs/JetBrains_Mono-0.4.10/font.css" rel="stylesheet">
+<link href="libs/Source_Sans_3-0.4.10/font.css" rel="stylesheet">
+<script src="libs/bs3compat-0.10.0/transition.js"></script><script src="libs/bs3compat-0.10.0/tabs.js"></script><script src="libs/bs3compat-0.10.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+          margin-bottom: 0em;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">R-Stars: El Universo</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">1</span> El proyecto R-Stars y cómo usar este libro.</a></li></ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="como-usar" class="section level1" number="1">
+<h1>
+<span class="header-section-number">1</span> El proyecto R-Stars y cómo usar este libro.<a class="anchor" aria-label="anchor" href="#como-usar"><i class="fas fa-link"></i></a>
+</h1>
+<div class="float">
+<img src="figuras/frikistars.jpg" class="portada-img" style="width:100.0%" alt="Un ecosistema de libros. Y detrás, un mismo universo."><div class="figcaption"><em>Un ecosistema de libros. Y detrás, un mismo universo.</em></div>
+</div>
+<div id="que-es-rstars" class="section level2" number="1.1">
+<h2>
+<span class="header-section-number">1.1</span> Qué es R-Stars.<a class="anchor" aria-label="anchor" href="#que-es-rstars"><i class="fas fa-link"></i></a>
+</h2>
+<p><em>R-Stars</em> es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de <strong>R</strong> como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <a href="https://blog.uclm.es/miguelangeltarancon/r-teca/" class="uri">https://blog.uclm.es/miguelangeltarancon/r-teca/</a>, donde se recoge la instalación básica de R y RStudio, se proponen manuales para comenzar, y se listan los materiales originales del propio proyecto.</p>
+<p>Dentro de R-Stars, los materiales originales están organizados como <strong>libros bookdown</strong> publicados en GitHub Pages. En el momento de escribir estas líneas los libros disponibles son:</p>
+<ul>
+<li><p><strong>R-Stars: La Guía</strong> (<a href="https://teckel71.github.io/RStars-book/" class="uri">https://teckel71.github.io/RStars-book/</a>). Guía práctica del uso de R para análisis de datos y modelización econométrica. Cubre desde el almacenamiento y la manipulación de datos hasta las técnicas de análisis multivariante y mapeado perceptual.</p></li>
+<li><p><strong>Estadística Empresarial</strong> (<a href="https://teckel71.github.io/EstadisticaEmpresarial-book/" class="uri">https://teckel71.github.io/EstadisticaEmpresarial-book/</a>). Manual teórico-práctico de la asignatura <em>Estadística Empresarial</em> del Grado en Administración y Dirección de Empresas de la Universidad de Castilla-La Mancha.</p></li>
+<li><p><strong>R-Stars: El Universo</strong> (este libro). Guía divulgativa del marco narrativo compartido por todos los manuales anteriores.</p></li>
+</ul>
+<p>Todos los libros del proyecto son de acceso gratuito, están escritos en R Markdown con <strong>bookdown</strong> y publicados como sitios estáticos en GitHub Pages. La coherencia entre ellos es deliberada: comparten estética, tratamiento tipográfico y, sobre todo, el universo narrativo <em>R-Stars</em> que motiva este texto.</p>
+</div>
+<div id="encaje" class="section level2" number="1.2">
+<h2>
+<span class="header-section-number">1.2</span> Cómo encaja este libro con los demás.<a class="anchor" aria-label="anchor" href="#encaje"><i class="fas fa-link"></i></a>
+</h2>
+<p>Los manuales técnicos del proyecto usan el universo <em>R-Stars</em> como fuente de ejemplos y de bases de datos. Ese universo es rico —a propósito—: cinco galaxias, treinta planetas, trescientas compañías, unas cuantas organizaciones sectoriales y un elenco de personajes recurrentes. Cuando el lector se enfrenta al primer manual, ese despliegue puede resultar desconcertante: uno no siempre sabe si el nombre que aparece en el enunciado es un detalle decorativo o una pieza con implicaciones para el ejercicio.</p>
+<p><strong>Este libro es el “sitio de referencia” del universo.</strong> Sirve, alternativamente, para:</p>
+<ul>
+<li>
+<strong>Leerlo antes</strong>, de corrido, como una novela corta divulgativa que da contexto y hace que los manuales se disfruten más.</li>
+<li>
+<strong>Consultarlo puntualmente</strong> desde los manuales cada vez que aparece un nombre propio nuevo (una empresa, un planeta, un personaje, una organización).</li>
+<li>
+<strong>Explorarlo por curiosidad</strong>, con o sin manuales delante, como quien hojea la guía de un juego de rol o el “worldbook” de una saga.</li>
+</ul>
+<p>Ninguno de los tres modos de lectura es superior a los otros. El libro está pensado para tolerar los tres.</p>
+</div>
+<div id="organizacion" class="section level2" number="1.3">
+<h2>
+<span class="header-section-number">1.3</span> Cómo está organizado.<a class="anchor" aria-label="anchor" href="#organizacion"><i class="fas fa-link"></i></a>
+</h2>
+<p>El libro se divide en tres partes:</p>
+<p><strong>Parte I — Contexto y filosofía.</strong> Este mismo capítulo. Explica de dónde sale el proyecto, cómo se lee el libro y qué relación mantiene con los manuales técnicos.</p>
+<p><strong>Parte II — El universo R-Stars.</strong> El corazón del libro. Recorre, en un orden razonable, todo lo que hay que saber sobre el universo para moverse con soltura por los manuales:</p>
+<ul>
+<li>La <strong>cronología</strong> del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2210.</li>
+<li>La <strong>física del plasma warp</strong> (Cap. 3), para quien quiera saber por qué las naves de este universo se mueven a la velocidad a la que se mueven.</li>
+<li>La <strong>geografía galáctica</strong> (Cap. 4): cinco galaxias, treinta planetas, sus zonas de riesgo y sus fronteras.</li>
+<li>Los <strong>personajes y organizaciones</strong> (Cap. 5): dramatis personae del sector y las instituciones que lo regulan.</li>
+<li>Las <strong>compañías y astilleros</strong> (Cap. 6): las principales empresas del transporte interestelar y los tres grandes fabricantes de cargueros.</li>
+</ul>
+<p><strong>Parte III — Bajada a tierra.</strong> Cierra el libro conectando el mundo narrativo con el trabajo técnico:</p>
+<ul>
+<li>Las <strong>bases de datos del proyecto</strong> (Cap. 7), su estructura y su uso didáctico en cada manual.</li>
+<li>Los <strong>guiños cinematográficos y literarios</strong> (Cap. 8), con la tabla de referencias que dará al lector aficionado a la ciencia ficción alguna alegría inesperada.</li>
+</ul>
+<p>Al final se incluyen un glosario integrado en el capítulo de guiños, la <strong>bibliografía</strong> general del proyecto y la <strong>licencia</strong>.</p>
+</div>
+<div id="advertencia" class="section level2" number="1.4">
+<h2>
+<span class="header-section-number">1.4</span> Una advertencia amistosa.<a class="anchor" aria-label="anchor" href="#advertencia"><i class="fas fa-link"></i></a>
+</h2>
+<p>Todo lo que se cuenta en este libro es <strong>ficción</strong>. Cualquier parecido con corporaciones reales, planetas cartografiados o personajes de sagas cinematográficas es intencionado y afectuoso. El universo <em>R-Stars</em> se construye sobre una premisa sencilla: en el año 2210 la humanidad ha colonizado, comerciado y en algunos casos negociado alto el fuego a lo largo de cinco galaxias, transporta mercancías entre ellas a velocidades cercanas a las de la luz, y —lo más importante para nosotros— <strong>genera datos</strong>. Muchos datos. Suficientes para llenar todos los libros del proyecto R-Stars.</p>
+<p>El resto son detalles.</p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="empty"></div>
+<div class="empty"></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <div id="book-on-this-page"></div>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>R-Stars: El Universo</strong>" was written by Miguel Ángel Tarancón Morán. It was last built on 2026-09-04.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

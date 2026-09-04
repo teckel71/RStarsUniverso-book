@@ -1,4 +1,4 @@
-# El proyecto R-Teca y cómo usar este libro. {#como-usar}
+# El proyecto R-Stars y cómo usar este libro. {#como-usar}
 
 ```{r setup-cap01, include=FALSE}
 knitr::opts_chunk$set(
@@ -10,13 +10,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Un ecosistema de libros. Y detrás, un mismo universo.*](figuras/01_r_teca.jpg){.portada-img width="100%"}
+![*Un ecosistema de libros. Y detrás, un mismo universo.*](figuras/frikistars.jpg){.portada-img width="100%"}
 
-## Qué es R-Teca. {#que-es-rteca}
+## Qué es R-Stars. {#que-es-rstars}
 
-*R-Teca* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde se recoge la instalación básica de R y RStudio, se proponen manuales para comenzar, y se listan los materiales originales del propio proyecto.
+*R-Stars* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde se recoge la instalación básica de R y RStudio, se proponen manuales para comenzar, y se listan los materiales originales del propio proyecto.
 
-Dentro de R-Teca, los materiales originales están organizados como **libros bookdown** publicados en GitHub Pages. En el momento de escribir estas líneas los libros disponibles son:
+Dentro de R-Stars, los materiales originales están organizados como **libros bookdown** publicados en GitHub Pages. En el momento de escribir estas líneas los libros disponibles son:
 
 - **R-Stars: La Guía** (<https://teckel71.github.io/RStars-book/>). Guía práctica del uso de R para análisis de datos y modelización econométrica. Cubre desde el almacenamiento y la manipulación de datos hasta las técnicas de análisis multivariante y mapeado perceptual.
 
@@ -61,6 +61,6 @@ Al final se incluyen un glosario integrado en el capítulo de guiños, la **bibl
 
 ## Una advertencia amistosa. {#advertencia}
 
-Todo lo que se cuenta en este libro es **ficción**. Cualquier parecido con corporaciones reales, planetas cartografiados o personajes de sagas cinematográficas es intencionado y afectuoso. El universo *R-Stars* se construye sobre una premisa sencilla: en el año 2210 la humanidad ha colonizado, comerciado y en algunos casos negociado alto el fuego a lo largo de cinco galaxias, transporta mercancías entre ellas a velocidades cercanas a las de la luz, y —lo más importante para nosotros— **genera datos**. Muchos datos. Suficientes para llenar todos los libros del proyecto R-Teca.
+Todo lo que se cuenta en este libro es **ficción**. Cualquier parecido con corporaciones reales, planetas cartografiados o personajes de sagas cinematográficas es intencionado y afectuoso. El universo *R-Stars* se construye sobre una premisa sencilla: en el año 2210 la humanidad ha colonizado, comerciado y en algunos casos negociado alto el fuego a lo largo de cinco galaxias, transporta mercancías entre ellas a velocidades cercanas a las de la luz, y —lo más importante para nosotros— **genera datos**. Muchos datos. Suficientes para llenar todos los libros del proyecto R-Stars.
 
 El resto son detalles.
