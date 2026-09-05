@@ -62,7 +62,7 @@ En 2137, apenas dos años después del TLCI, el analista **Dr. Sagan Olbers** ac
 
 Nace así la **Base de Datos Interestelar**, hoy alimentada por las 300 compañías del sector y considerada el activo informacional más valioso de la galaxia. Sin ella, los manuales del proyecto R-Teca no existirían.
 
-## El presente: 2210. {#presente}
+## El presente: 2150. {#presente}
 
 En el momento en el que se ambientan los ejercicios de los manuales, el sector ha alcanzado su madurez:
 

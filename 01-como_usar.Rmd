@@ -46,7 +46,7 @@ El libro se divide en tres partes:
 
 **Parte II — El universo R-Stars.** El corazón del libro. Recorre, en un orden razonable, todo lo que hay que saber sobre el universo para moverse con soltura por los manuales:
 
-- La **cronología** del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2210.
+- La **cronología** del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2150.
 - La **física del plasma warp** (Cap. 3), para quien quiera saber por qué las naves de este universo se mueven a la velocidad a la que se mueven.
 - La **geografía galáctica** (Cap. 4): cinco galaxias, treinta planetas, sus zonas de riesgo y sus fronteras.
 - Los **personajes y organizaciones** (Cap. 5): dramatis personae del sector y las instituciones que lo regulan.
@@ -61,6 +61,6 @@ Al final se incluyen un glosario integrado en el capítulo de guiños, la **bibl
 
 ## Una advertencia amistosa. {#advertencia}
 
-Todo lo que se cuenta en este libro es **ficción**. Cualquier parecido con corporaciones reales, planetas cartografiados o personajes de sagas cinematográficas es intencionado y afectuoso. El universo *R-Stars* se construye sobre una premisa sencilla: en el año 2210 la humanidad ha colonizado, comerciado y en algunos casos negociado alto el fuego a lo largo de cinco galaxias, transporta mercancías entre ellas a velocidades cercanas a las de la luz, y —lo más importante para nosotros— **genera datos**. Muchos datos. Suficientes para llenar todos los libros del proyecto R-Stars.
+Todo lo que se cuenta en este libro es **ficción**. Cualquier parecido con corporaciones reales, planetas cartografiados o personajes de sagas cinematográficas es intencionado y afectuoso. El universo *R-Stars* se construye sobre una premisa sencilla: en el año 2150 la humanidad ha colonizado, comerciado y en algunos casos negociado alto el fuego a lo largo de cinco galaxias, transporta mercancías entre ellas a velocidades cercanas a las de la luz, y —lo más importante para nosotros— **genera datos**. Muchos datos. Suficientes para llenar todos los libros del proyecto R-Stars.
 
 El resto son detalles.
