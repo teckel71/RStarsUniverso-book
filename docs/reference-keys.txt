@@ -1,5 +1,5 @@
 como-usar
-que-es-rteca
+que-es-rstars
 encaje
 organizacion
 advertencia
@@ -71,4 +71,3 @@ guinos-glosario
 filmografia
 glosario
 coda
-que-es-rstars

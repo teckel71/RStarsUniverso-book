@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Del cinturón de asteroides a la Nube de Magallanes en poco más de un siglo.*](figuras/02_cronologia.jpg){.portada-img width="100%"}
+![*Del cinturón de asteroides a la Nube de Magallanes en poco más de un siglo.*](figuras/02_encuentro.jpg){.portada-img width="100%"}
 
 La historia del transporte interestelar abarca poco más de siglo y medio, tiempo suficiente para pasar de las primeras misiones tripuladas a asteroides cercanos a una industria multigaláctica con más de 100.000 rutas activas. Este capítulo recorre ese arco temporal en sus hitos esenciales; el capítulo siguiente entra —para quien quiera— en la física del *plasma warp* que hizo posible el salto interestelar.
 

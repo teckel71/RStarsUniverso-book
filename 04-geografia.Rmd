@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Cinco galaxias, treinta planetas y una cantidad razonable de trámites aduaneros.*](figuras/04_geografia.jpg){.portada-img width="100%"}
+![*Cinco galaxias, treinta planetas y una cantidad razonable de trámites aduaneros.*](figuras/mapa_galactico_final.jpg){.portada-img width="100%"}
 
 El universo conocido de *R-Stars* abarca **cinco galaxias**, cada una con sus mundos, sus rutas y sus peculiaridades culturales. Conviene tener presente que las distancias, incluso con especia natural, siguen siendo considerables: una ruta intergaláctica típica implica varias semanas subjetivas de tránsito y una lista sorprendentemente larga de trámites aduaneros.
 

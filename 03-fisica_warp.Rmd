@@ -10,9 +10,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Antes del plasma warp, este libro habría tratado de camiones.*](figuras/03_warp.jpg){.portada-img width="100%"}
+![*En Arrakis está la clave.*](figuras/Arrakis.png){.portada-img width="100%"}
 
-Este capítulo puede saltarse sin culpa: los manuales del proyecto no dependen de él. Se incluye por razones de **completitud** y por si el lector, en algún banquete, se ve enfrentado a la incómoda pregunta de "cómo funciona exactamente eso del *warp*".
+Este capítulo puede saltarse sin culpa: los manuales del proyecto no dependen de él. Se incluye por razones de **completitud** y por si el lector, en alguna quedada de cuñados/as, se ve enfrentado a la incómoda pregunta de "cómo funciona exactamente eso del *warp*".
 
 ## Los cuatro postulados de la Escuela Kwisatz–Herbert. {#postulados}
 
