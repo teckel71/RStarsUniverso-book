@@ -8,6 +8,7 @@ knitr::opts_chunk$set(
   fig.align  = "center",
   out.width  = "90%"
 )
+source("_common.R")
 ```
 
 ![*Dramatis personae de un sector de trescientas compañías.*](figuras/05_personajes.jpg){.portada-img width="100%"}
@@ -59,6 +60,13 @@ Magnate reciente, tan poderoso como esquivo. Originario de un sistema fronterizo
 ### Agencia Interplanetaria de Transporte de Mercancías (AITM). {#aitm}
 
 Organismo intergaláctico —y **multiespecífico**— encargado de **estudiar, segmentar y supervisar** el funcionamiento del sector. La AITM publica los informes de referencia (entre ellos los citados de Bluebird y Crestfall), mantiene las estadísticas oficiales y actúa como interlocutor técnico ante los organismos reguladores de las cinco galaxias. Su sede principal está en la Vía Láctea, con delegaciones permanentes en Andrómeda y Magallanes.
+
+```{r video-aitm, echo=FALSE, results='asis'}
+insertar_youtube(
+  id     = "DP4K8bocDz4",
+  titulo = "La Agencia Interplanetaria de Transporte de Mercancías (AITM)"
+)
+```
 
 ### Autoridad Reguladora del Transporte Interestelar (ARTI). {#arti}
 
