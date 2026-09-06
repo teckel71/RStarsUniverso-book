@@ -8,6 +8,7 @@ knitr::opts_chunk$set(
   fig.align  = "center",
   out.width  = "90%"
 )
+source("_common.R")
 ```
 
 ![*Del cinturón de asteroides a la Nube de Magallanes en poco más de un siglo.*](figuras/02_encuentro.jpg){.portada-img width="100%"}
@@ -59,6 +60,13 @@ El TLCI abre las puertas al crecimiento explosivo del sector: entre 2135 y 2160 
 ## La Base de Datos Interestelar (2137). {#bdi}
 
 En 2137, apenas dos años después del TLCI, el analista **Dr. Sagan Olbers** acomete lo que muchos consideraron una locura: convencer a los principales magnates del sector para que compartan sus datos financieros y operativos en un registro único. Contra todo pronóstico, lo consigue. El apoyo temprano del magnate **Romulus Steiner** (a la sazón CEO de *Arrakis Freight*) resulta decisivo: cuando el mayor accionista del sector abre sus libros, el resto no tarda en seguirle.
+
+```{r video-steiner-olbers, echo=FALSE, results='asis'}
+insertar_youtube(
+  id     = "jzyDcOVfXMQ",
+  titulo = "Conversación Steiner-Olbers sobre la Base de Datos Interestelar"
+)
+```
 
 Nace así la **Base de Datos Interestelar**, hoy alimentada por las 300 compañías del sector y considerada el activo informacional más valioso de la galaxia. Sin ella, los manuales del proyecto R-Teca no existirían.
 
