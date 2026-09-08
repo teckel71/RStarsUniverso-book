@@ -21,7 +21,7 @@ always_allow_html: true
 
 #  {.unnumbered}
 
-![](figuras/Portada_Universo.jpg){.portada-img width="100%"}
+![](figuras/Portada_Universo.jpeg){.portada-img width="100%"}
 
 **Autor:**
 
