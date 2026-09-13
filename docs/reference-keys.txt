@@ -25,6 +25,7 @@ coruscant
 mustafar
 otros
 resto-planetas
+catalogo-planetas
 riesgos-fronteras
 personajes-organizaciones
 padres-dato
@@ -47,12 +48,14 @@ asti
 companias-astilleros
 formas-juridicas
 companias-citadas
-arrakis-freight
-vader-co
-shuttlepod
 hyperdrive
-enterprise
+arrakis-freight
+shuttlepod
+corellian
 kaiju
+vader-co
+enterprise
+excalibur
 home-one
 otras-companias
 astilleros

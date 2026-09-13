@@ -28,7 +28,7 @@ El universo conocido de *R-Stars* abarca **cinco galaxias**, cada una con sus mu
 
 ## Planetas destacados. {#planetas}
 
-El grueso de la actividad se concentra en una treintena de planetas. Los siguientes son los más relevantes desde el punto de vista de los ejercicios de los manuales; el resto aparecen mencionados de forma tangencial y no requieren mayor presentación.
+El grueso de la actividad se concentra en una treintena de planetas. Los siguientes son los más relevantes desde el punto de vista de los ejercicios de los manuales; el resto aparecen mencionados de forma tangencial y no requieren mayor presentación. Al final de la sección se recoge, además, un **catálogo completo** que ordena los treinta mundos por galaxia e indica, para cada uno, las compañías de transporte con sede en él y los astilleros con base de flota (véase la Sección \@ref(catalogo-planetas)).
 
 ### Arrakis (Gran Nube de Magallanes). {#arrakis}
 
@@ -56,7 +56,160 @@ Base de *Kaiju Haulage Co.* y una de las principales fuentes de cristales kyber;
 
 ### El resto del catálogo. {#resto-planetas}
 
-El resto de la nómina se reparte entre mundos históricos (**Tierra, Vulcano, Qo’noS, Kobol**), colonias industriales (**Júpiter, Endor, Dagobah, Mül, Romulus, Caprica, Nueva Caprica**) y enclaves más exóticos (**LV-223, LV-426, Planet P**), estos últimos con una reputación logística que oscila entre lo desafiante y lo francamente suicida.
+El resto de la nómina se reparte entre mundos históricos (**Tierra, Vulcano, Qo'noS, Kobol**), colonias industriales (**Júpiter, Endor, Dagobah, Mül, Romulus, Caprica, Nueva Caprica**) y enclaves más exóticos (**LV-223, LV-426, Planet P**), estos últimos con una reputación logística que oscila entre lo desafiante y lo francamente suicida.
+
+### Catálogo de planetas por galaxia. {#catalogo-planetas}
+
+La tabla que sigue reúne, galaxia por galaxia, **los treinta planetas** que estructuran el universo *R-Stars*. Para cada mundo se indican las **compañías de transporte interestelar** que tienen allí su sede —tal y como figuran en la base `interestelar_300`— y los **astilleros** con base de flota en el planeta —según la variable `SEDE` de la base `astilleros_48`—. Cuando se dispone de retrato orbital del planeta, este acompaña a su ficha (las imágenes están generadas con IA).
+
+Recuérdese que el sector cuenta con **tres grandes astilleros** —*Korrigan Heavy Works*, *Selene Dynamics* y *Arcturus Shipyards*— descritos en detalle en el Capítulo \@ref(companias-astilleros); en la tabla aparecen únicamente en aquellos mundos donde tienen basada su flota de cargueros.
+
+<style>
+.rs-catalogo-wrap { margin: 1.2rem 0 2rem; }
+.rs-galaxia {
+  margin: 1.6rem 0 .6rem;
+  padding-bottom: .25rem;
+  border-bottom: 2px solid rgba(120,120,120,.35);
+  font-weight: 700;
+}
+.rs-galaxia-meta { font-size: .72em; font-weight: 400; opacity: .7; margin-left: .4rem; }
+.rs-tabla-wrap { overflow-x: auto; }
+table.rs-catalogo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: .3rem 0 1rem;
+  font-size: .92rem;
+}
+table.rs-catalogo thead th {
+  text-align: left;
+  padding: .5rem .6rem;
+  border-bottom: 2px solid rgba(120,120,120,.45);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  opacity: .85;
+}
+table.rs-catalogo td {
+  padding: .7rem .6rem;
+  border-bottom: 1px solid rgba(120,120,120,.25);
+  vertical-align: top;
+}
+.rs-col-planeta { width: 220px; }
+.rs-planeta-nombre { font-weight: 700; font-size: 1.02rem; margin-bottom: .4rem; }
+img.rs-planeta-img {
+  width: 190px; max-width: 100%; height: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  display: block;
+}
+.rs-sin-img { font-size: .82rem; font-style: italic; opacity: .55; }
+ul.rs-emp {
+  margin: 0 0 .35rem; padding-left: 1.1rem;
+  column-count: 2; column-gap: 1.4rem;
+}
+@media (max-width: 720px) { ul.rs-emp { column-count: 1; } .rs-col-planeta { width: auto; } }
+ul.rs-emp li { margin: 0 0 .12rem; break-inside: avoid; }
+.rs-emp-n { font-size: .78rem; opacity: .6; }
+.rs-astillero {
+  display: inline-block;
+  padding: .12rem .5rem; margin: 0 .2rem .2rem 0;
+  border: 1px solid rgba(120,120,120,.45);
+  border-radius: 999px;
+  font-size: .82rem; font-weight: 600; white-space: nowrap;
+}
+.rs-no { opacity: .5; }
+</style>
+
+```{r catalogo-datos, include=FALSE}
+library(tibble)
+
+# --- Datos derivados de las bases interestelar_300.xlsx y astilleros_48.xlsx ---
+# Una fila por planeta. 'empresas' y 'astilleros' guardan sus valores separados
+# por "; ". 'imagen' es el nombre del archivo dentro de figuras/ (NA si no hay).
+catalogo <- tribble(
+  ~galaxia, ~planeta, ~imagen, ~empresas, ~astilleros,
+  "Vía Láctea", "Júpiter", NA, "Apollo Haulage Co.; Chimaera Haulage; Crusader Haulage; Echo Star Logistics; Hikaru Logistics; Hyperion Haulage Co.; Mothership Movers; Peacekeeper Freightlines; Sandcrawler Haulage; Slave I Cargo; Snoke Freight Lines; Solar Flare Logistics; Sulaco Transport", NA,
+  "Vía Láctea", "Klendathu", NA, "Atlas Star Transport; Boonta Freightlines; Bug Hunter Logistics; Finn Freightways; Force Awakens Freight Co.; Galactica Movers; Hal 9000 Transport; Hal Intergalactic Freight; Jabba's Cargo Lines; Kirk Star Haulage; Klendathu Cargo Systems; Martian Dust Cargo; Monolith Movers; Rukh Cargo Co.; Solar Freight Co.; Terraformer Freight Lines; Viper Logistics", "Korrigan Heavy Works",
+  "Vía Láctea", "LV-223", NA, "Admiral Ackbar Haulage; Dark Star Haulage; Deep Space Freight Co.; Eva Movers; Hyperloop Cargo; Kamino Movers; Lucifer Star Logistics; Martian Cargo Systems; Prometheus Transport; Star Forge Logistics; Togruta Freight", NA,
+  "Vía Láctea", "LV-426", NA, "Baze Malbus Haulage; Deckard Logistics; Gungan Haulage Co.; Lv-426 Freight Co.; Nebuchadnezzar Freightlines; Nebula Haulage; Padmé Cargo Systems; Pegasus Haulage; Sulu Intergalactic Freight; T'pol Haulage; Weyland-yutani Haulage", NA,
+  "Vía Láctea", "La Luna", NA, "Klingon Haulage Co.; Saw Gerrera Freight; Starfighter Logistics", NA,
+  "Vía Láctea", "Pandora", "Pandora.png", "Ahsoka Star Haulage; Alderaan Freight; Dr. Bowman Logistics; Droideka Freight Lines; Galímedes 54; Gungan Freight Co.; Infinity Freight Co.; Nostromo Freight; Nx-01 Cargo Lines; Pandora Cargo; Scarif Cargo Systems; Tannhäuser Freight", "Selene Dynamics",
+  "Vía Láctea", "Planet P", NA, "Droid Haulage Systems; Event Horizon Haulage; Greedo Logistics; Jyn Erso Haulage; Sanctuary Haulage; Voyager Haulage; Zeb Orrelios Cargo", NA,
+  "Vía Láctea", "Tierra", NA, "Betazoid Transport; Han Solo Logistics; Hyperion Star Haulage; Icarus Star Transport; Kylo Ren Haulage; Orion Intergalactic Freight; Sy Snootles Haulage; Twi'lek Transport; Unn Freightways; Zion Cargo Systems", NA,
+  "Galaxia de Andrómeda", "Coruscant", "Coruscant.png", "Andorian Cargo Systems; Aperture Cargo Systems; Assimilator Haulage; Coruscant Cargo; Dradis Express; Home One Cargo; Imperial Star Transport; Jedha Star Movers; Kessel Run Couriers; Kyber Crystal Shipping; Maz Kanata Movers; Outer Rim Logistics; Phlox Transport; Praetorian Guard Logistics; Solar Flare Freight; Tie Cargo Lines", "Selene Dynamics",
+  "Galaxia de Andrómeda", "Dagobah", NA, "Asteroid Haulage; Babylon 5 Logistics; Boba Fett Logistics; Boomer Haulage; Centurion Freight; Dagobah Deliveries; Dagobah Freightlines; Exoplanet Cargo Co.; Holden Haulage; Raddus Logistics; Sarek Transport Systems", NA,
+  "Galaxia de Andrómeda", "Endor", NA, "Clone Haulage Systems; Endor Express; Endor Movers; Leeloo Intergalactic Transport; Naomi Freight Co.; Spice Cargo Lines; Uhura Cargo Systems; X-wing Deliveries; Ysalamiri Freight", NA,
+  "Galaxia de Andrómeda", "Hoth", NA, "Cylon Cargo Lines; Hoth Haulage; Jango Freightways; Romulan Star Logistics; Xenomorph Haulage", "Korrigan Heavy Works",
+  "Galaxia de Andrómeda", "Mustafar", "Mustafar.png", "Bajoran Star Transport; Drummer Logistics; Elysium Star Transport; Imperial Shuttle Movers; Kaiju Haulage Co.; Mustafar Haulage; Navoo Freight Co.; Rocinante Logistics; Sevastopol Cargo; Starkiller Haulage", "Korrigan Heavy Works",
+  "Galaxia de Andrómeda", "Naboo", NA, "Ash Logistics; Cardassian Freight Lines; Cassian Star Transport; Enterprise Logistics; Gamma Quadrant Movers; Harkonnen Heavy Haul; Hera Syndulla Movers; K-2so Logistics; Naboo Star Movers; Neptune Star Lines; Nien Nunb Logistics; Photon Pack Freight; Sev'rance Transport; Solaris Haulage; Spock Stellar Haulage; Tal Shiar Cargo", NA,
+  "Galaxia de Andrómeda", "Tatooine", "Tatooine.png", "Anakin Freightways; Andor Cargo Lines; Andromeda Cargo; Bith Cargo Systems; Cantina Freight Co.; Death Star Freight Co.; Defiant Cargo; Eros Star Freight; Executor Freight Systems; First Order Cargo; Rancor Freight Co.; Rico's Roughnecks Transport; Shadow Cargo Systems; Sith Transport Corp.; Supreme Leader Logistics; Tatooine Movers; Terminus Transport", "Arcturus Shipyards",
+  "Galaxia del Triángulo", "Caprica", "Caprica.png", "Bespin Movers; Bo-katan Cargo Lines; Caprica Cargo Systems; Hyperion Space Freight; Order 66 Freight Co.; Ryloth Freight Co.; Tusken Freight Lines", NA,
+  "Galaxia del Triángulo", "La Tierra (Final)", NA, "Galaxy Movers; Lando's Cargo; Minbari Transport Co.; Skywalker Freight Co.; Travis Star Haulage", NA,
+  "Galaxia del Triángulo", "Nueva Caprica", NA, "Battlestar Freight Co.; Jupiter Freightways; Kanan Jarrus Haulage; Moya Cargo Systems; Ragnar Freight Lines; Starship Express; Trooper Haulage Co.", "Arcturus Shipyards",
+  "Galaxia del Triángulo", "Qo'noS", NA, "Corellian Freightworks; Echo Base Transport; Janeway Star Transport; Qo'nos Freight; Serenity Cargo Co.; Thrawn Logistics; Vega Transport", NA,
+  "Galaxia del Triángulo", "Risa", NA, "Astromech Cargo; Eva Star Transport; Sabine Freight Co.; Tantive Iv Cargo", "Selene Dynamics",
+  "Galaxia del Triángulo", "Romulus", NA, "Chakotay Cargo Systems; Death Star Deliveries; Discovery One Haulage; Jawas Cargo Systems; Kelvin Universe Movers; Mon Calamari Freight Co.; Trantor Haulage Co.", "Korrigan Heavy Works",
+  "Galaxia del Triángulo", "Vulcano", NA, "Atreides Logistics; Colonial Freightworks; Echo Logistics; Ewok Haulage Systems; Exogorth Logistics; Poe Dameron Cargo; Scorpio Star Logistics; Stellar Nexus Logistics; Tycho Star Transport; Warp Drive Logistics", NA,
+  "Gran Nube de Magallanes", "Arrakis", "Arrakis.png", "Arrakis Freight; Carbonite Freight Co.; Delta Quadrant Freight; Dominion Cargo; Max Rebo Movers; Neural Net Freight; Protogen Cargo; Replicant Routes; Seven of Nine Logistics; Shuttlepod Movers; Super Star Logistics; Venator Transport Systems; Wormhole Transport Systems; Yavin Cargo Lines; Yoda Logistics", "Arcturus Shipyards",
+  "Gran Nube de Magallanes", "Fhloston Paradise", "Fhloston_Paradise.png", "Battle Droid Haulage; Behemoth Cargo; Ezra Bridger Haulage; Galactic Movers Co.; Geonosis Freight; Kashyyyk Freight Lines; Lando Freightworks; Razor Star Freight; Valerian Freight Co.; Veritech Haulage; Vulcan Ventures", NA,
+  "Gran Nube de Magallanes", "Miranda", NA, "Bib Fortuna Haulage; Chirrut Îmwe Freightways; Cloud City Haulage; Elysium Freightlines; Europa Cargo Systems; Hyperdrive Express; Io Star Transport; Jabba the Haulage; Jovian Logistics; Nebula Express Co.; Zentraedi Cargo Lines", "Selene Dynamics",
+  "Gran Nube de Magallanes", "Mül", NA, "Adama Transport; Anderson Haulage Co.; Cloud City Cargo; Crait Cargo Systems; Dune Dynamics; Excalibur Freight Systems; Forest Moon Freight; Grievous Star Transport; Jedi Path Freightways; Mandalorian Logistics; Pike Freight Co.; Quark's Cargo; Vader and Company; Vorlon Haulage; Wookiee Freight Co.", "Arcturus Shipyards",
+  "Pequeña Nube de Magallanes", "Kobol", NA, "Bb-8 Haulage; Cantina Cargo; Kobol Cargo Systems; Mirror Universe Cargo; Mos Eisley Haulage; Rey Skywalker Logistics; Rogue One Freight; Sandworm Freight; Starbuck Freightways; Tannhauser; Vulcan Star Freight", NA,
+  "Pequeña Nube de Magallanes", "Mann", NA, "Bene Gesserit Goods; Blade Runner Shipping; Dooku Logistics; Enterprise Nx Freight; Ghost Freight Systems; Imperial Freight Systems; Quantum Freightlines; Ripley Interstellar Freight; Sarlacc Transport; Sdf-1 Freightworks", NA,
+  "Pequeña Nube de Magallanes", "Miller", NA, "Borg Freight Lines; Miller Cargo Systems; Narcissus Cargo; Rebel Alliance Transport; Star Gate Logistics", NA,
+  "Pequeña Nube de Magallanes", "Zegema Beach", NA, "Batty Haulage; Belter Haulage; Chekov Freight Lines; Cosmic Freights; Darth Vader Logistics; Millennium Haulage; Promethean Cargo Lines", NA
+)
+
+# Orden de galaxias, de dentro hacia la periferia del sector.
+orden_galaxias <- c("Vía Láctea", "Galaxia de Andrómeda",
+                     "Galaxia del Triángulo", "Gran Nube de Magallanes",
+                     "Pequeña Nube de Magallanes")
+```
+
+```{r catalogo-tablas, results='asis'}
+partir <- function(x) if (is.na(x)) character(0) else strsplit(x, "; ", fixed = TRUE)[[1]]
+
+fila_html <- function(f) {
+  img <- if (!is.na(f$imagen)) {
+    sprintf('<img class="rs-planeta-img" src="figuras/%s" alt="Retrato orbital de %s (imagen generada con IA)">',
+            f$imagen, f$planeta)
+  } else {
+    '<span class="rs-sin-img">Sin retrato disponible</span>'
+  }
+  emp  <- partir(f$empresas)
+  emp_html <- paste0("<li>", emp, "</li>", collapse = "")
+  ast  <- partir(f$astilleros)
+  ast_html <- if (length(ast) == 0) {
+    '<span class="rs-no">— (ninguno)</span>'
+  } else {
+    paste0('<span class="rs-astillero">', ast, '</span>', collapse = " ")
+  }
+  sprintf(paste0(
+    '<tr>',
+    '<td class="rs-col-planeta"><div class="rs-planeta-nombre">%s</div>%s</td>',
+    '<td class="rs-col-empresas"><ul class="rs-emp">%s</ul>',
+    '<span class="rs-emp-n">%d compañía%s con sede</span></td>',
+    '<td class="rs-col-astilleros">%s</td>',
+    '</tr>'),
+    f$planeta, img, emp_html, length(emp), ifelse(length(emp) == 1, "", "s"), ast_html)
+}
+
+cat('<div class="rs-catalogo-wrap">\n')
+for (g in orden_galaxias) {
+  sub <- catalogo[catalogo$galaxia == g, ]
+  n_emp <- sum(vapply(sub$empresas, function(x) length(partir(x)), integer(1)))
+  cat(sprintf('<h4 class="rs-galaxia">%s <span class="rs-galaxia-meta">%d planetas · %d compañías</span></h4>\n',
+              g, nrow(sub), n_emp))
+  cat('<div class="rs-tabla-wrap"><table class="rs-catalogo">\n')
+  cat('<thead><tr><th>Planeta</th><th>Compañías de transporte con sede</th>',
+      '<th>Astilleros con base de flota</th></tr></thead>\n<tbody>\n', sep = "")
+  for (i in seq_len(nrow(sub))) cat(fila_html(sub[i, ]), "\n")
+  cat('</tbody></table></div>\n')
+}
+cat('</div>\n')
+```
+
+En conjunto, el sector suma **300 compañías** de transporte repartidas por los treinta mundos, con Tatooine, Coruscant y Naboo a la cabeza en número de sedes, y **doce planetas** que acogen la base de flota de alguno de los tres astilleros. Los mundos sin astillero propio no carecen de cargueros —los reciben de los tres grandes fabricantes—, pero no figuran como puerto base de ninguna de sus naves en la muestra de la base `astilleros_48`.
 
 ## Zonas de riesgo y nuevas fronteras. {#riesgos-fronteras}
 

@@ -118,54 +118,1163 @@
 <h2>
 <span class="header-section-number">6.2</span> Las compañías más citadas.<a class="anchor" aria-label="anchor" href="#companias-citadas"><i class="fas fa-link"></i></a>
 </h2>
-<p><em>(Nota: sección en construcción. Se irán añadiendo fichas breves de las principales compañías del sector a medida que aparezcan en los manuales.)</em></p>
-<div id="arrakis-freight" class="section level3" number="6.2.1">
+<p>De las 300 compañías del sector, unas cuantas trascienden la base de datos y se convierten en <strong>protagonistas recurrentes</strong> de los ejemplos, casos y anécdotas de los tres libros del proyecto: <em>R-Stars: El Universo</em> (este libro), <em>R-Stars: La Guía</em> y <em>Estadística Empresarial</em>. Son las que el lector reconocerá de un capítulo a otro: la compañía cuya plantilla sirve para explicar la media, la que protagoniza un modelo de Poisson, la que un magnate acaba comprando tras un análisis de componentes principales.</p>
+<p>Esta sección les dedica una <strong>ficha</strong> a las más señaladas. Los datos de la ficha proceden de la base <code>interestelar_300</code> y describen su <em>situación de partida</em> (activo, ingresos, plantilla, flota, rutas e índices de gestión). Conviene una advertencia: en los ejercicios, los autores a menudo <strong>estilizan</strong> las cifras —una plantilla de 60 nóminas redondas, una flota de 12 naves para un <em>box-plot</em>— para que las cuentas salgan limpias; esos números didácticos no siempre coinciden con los de la base, que es la que aquí se reproduce. Bajo cada ficha se indica <strong>dónde aparece</strong> la compañía, con libro y sección, y qué se sabe de sus CEOs y su trastienda narrativa.</p>
+<style>
+.rs-ficha { border: 1px solid rgba(120,120,120,.35); border-radius: 10px; padding: .8rem 1rem; margin: .6rem 0 1rem; }
+.rs-ficha-head { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin-bottom: .7rem; padding-bottom: .5rem; border-bottom: 1px solid rgba(120,120,120,.25); }
+.rs-badge { display: inline-block; padding: .12rem .55rem; border-radius: 999px; border: 1px solid rgba(120,120,120,.5); font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.rs-badge.rs-fjur { background: rgba(120,120,140,.14); }
+.rs-sede { margin-left: auto; font-size: .86rem; font-weight: 600; opacity: .85; }
+.rs-grid { display: flex; flex-wrap: wrap; gap: .55rem .9rem; }
+.rs-stat { display: flex; flex-direction: column; flex: 1 1 calc(25% - .9rem); min-width: 130px; }
+@media (max-width: 720px) { .rs-stat { flex-basis: calc(50% - .9rem); } .rs-sede { margin-left: 0; width: 100%; } }
+.rs-stat .rs-k { font-size: .7rem; text-transform: uppercase; letter-spacing: .02em; opacity: .6; }
+.rs-stat .rs-v { font-size: .98rem; font-weight: 700; }
+table.rs-otras { width: 100%; border-collapse: collapse; font-size: .9rem; margin: .4rem 0 1rem; }
+table.rs-otras th { text-align: left; padding: .45rem .55rem; border-bottom: 2px solid rgba(120,120,120,.45); font-size: .74rem; text-transform: uppercase; letter-spacing: .03em; opacity: .8; }
+table.rs-otras td { padding: .5rem .55rem; border-bottom: 1px solid rgba(120,120,120,.22); vertical-align: top; }
+table.rs-otras td.rs-num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.rs-tabla-wrap { overflow-x: auto; }
+</style>
+<div id="hyperdrive" class="section level3" number="6.2.1">
 <h3>
-<span class="header-section-number">6.2.1</span> Arrakis Freight.<a class="anchor" aria-label="anchor" href="#arrakis-freight"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2.1</span> Hyperdrive Express.<a class="anchor" aria-label="anchor" href="#hyperdrive"><i class="fas fa-link"></i></a>
 </h3>
-<p>Compañía histórica del sector, ligada desde su fundación al negocio de la exportación de especia. CEO histórico: <strong>Romulus Steiner</strong>. Encabeza sistemáticamente los rankings del <em>Informe Bluebird</em> y es la empresa de referencia para hablar de fidelización de clientes en el sector.</p>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">CG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Miranda · Gran Nube de Magallanes</span>
 </div>
-<div id="vader-co" class="section level3" number="6.2.2">
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">2.500 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">1.788 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">63,2%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">45,2%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">94,6%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">60</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">24 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">1.028</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">68,2</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">33,7</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">35,8</span>
+</div>
+</div>
+</div>
+<p>Compañía galáctica de tamaño medio con sede en <strong>Miranda</strong> (Gran Nube de Magallanes) y flota renovada de 24 cargueros. Es, sin discusión, la <strong>compañía-guía de todo el proyecto</strong>: su plantilla y su cuadro de mando son el hilo conductor con el que se introducen las medidas estadísticas básicas. Su CEO —cuyo salario, de 100 cientos de PAVOs, se usa como <em>outlier</em> de manual— ilustra por qué la política salarial de la plantilla y la retribución de la dirección no deben promediarse juntas.</p>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 1</strong> (<em>Un ejemplo de referencia: Hyperdrive Express</em>): plantilla de 60 empleados y cartera de 200 clientes como ejemplo transversal. También en el Problema 1.13 (cuadro de mando trimestral).</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 3</strong>: cálculo de media, mediana, moda, cuartiles, desviación típica, coeficiente de variación (CV = 34,6 %) y curva de Lorenz; la CEO como caso de estudio de valores atípicos.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 7</strong>: probabilidad de Laplace, y los Problemas 7.8 y 7.9 (teorema de la probabilidad total y de Bayes sobre sus <strong>tres proveedores</strong> de reactores).</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 6</strong> (Problema 6.13, auditoría del <em>Interstellar Weekly</em>) y <strong>cap. 8</strong> (variable aleatoria del ingreso operativo).</li>
+<li>
+<strong><em>R-Stars: La Guía</em></strong>, prefacio y cap. 6 (análisis de componentes principales), como referencia comparativa.</li>
+<li>
+<strong>Este libro, cap. 4</strong> (Geografía): reseñada entre los mundos de Miranda.</li>
+</ul>
+</div>
+<div id="arrakis-freight" class="section level3" number="6.2.2">
 <h3>
-<span class="header-section-number">6.2.2</span> Vader &amp; Company.<a class="anchor" aria-label="anchor" href="#vader-co"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2.2</span> Arrakis Freight.<a class="anchor" aria-label="anchor" href="#arrakis-freight"><i class="fas fa-link"></i></a>
 </h3>
-<p>Una de las primeras compañías especializadas en cargamentos masivos a larga distancia. Célebre por sus márgenes operativos —de los más altos del sector— y, en no menor medida, por su severa política de recursos humanos y su departamento de atención al cliente notoriamente asfixiante.</p>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">CG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Arrakis · Gran Nube de Magallanes</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">2.967 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">2.314 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">51,4%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">40,1%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">82,5%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">52</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">24 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">1.165</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">73,3</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">58,5</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">38,9</span>
+</div>
+</div>
+</div>
+<p>Compañía histórica del sector, ligada desde su fundación a la exportación de <strong>especia</strong> desde Arrakis. Encabeza sistemáticamente los rankings del <em>Informe Bluebird</em> y es la empresa de referencia para hablar de <strong>fidelización</strong> de clientes (IFIDE = 73,3, de las más altas del sector).</p>
+<ul>
+<li>
+<strong>CEO histórico: Romulus Steiner.</strong> Máximo accionista y uno de los primeros altos ejecutivos <strong>no humanos</strong> del sector; su apoyo temprano al Dr. Sagan Olbers fue decisivo para el nacimiento de la Base de Datos Interestelar. En círculos periodísticos, <em>“el hombre —o lo que sea— que abrió los libros”</em> (este libro, cap. 5, <em>Magnates y CEOs</em>).</li>
+</ul>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong>Este libro, cap. 3</strong> (<em>El monopolio de Arrakis</em>) y <strong>cap. 2</strong> (Cronología: la era colonial y el nacimiento de la Base de Datos Interestelar).</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 6</strong>: Problema 6.13 (auditoría del <em>Interstellar Weekly</em>), donde encabeza el crecimiento real del quinquenio en términos constantes.</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 12</strong> (Escalado Multidimensional): una de las 15 compañías del mapa perceptual de <em>Data-Evidence</em>; grupo de flota renovada mejor valorado.</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 6</strong>: aparece en cabeza del <em>ranking</em> de componentes principales tras depurar <em>outliers</em>.</li>
+</ul>
 </div>
 <div id="shuttlepod" class="section level3" number="6.2.3">
 <h3>
 <span class="header-section-number">6.2.3</span> Shuttlepod Movers.<a class="anchor" aria-label="anchor" href="#shuttlepod"><i class="fas fa-link"></i></a>
 </h3>
-<p>Sociedad Anónima Galáctica con sede en Arrakis. CEO: <strong>Tasha Tachybaptus</strong>. Compañía de tamaño medio-alto, con una flota envejecida cuyo relevo es uno de los grandes temas abiertos del sector.</p>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">SAG</span><span class="rs-badge">Flota madura</span><span class="rs-sede">Sede: Arrakis · Gran Nube de Magallanes</span>
 </div>
-<div id="hyperdrive" class="section level3" number="6.2.4">
-<h3>
-<span class="header-section-number">6.2.4</span> Hyperdrive Express.<a class="anchor" aria-label="anchor" href="#hyperdrive"><i class="fas fa-link"></i></a>
-</h3>
-<p>Compañía de tamaño medio con sede en <strong>Miranda</strong> (Gran Nube de Magallanes). Flota renovada de 24 cargueros, más de un millar de rutas de largo alcance, márgenes por encima del 60 % y una rentabilidad económica cercana al 45 %. Es la compañía que aparece como caso de referencia en el capítulo introductorio de <em>Estadística Empresarial</em>.</p>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">249 miles PAVOs</span>
 </div>
-<div id="enterprise" class="section level3" number="6.2.5">
-<h3>
-<span class="header-section-number">6.2.5</span> Enterprise Logistics.<a class="anchor" aria-label="anchor" href="#enterprise"><i class="fas fa-link"></i></a>
-</h3>
-<p>Compañía tradicional con base en <strong>Coruscant</strong>, cuyos astilleros orbitales son una postal recurrente del sector. Su lema oficial —<em>“llegar donde ningún carguero llegó antes”</em>— resume su reputación como pionera de rutas.</p>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">242 miles PAVOs</span>
 </div>
-<div id="kaiju" class="section level3" number="6.2.6">
-<h3>
-<span class="header-section-number">6.2.6</span> Kaiju Haulage Co. <a class="anchor" aria-label="anchor" href="#kaiju"><i class="fas fa-link"></i></a>
-</h3>
-<p>Compañía con base en <strong>Mustafar</strong>, especializada en cargamentos de gran tonelaje. Su reputación técnica se ve permanentemente sometida a la inestabilidad política del planeta base.</p>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">74,8%</span>
 </div>
-<div id="home-one" class="section level3" number="6.2.7">
-<h3>
-<span class="header-section-number">6.2.7</span> Home One Cargo.<a class="anchor" aria-label="anchor" href="#home-one"><i class="fas fa-link"></i></a>
-</h3>
-<p>Firma especializada en nichos digitales de alto margen. Su reciente adquisición por parte de <strong>Arg-us Korp</strong> ha reordenado el mapa competitivo en su segmento.</p>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">72,5%</span>
 </div>
-<div id="otras-companias" class="section level3" number="6.2.8">
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">167,5%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">49</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">47 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">594</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">43,1</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">28,1</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">40,7</span>
+</div>
+</div>
+</div>
+<p>Sociedad Anónima Galáctica con sede en <strong>Arrakis</strong>, flota <strong>madura</strong> de 47 cargueros y una plantilla de 49 trabajadores. Precisamente esa plantilla es la que alimenta la base <code>trabajadores</code>, con la que se estudia el salario, el nivel de estudios y el departamento. Su gran tema abierto es el <strong>relevo de la flota</strong> sin comprometer la (delicada) liquidez.</p>
+<ul>
+<li>
+<strong>CEO: Tasha Tachybaptus.</strong> Su reto declarado —renovar la flota sin dañar la liquidez— lo resume como <em>“una ecuación con más incógnitas que ecuaciones”</em> (este libro, cap. 5). En <em>La Guía</em> (cap. 12) toma nota de la posición de su empresa en el mapa perceptual y comenta que <em>“ahora entiendo por qué nos comparan con Defiant Cargo”</em>.</li>
+</ul>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 4</strong> (Estadística descriptiva): caso central <em>“¿una estructura salarial demasiado plana?”</em>, con análisis completo de la variable SALARIO (media 16,04; CV 34,4 %).</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 3 y 4</strong>: comparación de dispersión salarial frente a <em>Hyperdrive Express</em> y ejemplo de plantilla bidimensional.</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 6 y 12</strong>: <em>scores</em> de componentes principales y mapa perceptual (percibida como muy similar a <em>Defiant Cargo</em>).</li>
+</ul>
+</div>
+<div id="corellian" class="section level3" number="6.2.4">
 <h3>
-<span class="header-section-number">6.2.8</span> Otras compañías recurrentes.<a class="anchor" aria-label="anchor" href="#otras-companias"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.2.4</span> Corellian Freightworks.<a class="anchor" aria-label="anchor" href="#corellian"><i class="fas fa-link"></i></a>
 </h3>
-<p>La base <code>interestelar_300</code> incluye, entre otras muchas, a <em>Nova Haulers</em>, <em>ExoCargo Alliance</em>, <em>Dune Dynamics</em>, <em>Spice Cargo Lines</em>, <em>Death Star Deliveries</em>, <em>Millennium Haulage</em>, <em>Tantive IV Cargo</em>, <em>Bug Hunter Logistics</em>, <em>Serenity Cargo Co.</em>, <em>Icarus Star Transport</em>, <em>Eva Movers</em>, <em>Elysium Freightlines</em> y <em>Star Gate Logistics</em>. Todas ellas comparten el mismo esquema de variables —financieras, operativas y de flota— y aparecen en distintos ejercicios de los manuales.</p>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">SAG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Qo’noS · Galaxia del Triángulo</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">557 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">424 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">80,5%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">61,4%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">107,2%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">106</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">22 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">472</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">45,8</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">30,1</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">22,0</span>
+</div>
+</div>
+</div>
+<p>Sociedad Anónima Galáctica con sede en <strong>Qo’noS</strong> (Galaxia del Triángulo), presentada en los ejercicios como una de las grandes compañías de carga del sector. Tras absorber a dos operadores menores, su dirección financiera se propuso armonizar la política retributiva, lo que la convierte en el escenario ideal para hablar de estructuras salariales y de independencia estadística.</p>
+<ul>
+<li>
+<strong>Personaje:</strong> el <strong>ingeniero jefe Anakin Falco</strong> dirige su fábrica de reactores en Qo’noS, que certifica una tanda solo cuando pasan <strong>tres reactores válidos</strong> el banco de pruebas (<span class="math inline">\(p = 0{,}8\)</span>) — el caso canónico de la binomial negativa.</li>
+</ul>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 3</strong> (Problema 3.2, <em>Dos plantillas, una misma media</em>): su CV del 32 % frente al 9 % de <em>Enterprise Logistics</em>.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 4</strong> (<em>ejemplo de independencia “perfecta”</em>): salario frente a gasto en cantina, estadísticamente independientes.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 6</strong> (Problemas 6.1, 6.2 y 6.13): números índice de la ruta Corellia–Qo’noS.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 9</strong> (binomial negativa, fábrica de reactores) y <strong>cap. 10</strong> (Problema 10.11, propiedad reproductiva de la normal).</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 12</strong>: una de las 15 compañías del mapa perceptual.</li>
+</ul>
+</div>
+<div id="kaiju" class="section level3" number="6.2.5">
+<h3>
+<span class="header-section-number">6.2.5</span> Kaiju Haulage Co. <a class="anchor" aria-label="anchor" href="#kaiju"><i class="fas fa-link"></i></a>
+</h3>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">SLG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Mustafar · Galaxia de Andrómeda</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">2.332 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">2.385 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">41,1%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">42,0%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">72,4%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">62</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">38 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">1.255</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">71,4</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">52,5</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">49,9</span>
+</div>
+</div>
+</div>
+<p>Sociedad Limitada Galáctica con base en <strong>Mustafar</strong> (Andrómeda), especializada en cargamentos de gran tonelaje. Su reputación técnica convive con la <strong>inestabilidad política</strong> del planeta base —es el carguero que la coda de los manuales imagina <em>“averiado en Mustafar”</em>—.</p>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 3</strong> (Problema 3.4): cuartiles y <em>box-plot</em> de la antigüedad de una flota de 12 cargueros; y el informe salarial que remite a <strong>Mara Qyà</strong> (ARTI).</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 4</strong> (Problema 4.2, <em>Dos lecturas de un mismo cruce</em>): tabla de contingencia turno × categoría sobre 200 empleados.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 7 y 10</strong>: llegada de pedidos como proceso de Poisson (6 pedidos/hora).</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 12</strong>: mapa perceptual, en el grupo de flota renovada mejor valorada.</li>
+<li>
+<strong>Este libro, cap. 4</strong> (Mustafar) y cap. 8 (coda).</li>
+</ul>
+</div>
+<div id="vader-co" class="section level3" number="6.2.6">
+<h3>
+<span class="header-section-number">6.2.6</span> Vader &amp; Company.<a class="anchor" aria-label="anchor" href="#vader-co"><i class="fas fa-link"></i></a>
+</h3>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">SLG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Mül · Gran Nube de Magallanes</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">2.666 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">2.472 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">42,5%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">39,4%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">78,2%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">55</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">20 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">1.079</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">68,8</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">42,4</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">34,4</span>
+</div>
+</div>
+</div>
+<p>Una de las primeras compañías especializadas en cargamentos masivos a larga distancia, con sede en <strong>Mül</strong>. Célebre por sus márgenes y —en no menor medida— por su severa política de recursos humanos y su departamento de atención al cliente <em>notoriamente asfixiante</em>.</p>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 9</strong> (Ejemplo 1, <em>piratas espaciales en la ruta Coruscant–Naboo</em>): modelo de Poisson con <span class="math inline">\(\lambda = 2{,}3\)</span> avistamientos por semana.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 10</strong>: tiempo entre entradas de nuevos clientes como ejemplo de distribución exponencial.</li>
+<li>
+<strong>Este libro, cap. 2</strong> (Cronología): citada, junto a <em>Arrakis Freight</em>, entre las primeras grandes transportistas de la era colonial.</li>
+</ul>
+</div>
+<div id="enterprise" class="section level3" number="6.2.7">
+<h3>
+<span class="header-section-number">6.2.7</span> Enterprise Logistics.<a class="anchor" aria-label="anchor" href="#enterprise"><i class="fas fa-link"></i></a>
+</h3>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">SLG</span><span class="rs-badge">Flota madura</span><span class="rs-sede">Sede: Naboo · Galaxia de Andrómeda</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">164 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">120 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">64,8%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">47,5%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">125,4%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">42</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">39 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">470</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">40,4</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">21,9</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">32,8</span>
+</div>
+</div>
+</div>
+<p>Compañía tradicional cuyos <strong>astilleros orbitales</strong> son una postal recurrente del sector, con el lema <em>“llegar donde ningún carguero llegó antes”</em>. Sirve de contrapunto a <em>Corellian Freightworks</em>: misma media salarial, pero dispersión mínima (plantilla muy homogénea). Una nota para el lector atento: la base la registra con sede en <strong>Naboo</strong>, mientras que la narrativa asocia sus astilleros a <strong>Coruscant</strong> (este libro, cap. 4) — una pequeña licencia entre el dato y el relato.</p>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 3</strong> (Problema 3.2): la plantilla “compacta” (CV = 9 %) frente a <em>Corellian Freightworks</em>.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 5</strong> (Problema 5.12): linealización de una <strong>curva de aprendizaje</strong> en su escuela de pilotos.</li>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 10 y 11</strong>: servidor de red con llegadas de Poisson y aproximación Poisson → normal (Problemas 10.18, 10.19 y 11.11).</li>
+<li>
+<strong>Este libro, cap. 4</strong> (Coruscant).</li>
+</ul>
+</div>
+<div id="excalibur" class="section level3" number="6.2.8">
+<h3>
+<span class="header-section-number">6.2.8</span> Excalibur Freight Systems.<a class="anchor" aria-label="anchor" href="#excalibur"><i class="fas fa-link"></i></a>
+</h3>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">CG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Mül · Gran Nube de Magallanes</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">2.525 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">2.022 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">77,2%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">61,9%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">107,5%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">50</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">22 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">1.102</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">79,2</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">45,4</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">36,2</span>
+</div>
+</div>
+</div>
+<p>Compañía galáctica con sede en <strong>Mül</strong> y una de las flotas mejor valoradas del sector (fidelización IFIDE = 79,2, la más alta entre las compañías destacadas). Aparece como caso de servicio fiable y puntual.</p>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>Estadística Empresarial</em>, cap. 9 y 10</strong>: sus cargueros <em>“que llegan a tiempo”</em> ilustran la estructura común de la binomial, y sus reservas de ruta, el tiempo hasta el próximo suceso (exponencial).</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 12</strong>: mapa perceptual, en el grupo de flota renovada mejor valorada, junto a <em>Arrakis Freight</em> y <em>Kaiju Haulage Co.</em>
+</li>
+</ul>
+</div>
+<div id="home-one" class="section level3" number="6.2.9">
+<h3>
+<span class="header-section-number">6.2.9</span> Home One Cargo.<a class="anchor" aria-label="anchor" href="#home-one"><i class="fas fa-link"></i></a>
+</h3>
+<div class="rs-ficha">
+<div class="rs-ficha-head">
+<span class="rs-badge rs-fjur">CG</span><span class="rs-badge">Flota renovada</span><span class="rs-sede">Sede: Coruscant · Galaxia de Andrómeda</span>
+</div>
+<div class="rs-grid">
+<div class="rs-stat">
+<span class="rs-k">Activo</span><span class="rs-v">1.145 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Ingresos</span><span class="rs-v">1.254 miles PAVOs</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Margen operativo</span><span class="rs-v">48,6%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. económica</span><span class="rs-v">53,2%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rent. financiera</span><span class="rs-v">111,9%</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Empleados</span><span class="rs-v">38</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Flota</span><span class="rs-v">16 cargueros</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Rutas</span><span class="rs-v">651</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Fidelización (IFIDE)</span><span class="rs-v">46,8</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Digitalización (IDIG)</span><span class="rs-v">60,8</span>
+</div>
+<div class="rs-stat">
+<span class="rs-k">Diversificación (IDIVERSE)</span><span class="rs-v">22,2</span>
+</div>
+</div>
+</div>
+<p>Firma especializada en <strong>nichos digitales</strong> de alto margen, con sede en Coruscant y el índice de digitalización más alto de las compañías destacadas (IDIG = 60,8). Su perfil —muy digitalizada pero de diversificación moderada— la convierte en una empresa <em>singular</em> en los análisis multivariantes.</p>
+<ul>
+<li>
+<strong>Operación corporativa:</strong> el magnate <strong>Arg-us Korp</strong> la <strong>adquirió</strong> tras un análisis de componentes principales de su equipo; <em>“sabía que había hecho una buena compra”</em>, murmuró al conocer los resultados del <em>Informe Bluebird</em> (este libro, cap. 5; <em>La Guía</em>, caps. 6 y 7).</li>
+</ul>
+<p><em>Aparece en:</em></p>
+<ul>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 6</strong> (<em>La decisión de Arg-Us Korp</em>): encabeza de forma consistente los tres <em>rankings</em> de preparación para el futuro.</li>
+<li>
+<strong><em>R-Stars: La Guía</em>, cap. 7</strong> (Informe <em>Bluebird</em>): en el panel de 25 candidatas premium queda aislada en un clúster unipersonal por su perfil digital diferenciado.</li>
+<li>
+<strong>Este libro, cap. 5</strong> (Arg-us Korp).</li>
+</ul>
+</div>
+<div id="otras-companias" class="section level3" number="6.2.10">
+<h3>
+<span class="header-section-number">6.2.10</span> Otras compañías con papel en los manuales.<a class="anchor" aria-label="anchor" href="#otras-companias"><i class="fas fa-link"></i></a>
+</h3>
+<p>Más allá de las anteriores, otras muchas compañías protagonizan ejemplos concretos —sobre todo en los capítulos de análisis multivariante de <em>La Guía</em>—. La tabla siguiente recoge las más señaladas, con su situación de partida y el lugar donde se citan.</p>
+<div class="rs-tabla-wrap">
+<div class="inline-table"><table class="rs-otras">
+<thead><tr>
+<th>
+Compañía
+</th>
+<th>
+Sede (galaxia)
+</th>
+<th class="rs-num">
+Activo
+</th>
+<th class="rs-num">
+Empl.
+</th>
+<th class="rs-num">
+Flota
+</th>
+<th class="rs-num">
+Rutas
+</th>
+<th>
+Dónde se cita
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>
+<strong>Chakotay Cargo Systems</strong>
+</td>
+<td>
+Romulus · Galaxia del Triángulo
+</td>
+<td class="rs-num">
+2.159
+</td>
+<td class="rs-num">
+65
+</td>
+<td class="rs-num">
+46
+</td>
+<td class="rs-num">
+1.229
+</td>
+<td>
+<em>La Guía</em>, cap. 6 y 7: <em>outlier</em> singular; clúster unipersonal de alta diversificación y fidelización.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Kamino Movers</strong>
+</td>
+<td>
+LV-223 · Vía Láctea
+</td>
+<td class="rs-num">
+506
+</td>
+<td class="rs-num">
+35
+</td>
+<td class="rs-num">
+27
+</td>
+<td class="rs-num">
+536
+</td>
+<td>
+<em>La Guía</em>, cap. 6: entre las mejor situadas en la 1ª componente principal (preparación para el futuro).
+</td>
+</tr>
+<tr>
+<td>
+<strong>Alderaan Freight</strong>
+</td>
+<td>
+Pandora · Vía Láctea
+</td>
+<td class="rs-num">
+52
+</td>
+<td class="rs-num">
+28
+</td>
+<td class="rs-num">
+47
+</td>
+<td class="rs-num">
+385
+</td>
+<td>
+<em>La Guía</em>, cap. 6: caso de <em>missing value</em> eliminado en la depuración previa al PCA.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Ezra Bridger Haulage</strong>
+</td>
+<td>
+Fhloston Paradise · Gran Nube de Magallanes
+</td>
+<td class="rs-num">
+535
+</td>
+<td class="rs-num">
+28
+</td>
+<td class="rs-num">
+12
+</td>
+<td class="rs-num">
+335
+</td>
+<td>
+<em>La Guía</em>, cap. 6: caso de <em>missing value</em> eliminado en la depuración previa al PCA.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Hyperion Star Haulage</strong>
+</td>
+<td>
+Tierra · Vía Láctea
+</td>
+<td class="rs-num">
+211
+</td>
+<td class="rs-num">
+35
+</td>
+<td class="rs-num">
+14
+</td>
+<td class="rs-num">
+244
+</td>
+<td>
+<em>La Guía</em>, cap. 7: <em>outlier</em>; forma un grupo de perfil diferenciado en el clúster.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Event Horizon Haulage</strong>
+</td>
+<td>
+Planet P · Vía Láctea
+</td>
+<td class="rs-num">
+204
+</td>
+<td class="rs-num">
+31
+</td>
+<td class="rs-num">
+13
+</td>
+<td class="rs-num">
+198
+</td>
+<td>
+<em>La Guía</em>, cap. 7: grupo de perfil diferenciado junto a <em>Hyperion Star Haulage</em>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Betazoid Transport</strong>
+</td>
+<td>
+Tierra · Vía Láctea
+</td>
+<td class="rs-num">
+56
+</td>
+<td class="rs-num">
+19
+</td>
+<td class="rs-num">
+48
+</td>
+<td class="rs-num">
+395
+</td>
+<td>
+<em>La Guía</em>, cap. 7: se agrupa muy pronto (gran similitud) por el método de Ward.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Skywalker Freight Co.</strong>
+</td>
+<td>
+La Tierra (Final) · Galaxia del Triángulo
+</td>
+<td class="rs-num">
+51
+</td>
+<td class="rs-num">
+21
+</td>
+<td class="rs-num">
+47
+</td>
+<td class="rs-num">
+386
+</td>
+<td>
+<em>La Guía</em>, cap. 7: se agrupa muy pronto junto a <em>Betazoid Transport</em>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Tannhäuser Freight</strong>
+</td>
+<td>
+Pandora · Vía Láctea
+</td>
+<td class="rs-num">
+191
+</td>
+<td class="rs-num">
+41
+</td>
+<td class="rs-num">
+7
+</td>
+<td class="rs-num">
+2.045
+</td>
+<td>
+<em>La Guía</em>, cap. 7: <em>outlier</em> moderado en el diagnóstico del clúster.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Sandworm Freight</strong>
+</td>
+<td>
+Kobol · Pequeña Nube de Magallanes
+</td>
+<td class="rs-num">
+18
+</td>
+<td class="rs-num">
+7
+</td>
+<td class="rs-num">
+8
+</td>
+<td class="rs-num">
+70
+</td>
+<td>
+<em>La Guía</em>, cap. 5 (<em>outlier</em> en RENECO) y cap. 12: mapa perceptual, flota antigua.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Jovian Logistics</strong>
+</td>
+<td>
+Miranda · Gran Nube de Magallanes
+</td>
+<td class="rs-num">
+221
+</td>
+<td class="rs-num">
+24
+</td>
+<td class="rs-num">
+25
+</td>
+<td class="rs-num">
+406
+</td>
+<td>
+<em>La Guía</em>, cap. 5: <em>outlier</em> en RENECO, junto a <em>Sandworm Freight</em>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Photon Pack Freight</strong>
+</td>
+<td>
+Naboo · Galaxia de Andrómeda
+</td>
+<td class="rs-num">
+58
+</td>
+<td class="rs-num">
+31
+</td>
+<td class="rs-num">
+33
+</td>
+<td class="rs-num">
+274
+</td>
+<td>
+<em>La Guía</em>, cap. 5: caso con <em>missing value</em> en RENECO, eliminado.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Poe Dameron Cargo</strong>
+</td>
+<td>
+Vulcano · Galaxia del Triángulo
+</td>
+<td class="rs-num">
+50
+</td>
+<td class="rs-num">
+25
+</td>
+<td class="rs-num">
+20
+</td>
+<td class="rs-num">
+168
+</td>
+<td>
+<em>La Guía</em>, cap. 5: caso con <em>missing value</em> eliminado.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Vega Transport</strong>
+</td>
+<td>
+Qo’noS · Galaxia del Triángulo
+</td>
+<td class="rs-num">
+208
+</td>
+<td class="rs-num">
+26
+</td>
+<td class="rs-num">
+13
+</td>
+<td class="rs-num">
+205
+</td>
+<td>
+<em>La Guía</em>, cap. 2 y 5: síntesis de variables y caso con <em>missing value</em>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Rogue One Freight</strong>
+</td>
+<td>
+Kobol · Pequeña Nube de Magallanes
+</td>
+<td class="rs-num">
+216
+</td>
+<td class="rs-num">
+35
+</td>
+<td class="rs-num">
+22
+</td>
+<td class="rs-num">
+299
+</td>
+<td>
+<em>La Guía</em>, cap. 5: ilustra la portada del capítulo de análisis previo de datos.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Defiant Cargo</strong>
+</td>
+<td>
+Tatooine · Galaxia de Andrómeda
+</td>
+<td class="rs-num">
+231
+</td>
+<td class="rs-num">
+40
+</td>
+<td class="rs-num">
+35
+</td>
+<td class="rs-num">
+438
+</td>
+<td>
+<em>La Guía</em>, cap. 12: mapa perceptual; percibida como muy similar a <em>Shuttlepod Movers</em>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Endor Express</strong>
+</td>
+<td>
+Endor · Galaxia de Andrómeda
+</td>
+<td class="rs-num">
+33
+</td>
+<td class="rs-num">
+20
+</td>
+<td class="rs-num">
+33
+</td>
+<td class="rs-num">
+270
+</td>
+<td>
+<em>La Guía</em>, cap. 12: mapa perceptual, grupo de flota antigua.
+</td>
+</tr>
+<tr>
+<td>
+<strong>First Order Cargo</strong>
+</td>
+<td>
+Tatooine · Galaxia de Andrómeda
+</td>
+<td class="rs-num">
+63
+</td>
+<td class="rs-num">
+26
+</td>
+<td class="rs-num">
+14
+</td>
+<td class="rs-num">
+122
+</td>
+<td>
+<em>La Guía</em>, cap. 12: mapa perceptual, grupo de flota antigua.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Starfighter Logistics</strong>
+</td>
+<td>
+La Luna · Vía Láctea
+</td>
+<td class="rs-num">
+68
+</td>
+<td class="rs-num">
+41
+</td>
+<td class="rs-num">
+30
+</td>
+<td class="rs-num">
+253
+</td>
+<td>
+<em>La Guía</em>, cap. 12: mapa perceptual, grupo de flota antigua.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Dark Star Haulage</strong>
+</td>
+<td>
+LV-223 · Vía Láctea
+</td>
+<td class="rs-num">
+80
+</td>
+<td class="rs-num">
+32
+</td>
+<td class="rs-num">
+41
+</td>
+<td class="rs-num">
+340
+</td>
+<td>
+<em>La Guía</em>, cap. 12: mapa perceptual, grupo de flota antigua.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Mothership Movers</strong>
+</td>
+<td>
+Júpiter · Vía Láctea
+</td>
+<td class="rs-num">
+1.193
+</td>
+<td class="rs-num">
+45
+</td>
+<td class="rs-num">
+16
+</td>
+<td class="rs-num">
+629
+</td>
+<td>
+<em>La Guía</em>, cap. 12: una de las 15 compañías del mapa perceptual.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Ragnar Freight Lines</strong>
+</td>
+<td>
+Nueva Caprica · Galaxia del Triángulo
+</td>
+<td class="rs-num">
+242
+</td>
+<td class="rs-num">
+37
+</td>
+<td class="rs-num">
+45
+</td>
+<td class="rs-num">
+558
+</td>
+<td>
+<em>La Guía</em>, cap. 12: una de las 15 compañías del mapa perceptual.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Rebel Alliance Transport</strong>
+</td>
+<td>
+Miller · Pequeña Nube de Magallanes
+</td>
+<td class="rs-num">
+233
+</td>
+<td class="rs-num">
+68
+</td>
+<td class="rs-num">
+41
+</td>
+<td class="rs-num">
+521
+</td>
+<td>
+<em>La Guía</em>, cap. 12: una de las 15 compañías del mapa perceptual.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Prometheus Transport</strong>
+</td>
+<td>
+LV-223 · Vía Láctea
+</td>
+<td class="rs-num">
+230
+</td>
+<td class="rs-num">
+37
+</td>
+<td class="rs-num">
+26
+</td>
+<td class="rs-num">
+348
+</td>
+<td>
+<em>La Guía</em>, cap. 12: una de las 15 compañías del mapa perceptual.
+</td>
+</tr>
+<tr>
+<td>
+<strong>Starship Express</strong>
+</td>
+<td>
+Nueva Caprica · Galaxia del Triángulo
+</td>
+<td class="rs-num">
+2.255
+</td>
+<td class="rs-num">
+50
+</td>
+<td class="rs-num">
+24
+</td>
+<td class="rs-num">
+928
+</td>
+<td>
+<em>Estadística Empresarial</em>, cap. 8: la distancia operada (DIST) como ejemplo de variable aleatoria continua.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Conviene recordar, por último, que muchos otros nombres del sector (<em>Nova Haulers</em>, <em>ExoCargo Alliance</em>, <em>Death Star Deliveries</em>, <em>Millennium Haulage</em>, <em>Tantive IV Cargo</em>, <em>Serenity Cargo Co.</em>…) no protagonizan ejercicios, sino que pueblan la base como <strong>guiños</strong> cinematográficos y literarios; su catálogo completo, con sus fuentes de inspiración, se recoge en el capítulo de Guiños (cap. 8).</p>
 </div>
 </div>
 <div id="astilleros" class="section level2" number="6.3">
@@ -204,14 +1313,16 @@
 <li><a class="nav-link" href="#formas-juridicas"><span class="header-section-number">6.1</span> Las formas jurídicas.</a></li>
 <li>
 <a class="nav-link" href="#companias-citadas"><span class="header-section-number">6.2</span> Las compañías más citadas.</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#arrakis-freight"><span class="header-section-number">6.2.1</span> Arrakis Freight.</a></li>
-<li><a class="nav-link" href="#vader-co"><span class="header-section-number">6.2.2</span> Vader &amp; Company.</a></li>
+<li><a class="nav-link" href="#hyperdrive"><span class="header-section-number">6.2.1</span> Hyperdrive Express.</a></li>
+<li><a class="nav-link" href="#arrakis-freight"><span class="header-section-number">6.2.2</span> Arrakis Freight.</a></li>
 <li><a class="nav-link" href="#shuttlepod"><span class="header-section-number">6.2.3</span> Shuttlepod Movers.</a></li>
-<li><a class="nav-link" href="#hyperdrive"><span class="header-section-number">6.2.4</span> Hyperdrive Express.</a></li>
-<li><a class="nav-link" href="#enterprise"><span class="header-section-number">6.2.5</span> Enterprise Logistics.</a></li>
-<li><a class="nav-link" href="#kaiju"><span class="header-section-number">6.2.6</span> Kaiju Haulage Co. </a></li>
-<li><a class="nav-link" href="#home-one"><span class="header-section-number">6.2.7</span> Home One Cargo.</a></li>
-<li><a class="nav-link" href="#otras-companias"><span class="header-section-number">6.2.8</span> Otras compañías recurrentes.</a></li>
+<li><a class="nav-link" href="#corellian"><span class="header-section-number">6.2.4</span> Corellian Freightworks.</a></li>
+<li><a class="nav-link" href="#kaiju"><span class="header-section-number">6.2.5</span> Kaiju Haulage Co. </a></li>
+<li><a class="nav-link" href="#vader-co"><span class="header-section-number">6.2.6</span> Vader &amp; Company.</a></li>
+<li><a class="nav-link" href="#enterprise"><span class="header-section-number">6.2.7</span> Enterprise Logistics.</a></li>
+<li><a class="nav-link" href="#excalibur"><span class="header-section-number">6.2.8</span> Excalibur Freight Systems.</a></li>
+<li><a class="nav-link" href="#home-one"><span class="header-section-number">6.2.9</span> Home One Cargo.</a></li>
+<li><a class="nav-link" href="#otras-companias"><span class="header-section-number">6.2.10</span> Otras compañías con papel en los manuales.</a></li>
 </ul>
 </li>
 <li>
@@ -237,7 +1348,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>R-Stars: El Universo</strong>" was written by Miguel Ángel Tarancón Morán. It was last built on 2026-09-09.</p>
+    <p>"<strong>R-Stars: El Universo</strong>" was written by Miguel Ángel Tarancón Morán. It was last built on 2026-09-14.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

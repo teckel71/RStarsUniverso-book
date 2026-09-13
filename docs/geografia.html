@@ -115,7 +115,7 @@
 <h2>
 <span class="header-section-number">4.2</span> Planetas destacados.<a class="anchor" aria-label="anchor" href="#planetas"><i class="fas fa-link"></i></a>
 </h2>
-<p>El grueso de la actividad se concentra en una treintena de planetas. Los siguientes son los más relevantes desde el punto de vista de los ejercicios de los manuales; el resto aparecen mencionados de forma tangencial y no requieren mayor presentación.</p>
+<p>El grueso de la actividad se concentra en una treintena de planetas. Los siguientes son los más relevantes desde el punto de vista de los ejercicios de los manuales; el resto aparecen mencionados de forma tangencial y no requieren mayor presentación. Al final de la sección se recoge, además, un <strong>catálogo completo</strong> que ordena los treinta mundos por galaxia e indica, para cada uno, las compañías de transporte con sede en él y los astilleros con base de flota (véase la Sección <a href="geografia.html#catalogo-planetas">4.2.8</a>).</p>
 <div id="arrakis" class="section level3" number="4.2.1">
 <h3>
 <span class="header-section-number">4.2.1</span> Arrakis (Gran Nube de Magallanes).<a class="anchor" aria-label="anchor" href="#arrakis"><i class="fas fa-link"></i></a>
@@ -158,6 +158,1551 @@
 </h3>
 <p>El resto de la nómina se reparte entre mundos históricos (<strong>Tierra, Vulcano, Qo’noS, Kobol</strong>), colonias industriales (<strong>Júpiter, Endor, Dagobah, Mül, Romulus, Caprica, Nueva Caprica</strong>) y enclaves más exóticos (<strong>LV-223, LV-426, Planet P</strong>), estos últimos con una reputación logística que oscila entre lo desafiante y lo francamente suicida.</p>
 </div>
+<div id="catalogo-planetas" class="section level3" number="4.2.8">
+<h3>
+<span class="header-section-number">4.2.8</span> Catálogo de planetas por galaxia.<a class="anchor" aria-label="anchor" href="#catalogo-planetas"><i class="fas fa-link"></i></a>
+</h3>
+<p>La tabla que sigue reúne, galaxia por galaxia, <strong>los treinta planetas</strong> que estructuran el universo <em>R-Stars</em>. Para cada mundo se indican las <strong>compañías de transporte interestelar</strong> que tienen allí su sede —tal y como figuran en la base <code>interestelar_300</code>— y los <strong>astilleros</strong> con base de flota en el planeta —según la variable <code>SEDE</code> de la base <code>astilleros_48</code>—. Cuando se dispone de retrato orbital del planeta, este acompaña a su ficha (las imágenes están generadas con IA).</p>
+<p>Recuérdese que el sector cuenta con <strong>tres grandes astilleros</strong> —<em>Korrigan Heavy Works</em>, <em>Selene Dynamics</em> y <em>Arcturus Shipyards</em>— descritos en detalle en el Capítulo <a href="companias-astilleros.html#companias-astilleros">6</a>; en la tabla aparecen únicamente en aquellos mundos donde tienen basada su flota de cargueros.</p>
+<style>
+.rs-catalogo-wrap { margin: 1.2rem 0 2rem; }
+.rs-galaxia {
+  margin: 1.6rem 0 .6rem;
+  padding-bottom: .25rem;
+  border-bottom: 2px solid rgba(120,120,120,.35);
+  font-weight: 700;
+}
+.rs-galaxia-meta { font-size: .72em; font-weight: 400; opacity: .7; margin-left: .4rem; }
+.rs-tabla-wrap { overflow-x: auto; }
+table.rs-catalogo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: .3rem 0 1rem;
+  font-size: .92rem;
+}
+table.rs-catalogo thead th {
+  text-align: left;
+  padding: .5rem .6rem;
+  border-bottom: 2px solid rgba(120,120,120,.45);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  opacity: .85;
+}
+table.rs-catalogo td {
+  padding: .7rem .6rem;
+  border-bottom: 1px solid rgba(120,120,120,.25);
+  vertical-align: top;
+}
+.rs-col-planeta { width: 220px; }
+.rs-planeta-nombre { font-weight: 700; font-size: 1.02rem; margin-bottom: .4rem; }
+img.rs-planeta-img {
+  width: 190px; max-width: 100%; height: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  display: block;
+}
+.rs-sin-img { font-size: .82rem; font-style: italic; opacity: .55; }
+ul.rs-emp {
+  margin: 0 0 .35rem; padding-left: 1.1rem;
+  column-count: 2; column-gap: 1.4rem;
+}
+@media (max-width: 720px) { ul.rs-emp { column-count: 1; } .rs-col-planeta { width: auto; } }
+ul.rs-emp li { margin: 0 0 .12rem; break-inside: avoid; }
+.rs-emp-n { font-size: .78rem; opacity: .6; }
+.rs-astillero {
+  display: inline-block;
+  padding: .12rem .5rem; margin: 0 .2rem .2rem 0;
+  border: 1px solid rgba(120,120,120,.45);
+  border-radius: 999px;
+  font-size: .82rem; font-weight: 600; white-space: nowrap;
+}
+.rs-no { opacity: .5; }
+</style>
+<div class="rs-catalogo-wrap">
+<h4 class="rs-galaxia">
+Vía Láctea <span class="rs-galaxia-meta">8 planetas · 84 compañías</span>
+</h4>
+<div class="rs-tabla-wrap">
+<div class="inline-table"><table class="rs-catalogo">
+<thead><tr>
+<th>
+Planeta
+</th>
+<th>
+Compañías de transporte con sede
+</th>
+<th>
+Astilleros con base de flota
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Júpiter
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Apollo Haulage Co.
+</li>
+<li>
+Chimaera Haulage
+</li>
+<li>
+Crusader Haulage
+</li>
+<li>
+Echo Star Logistics
+</li>
+<li>
+Hikaru Logistics
+</li>
+<li>
+Hyperion Haulage Co.
+</li>
+<li>
+Mothership Movers
+</li>
+<li>
+Peacekeeper Freightlines
+</li>
+<li>
+Sandcrawler Haulage
+</li>
+<li>
+Slave I Cargo
+</li>
+<li>
+Snoke Freight Lines
+</li>
+<li>
+Solar Flare Logistics
+</li>
+<li>
+Sulaco Transport
+</li>
+</ul>
+<span class="rs-emp-n">13 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Klendathu
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Atlas Star Transport
+</li>
+<li>
+Boonta Freightlines
+</li>
+<li>
+Bug Hunter Logistics
+</li>
+<li>
+Finn Freightways
+</li>
+<li>
+Force Awakens Freight Co.
+</li>
+<li>
+Galactica Movers
+</li>
+<li>
+Hal 9000 Transport
+</li>
+<li>
+Hal Intergalactic Freight
+</li>
+<li>
+Jabba’s Cargo Lines
+</li>
+<li>
+Kirk Star Haulage
+</li>
+<li>
+Klendathu Cargo Systems
+</li>
+<li>
+Martian Dust Cargo
+</li>
+<li>
+Monolith Movers
+</li>
+<li>
+Rukh Cargo Co.
+</li>
+<li>
+Solar Freight Co.
+</li>
+<li>
+Terraformer Freight Lines
+</li>
+<li>
+Viper Logistics
+</li>
+</ul>
+<span class="rs-emp-n">17 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Korrigan Heavy Works</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+LV-223
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Admiral Ackbar Haulage
+</li>
+<li>
+Dark Star Haulage
+</li>
+<li>
+Deep Space Freight Co.
+</li>
+<li>
+Eva Movers
+</li>
+<li>
+Hyperloop Cargo
+</li>
+<li>
+Kamino Movers
+</li>
+<li>
+Lucifer Star Logistics
+</li>
+<li>
+Martian Cargo Systems
+</li>
+<li>
+Prometheus Transport
+</li>
+<li>
+Star Forge Logistics
+</li>
+<li>
+Togruta Freight
+</li>
+</ul>
+<span class="rs-emp-n">11 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+LV-426
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Baze Malbus Haulage
+</li>
+<li>
+Deckard Logistics
+</li>
+<li>
+Gungan Haulage Co.
+</li>
+<li>
+Lv-426 Freight Co.
+</li>
+<li>
+Nebuchadnezzar Freightlines
+</li>
+<li>
+Nebula Haulage
+</li>
+<li>
+Padmé Cargo Systems
+</li>
+<li>
+Pegasus Haulage
+</li>
+<li>
+Sulu Intergalactic Freight
+</li>
+<li>
+T’pol Haulage
+</li>
+<li>
+Weyland-yutani Haulage
+</li>
+</ul>
+<span class="rs-emp-n">11 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+La Luna
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Klingon Haulage Co.
+</li>
+<li>
+Saw Gerrera Freight
+</li>
+<li>
+Starfighter Logistics
+</li>
+</ul>
+<span class="rs-emp-n">3 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Pandora
+</div>
+<img class="rs-planeta-img" src="figuras/Pandora.png" alt="Retrato orbital de Pandora (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Ahsoka Star Haulage
+</li>
+<li>
+Alderaan Freight
+</li>
+<li>
+Dr. Bowman Logistics
+</li>
+<li>
+Droideka Freight Lines
+</li>
+<li>
+Galímedes 54
+</li>
+<li>
+Gungan Freight Co.
+</li>
+<li>
+Infinity Freight Co.
+</li>
+<li>
+Nostromo Freight
+</li>
+<li>
+Nx-01 Cargo Lines
+</li>
+<li>
+Pandora Cargo
+</li>
+<li>
+Scarif Cargo Systems
+</li>
+<li>
+Tannhäuser Freight
+</li>
+</ul>
+<span class="rs-emp-n">12 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Selene Dynamics</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Planet P
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Droid Haulage Systems
+</li>
+<li>
+Event Horizon Haulage
+</li>
+<li>
+Greedo Logistics
+</li>
+<li>
+Jyn Erso Haulage
+</li>
+<li>
+Sanctuary Haulage
+</li>
+<li>
+Voyager Haulage
+</li>
+<li>
+Zeb Orrelios Cargo
+</li>
+</ul>
+<span class="rs-emp-n">7 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Tierra
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Betazoid Transport
+</li>
+<li>
+Han Solo Logistics
+</li>
+<li>
+Hyperion Star Haulage
+</li>
+<li>
+Icarus Star Transport
+</li>
+<li>
+Kylo Ren Haulage
+</li>
+<li>
+Orion Intergalactic Freight
+</li>
+<li>
+Sy Snootles Haulage
+</li>
+<li>
+Twi’lek Transport
+</li>
+<li>
+Unn Freightways
+</li>
+<li>
+Zion Cargo Systems
+</li>
+</ul>
+<span class="rs-emp-n">10 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<h4 class="rs-galaxia">
+Galaxia de Andrómeda <span class="rs-galaxia-meta">7 planetas · 84 compañías</span>
+</h4>
+<div class="rs-tabla-wrap">
+<div class="inline-table"><table class="rs-catalogo">
+<thead><tr>
+<th>
+Planeta
+</th>
+<th>
+Compañías de transporte con sede
+</th>
+<th>
+Astilleros con base de flota
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Coruscant
+</div>
+<img class="rs-planeta-img" src="figuras/Coruscant.png" alt="Retrato orbital de Coruscant (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Andorian Cargo Systems
+</li>
+<li>
+Aperture Cargo Systems
+</li>
+<li>
+Assimilator Haulage
+</li>
+<li>
+Coruscant Cargo
+</li>
+<li>
+Dradis Express
+</li>
+<li>
+Home One Cargo
+</li>
+<li>
+Imperial Star Transport
+</li>
+<li>
+Jedha Star Movers
+</li>
+<li>
+Kessel Run Couriers
+</li>
+<li>
+Kyber Crystal Shipping
+</li>
+<li>
+Maz Kanata Movers
+</li>
+<li>
+Outer Rim Logistics
+</li>
+<li>
+Phlox Transport
+</li>
+<li>
+Praetorian Guard Logistics
+</li>
+<li>
+Solar Flare Freight
+</li>
+<li>
+Tie Cargo Lines
+</li>
+</ul>
+<span class="rs-emp-n">16 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Selene Dynamics</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Dagobah
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Asteroid Haulage
+</li>
+<li>
+Babylon 5 Logistics
+</li>
+<li>
+Boba Fett Logistics
+</li>
+<li>
+Boomer Haulage
+</li>
+<li>
+Centurion Freight
+</li>
+<li>
+Dagobah Deliveries
+</li>
+<li>
+Dagobah Freightlines
+</li>
+<li>
+Exoplanet Cargo Co.
+</li>
+<li>
+Holden Haulage
+</li>
+<li>
+Raddus Logistics
+</li>
+<li>
+Sarek Transport Systems
+</li>
+</ul>
+<span class="rs-emp-n">11 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Endor
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Clone Haulage Systems
+</li>
+<li>
+Endor Express
+</li>
+<li>
+Endor Movers
+</li>
+<li>
+Leeloo Intergalactic Transport
+</li>
+<li>
+Naomi Freight Co.
+</li>
+<li>
+Spice Cargo Lines
+</li>
+<li>
+Uhura Cargo Systems
+</li>
+<li>
+X-wing Deliveries
+</li>
+<li>
+Ysalamiri Freight
+</li>
+</ul>
+<span class="rs-emp-n">9 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Hoth
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Cylon Cargo Lines
+</li>
+<li>
+Hoth Haulage
+</li>
+<li>
+Jango Freightways
+</li>
+<li>
+Romulan Star Logistics
+</li>
+<li>
+Xenomorph Haulage
+</li>
+</ul>
+<span class="rs-emp-n">5 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Korrigan Heavy Works</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Mustafar
+</div>
+<img class="rs-planeta-img" src="figuras/Mustafar.png" alt="Retrato orbital de Mustafar (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Bajoran Star Transport
+</li>
+<li>
+Drummer Logistics
+</li>
+<li>
+Elysium Star Transport
+</li>
+<li>
+Imperial Shuttle Movers
+</li>
+<li>
+Kaiju Haulage Co.
+</li>
+<li>
+Mustafar Haulage
+</li>
+<li>
+Navoo Freight Co.
+</li>
+<li>
+Rocinante Logistics
+</li>
+<li>
+Sevastopol Cargo
+</li>
+<li>
+Starkiller Haulage
+</li>
+</ul>
+<span class="rs-emp-n">10 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Korrigan Heavy Works</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Naboo
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Ash Logistics
+</li>
+<li>
+Cardassian Freight Lines
+</li>
+<li>
+Cassian Star Transport
+</li>
+<li>
+Enterprise Logistics
+</li>
+<li>
+Gamma Quadrant Movers
+</li>
+<li>
+Harkonnen Heavy Haul
+</li>
+<li>
+Hera Syndulla Movers
+</li>
+<li>
+K-2so Logistics
+</li>
+<li>
+Naboo Star Movers
+</li>
+<li>
+Neptune Star Lines
+</li>
+<li>
+Nien Nunb Logistics
+</li>
+<li>
+Photon Pack Freight
+</li>
+<li>
+Sev’rance Transport
+</li>
+<li>
+Solaris Haulage
+</li>
+<li>
+Spock Stellar Haulage
+</li>
+<li>
+Tal Shiar Cargo
+</li>
+</ul>
+<span class="rs-emp-n">16 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Tatooine
+</div>
+<img class="rs-planeta-img" src="figuras/Tatooine.png" alt="Retrato orbital de Tatooine (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Anakin Freightways
+</li>
+<li>
+Andor Cargo Lines
+</li>
+<li>
+Andromeda Cargo
+</li>
+<li>
+Bith Cargo Systems
+</li>
+<li>
+Cantina Freight Co.
+</li>
+<li>
+Death Star Freight Co.
+</li>
+<li>
+Defiant Cargo
+</li>
+<li>
+Eros Star Freight
+</li>
+<li>
+Executor Freight Systems
+</li>
+<li>
+First Order Cargo
+</li>
+<li>
+Rancor Freight Co.
+</li>
+<li>
+Rico’s Roughnecks Transport
+</li>
+<li>
+Shadow Cargo Systems
+</li>
+<li>
+Sith Transport Corp.
+</li>
+<li>
+Supreme Leader Logistics
+</li>
+<li>
+Tatooine Movers
+</li>
+<li>
+Terminus Transport
+</li>
+</ul>
+<span class="rs-emp-n">17 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Arcturus Shipyards</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<h4 class="rs-galaxia">
+Galaxia del Triángulo <span class="rs-galaxia-meta">7 planetas · 47 compañías</span>
+</h4>
+<div class="rs-tabla-wrap">
+<div class="inline-table"><table class="rs-catalogo">
+<thead><tr>
+<th>
+Planeta
+</th>
+<th>
+Compañías de transporte con sede
+</th>
+<th>
+Astilleros con base de flota
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Caprica
+</div>
+<img class="rs-planeta-img" src="figuras/Caprica.png" alt="Retrato orbital de Caprica (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Bespin Movers
+</li>
+<li>
+Bo-katan Cargo Lines
+</li>
+<li>
+Caprica Cargo Systems
+</li>
+<li>
+Hyperion Space Freight
+</li>
+<li>
+Order 66 Freight Co.
+</li>
+<li>
+Ryloth Freight Co.
+</li>
+<li>
+Tusken Freight Lines
+</li>
+</ul>
+<span class="rs-emp-n">7 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+La Tierra (Final)
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Galaxy Movers
+</li>
+<li>
+Lando’s Cargo
+</li>
+<li>
+Minbari Transport Co.
+</li>
+<li>
+Skywalker Freight Co.
+</li>
+<li>
+Travis Star Haulage
+</li>
+</ul>
+<span class="rs-emp-n">5 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Nueva Caprica
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Battlestar Freight Co.
+</li>
+<li>
+Jupiter Freightways
+</li>
+<li>
+Kanan Jarrus Haulage
+</li>
+<li>
+Moya Cargo Systems
+</li>
+<li>
+Ragnar Freight Lines
+</li>
+<li>
+Starship Express
+</li>
+<li>
+Trooper Haulage Co.
+</li>
+</ul>
+<span class="rs-emp-n">7 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Arcturus Shipyards</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Qo’noS
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Corellian Freightworks
+</li>
+<li>
+Echo Base Transport
+</li>
+<li>
+Janeway Star Transport
+</li>
+<li>
+Qo’nos Freight
+</li>
+<li>
+Serenity Cargo Co.
+</li>
+<li>
+Thrawn Logistics
+</li>
+<li>
+Vega Transport
+</li>
+</ul>
+<span class="rs-emp-n">7 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Risa
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Astromech Cargo
+</li>
+<li>
+Eva Star Transport
+</li>
+<li>
+Sabine Freight Co.
+</li>
+<li>
+Tantive Iv Cargo
+</li>
+</ul>
+<span class="rs-emp-n">4 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Selene Dynamics</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Romulus
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Chakotay Cargo Systems
+</li>
+<li>
+Death Star Deliveries
+</li>
+<li>
+Discovery One Haulage
+</li>
+<li>
+Jawas Cargo Systems
+</li>
+<li>
+Kelvin Universe Movers
+</li>
+<li>
+Mon Calamari Freight Co.
+</li>
+<li>
+Trantor Haulage Co.
+</li>
+</ul>
+<span class="rs-emp-n">7 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Korrigan Heavy Works</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Vulcano
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Atreides Logistics
+</li>
+<li>
+Colonial Freightworks
+</li>
+<li>
+Echo Logistics
+</li>
+<li>
+Ewok Haulage Systems
+</li>
+<li>
+Exogorth Logistics
+</li>
+<li>
+Poe Dameron Cargo
+</li>
+<li>
+Scorpio Star Logistics
+</li>
+<li>
+Stellar Nexus Logistics
+</li>
+<li>
+Tycho Star Transport
+</li>
+<li>
+Warp Drive Logistics
+</li>
+</ul>
+<span class="rs-emp-n">10 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<h4 class="rs-galaxia">
+Gran Nube de Magallanes <span class="rs-galaxia-meta">4 planetas · 52 compañías</span>
+</h4>
+<div class="rs-tabla-wrap">
+<div class="inline-table"><table class="rs-catalogo">
+<thead><tr>
+<th>
+Planeta
+</th>
+<th>
+Compañías de transporte con sede
+</th>
+<th>
+Astilleros con base de flota
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Arrakis
+</div>
+<img class="rs-planeta-img" src="figuras/Arrakis.png" alt="Retrato orbital de Arrakis (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Arrakis Freight
+</li>
+<li>
+Carbonite Freight Co.
+</li>
+<li>
+Delta Quadrant Freight
+</li>
+<li>
+Dominion Cargo
+</li>
+<li>
+Max Rebo Movers
+</li>
+<li>
+Neural Net Freight
+</li>
+<li>
+Protogen Cargo
+</li>
+<li>
+Replicant Routes
+</li>
+<li>
+Seven of Nine Logistics
+</li>
+<li>
+Shuttlepod Movers
+</li>
+<li>
+Super Star Logistics
+</li>
+<li>
+Venator Transport Systems
+</li>
+<li>
+Wormhole Transport Systems
+</li>
+<li>
+Yavin Cargo Lines
+</li>
+<li>
+Yoda Logistics
+</li>
+</ul>
+<span class="rs-emp-n">15 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Arcturus Shipyards</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Fhloston Paradise
+</div>
+<img class="rs-planeta-img" src="figuras/Fhloston_Paradise.png" alt="Retrato orbital de Fhloston Paradise (imagen generada con IA)">
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Battle Droid Haulage
+</li>
+<li>
+Behemoth Cargo
+</li>
+<li>
+Ezra Bridger Haulage
+</li>
+<li>
+Galactic Movers Co.
+</li>
+<li>
+Geonosis Freight
+</li>
+<li>
+Kashyyyk Freight Lines
+</li>
+<li>
+Lando Freightworks
+</li>
+<li>
+Razor Star Freight
+</li>
+<li>
+Valerian Freight Co.
+</li>
+<li>
+Veritech Haulage
+</li>
+<li>
+Vulcan Ventures
+</li>
+</ul>
+<span class="rs-emp-n">11 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Miranda
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Bib Fortuna Haulage
+</li>
+<li>
+Chirrut Îmwe Freightways
+</li>
+<li>
+Cloud City Haulage
+</li>
+<li>
+Elysium Freightlines
+</li>
+<li>
+Europa Cargo Systems
+</li>
+<li>
+Hyperdrive Express
+</li>
+<li>
+Io Star Transport
+</li>
+<li>
+Jabba the Haulage
+</li>
+<li>
+Jovian Logistics
+</li>
+<li>
+Nebula Express Co.
+</li>
+<li>
+Zentraedi Cargo Lines
+</li>
+</ul>
+<span class="rs-emp-n">11 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Selene Dynamics</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Mül
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Adama Transport
+</li>
+<li>
+Anderson Haulage Co.
+</li>
+<li>
+Cloud City Cargo
+</li>
+<li>
+Crait Cargo Systems
+</li>
+<li>
+Dune Dynamics
+</li>
+<li>
+Excalibur Freight Systems
+</li>
+<li>
+Forest Moon Freight
+</li>
+<li>
+Grievous Star Transport
+</li>
+<li>
+Jedi Path Freightways
+</li>
+<li>
+Mandalorian Logistics
+</li>
+<li>
+Pike Freight Co.
+</li>
+<li>
+Quark’s Cargo
+</li>
+<li>
+Vader and Company
+</li>
+<li>
+Vorlon Haulage
+</li>
+<li>
+Wookiee Freight Co.
+</li>
+</ul>
+<span class="rs-emp-n">15 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-astillero">Arcturus Shipyards</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<h4 class="rs-galaxia">
+Pequeña Nube de Magallanes <span class="rs-galaxia-meta">4 planetas · 33 compañías</span>
+</h4>
+<div class="rs-tabla-wrap">
+<div class="inline-table"><table class="rs-catalogo">
+<thead><tr>
+<th>
+Planeta
+</th>
+<th>
+Compañías de transporte con sede
+</th>
+<th>
+Astilleros con base de flota
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Kobol
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Bb-8 Haulage
+</li>
+<li>
+Cantina Cargo
+</li>
+<li>
+Kobol Cargo Systems
+</li>
+<li>
+Mirror Universe Cargo
+</li>
+<li>
+Mos Eisley Haulage
+</li>
+<li>
+Rey Skywalker Logistics
+</li>
+<li>
+Rogue One Freight
+</li>
+<li>
+Sandworm Freight
+</li>
+<li>
+Starbuck Freightways
+</li>
+<li>
+Tannhauser
+</li>
+<li>
+Vulcan Star Freight
+</li>
+</ul>
+<span class="rs-emp-n">11 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Mann
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Bene Gesserit Goods
+</li>
+<li>
+Blade Runner Shipping
+</li>
+<li>
+Dooku Logistics
+</li>
+<li>
+Enterprise Nx Freight
+</li>
+<li>
+Ghost Freight Systems
+</li>
+<li>
+Imperial Freight Systems
+</li>
+<li>
+Quantum Freightlines
+</li>
+<li>
+Ripley Interstellar Freight
+</li>
+<li>
+Sarlacc Transport
+</li>
+<li>
+Sdf-1 Freightworks
+</li>
+</ul>
+<span class="rs-emp-n">10 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Miller
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Borg Freight Lines
+</li>
+<li>
+Miller Cargo Systems
+</li>
+<li>
+Narcissus Cargo
+</li>
+<li>
+Rebel Alliance Transport
+</li>
+<li>
+Star Gate Logistics
+</li>
+</ul>
+<span class="rs-emp-n">5 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+<tr>
+<td class="rs-col-planeta">
+<div class="rs-planeta-nombre">
+Zegema Beach
+</div>
+<span class="rs-sin-img">Sin retrato disponible</span>
+</td>
+<td class="rs-col-empresas">
+<ul class="rs-emp">
+<li>
+Batty Haulage
+</li>
+<li>
+Belter Haulage
+</li>
+<li>
+Chekov Freight Lines
+</li>
+<li>
+Cosmic Freights
+</li>
+<li>
+Darth Vader Logistics
+</li>
+<li>
+Millennium Haulage
+</li>
+<li>
+Promethean Cargo Lines
+</li>
+</ul>
+<span class="rs-emp-n">7 compañías con sede</span>
+</td>
+<td class="rs-col-astilleros">
+<span class="rs-no">— (ninguno)</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<p>En conjunto, el sector suma <strong>300 compañías</strong> de transporte repartidas por los treinta mundos, con Tatooine, Coruscant y Naboo a la cabeza en número de sedes, y <strong>doce planetas</strong> que acogen la base de flota de alguno de los tres astilleros. Los mundos sin astillero propio no carecen de cargueros —los reciben de los tres grandes fabricantes—, pero no figuran como puerto base de ninguna de sus naves en la muestra de la base <code>astilleros_48</code>.</p>
+</div>
 </div>
 <div id="riesgos-fronteras" class="section level2" number="4.3">
 <h2>
@@ -188,6 +1733,7 @@
 <li><a class="nav-link" href="#mustafar"><span class="header-section-number">4.2.5</span> Mustafar (Andrómeda).</a></li>
 <li><a class="nav-link" href="#otros"><span class="header-section-number">4.2.6</span> Fhloston Paradise, Naboo, Miranda.</a></li>
 <li><a class="nav-link" href="#resto-planetas"><span class="header-section-number">4.2.7</span> El resto del catálogo.</a></li>
+<li><a class="nav-link" href="#catalogo-planetas"><span class="header-section-number">4.2.8</span> Catálogo de planetas por galaxia.</a></li>
 </ul>
 </li>
 <li><a class="nav-link" href="#riesgos-fronteras"><span class="header-section-number">4.3</span> Zonas de riesgo y nuevas fronteras.</a></li>
@@ -207,7 +1753,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>R-Stars: El Universo</strong>" was written by Miguel Ángel Tarancón Morán. It was last built on 2026-09-09.</p>
+    <p>"<strong>R-Stars: El Universo</strong>" was written by Miguel Ángel Tarancón Morán. It was last built on 2026-09-14.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
