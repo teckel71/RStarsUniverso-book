@@ -87,29 +87,29 @@ Descripción de las imágenes **ya existentes**, para fijar el estilo.
 
 > Luna desolada azotada por tormentas perpetuas: esfera gris-azulada envuelta en densas nubes arremolinadas y bruma, con la superficie rocosa apenas visible entre los sistemas de tormenta; al fondo, el **gigante gaseoso Calpamos** y una luna hermana; iluminación lúgubre, dominante azul frío y una intensa sensación de aislamiento y desamparo. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### La Luna · **satélite real** · la Luna de la Tierra
+### La Luna · **satélite real** · la Luna de la Tierra OK
 
 > La **Luna** real vista desde el espacio: esfera gris intensamente craterizada, con los **maria** (mares basálticos oscuros) y sistemas de rayos brillantes de cráteres jóvenes como Tycho y Copérnico; el terminador proyecta sombras largas que resaltan el relieve de cráteres y cordilleras; al fondo, opcionalmente, la **Tierra** como un lejano creciente azul; luz solar rasante. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la superficie; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Planet P · **imaginario (filmografía)** · *Starship Troopers*
+### Planet P · **imaginario (filmografía)** · *Starship Troopers OK*
 
 > Planeta desértico de tonos tostados y ocres: grandes mesetas, cañones y formaciones rocosas erosionadas bajo un cielo pálido y polvoriento, sin vegetación; alguna enorme depresión o cráter que insinúa **nidos subterráneos**; luz cálida de atardecer y sombras alargadas. Se distingue de Klendathu por su tono más claro y arenoso y su aire de páramo solitario. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Tierra · **planeta real** · la Tierra
+### Tierra · **planeta real** · la Tierra OK
 
 > La **Tierra** vista desde el espacio, el clásico «canica azul»: océanos azul profundo, continentes verdes y pardos, casquetes polares blancos y una atmósfera con remolinos de nubes; un fino y luminoso halo azul de la atmósfera recorta el limbo; iluminación solar natural sobre el hemisferio diurno; al fondo, opcionalmente, la Luna lejana. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
 ## Galaxia de Andrómeda
 
-### Dagobah · **imaginario (filmografía)** · *Star Wars*
+### Dagobah · **imaginario (filmografía)** · *Star Wars OK*
 
 > Mundo pantanoso cubierto de nubes: esfera de tonos verde-oliva, ocre y marrón turbio, con una densa capa nubosa arremolinada que apenas deja entrever ciénagas, marismas y selvas brumosas; atmósfera húmeda y neblinosa; paleta verdosa apagada y misteriosa, luz difusa y tenue, aire de refugio oculto. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Endor · **imaginario (filmografía)** · *Star Wars*
+### Endor · **imaginario (filmografía)** · *Star Wars OK*
 
 > Luna forestal exuberante: esfera de un **verde intenso** cubierta de vastos bosques, con algunos mares y lagos azules y jirones de nube; la luna **orbita un gran gigante gaseoso** que asoma parcialmente al fondo, aportando escala; luz cálida y aspecto vivo, boscoso y apacible. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Hoth · **imaginario (filmografía)** · *Star Wars*
+### Hoth · **imaginario (filmografía)** · *Star Wars Ok*
 
 > Planeta helado: esfera **blanca y azul pálido** de hielo y nieve, con casquetes glaciares que cubren casi toda la superficie, tormentas de nieve arremolinadas y grietas de hielo azulado; brillo frío y cegador; bajo el manto helado se adivinan tenues cordilleras. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
