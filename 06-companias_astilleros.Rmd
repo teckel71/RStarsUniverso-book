@@ -229,14 +229,14 @@ Una de las primeras compañías especializadas en cargamentos masivos a larga di
 ficha_card("enterprise logistics")
 ```
 
-Compañía tradicional cuyos **astilleros orbitales** son una postal recurrente del sector, con el lema *"llegar donde ningún carguero llegó antes"*. Sirve de contrapunto a *Corellian Freightworks*: misma media salarial, pero dispersión mínima (plantilla muy homogénea). Una nota para el lector atento: la base la registra con sede en **Naboo**, mientras que la narrativa asocia sus astilleros a **Coruscant** (este libro, cap. 4) — una pequeña licencia entre el dato y el relato.
+Compañía tradicional con sede en **Naboo**, **pionera de rutas** y célebre por su lema *"llegar donde ningún carguero llegó antes"*. En los manuales sirve de contrapunto a *Corellian Freightworks*: misma media salarial, pero dispersión mínima (plantilla muy homogénea, con el coeficiente de variación más bajo de los ejemplos).
 
 *Aparece en:*
 
 - ***Estadística Empresarial*, cap. 3** (Problema 3.2): la plantilla "compacta" (CV = 9 %) frente a *Corellian Freightworks*.
 - ***Estadística Empresarial*, cap. 5** (Problema 5.12): linealización de una **curva de aprendizaje** en su escuela de pilotos.
 - ***Estadística Empresarial*, cap. 10 y 11**: servidor de red con llegadas de Poisson y aproximación Poisson → normal (Problemas 10.18, 10.19 y 11.11).
-- **Este libro, cap. 4** (Coruscant).
+- **Este libro, cap. 4** (Naboo).
 
 ### Excalibur Freight Systems. {#excalibur}
 
