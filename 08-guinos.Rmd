@@ -10,7 +10,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Cada carguero de este universo debe algo a un cine, una novela o un cómic.*](figuras/08_guinos.jpg){.portada-img width="100%"}
+![*Cada carguero de este universo debe algo a un cine, una novela o un cómic.*](figuras/08_guinos.png){.portada-img width="100%"}
+
 
 Como el lector atento habrá sospechado desde hace unas cuantas páginas, el universo *R-Stars* no es tan original como su rentabilidad media insinúa. Cada uno de los 30 planetas y cada una de las 300 compañías del sector rinde homenaje —a veces literal, a veces desviado, casi siempre en tono cariñoso— a alguna obra fundamental del **cine, la televisión o la literatura de ciencia ficción**. Este capítulo cierra el libro con tres piezas de referencia: una **tabla de guiños**, un **glosario** rápido y una breve coda personal.
 

@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
 
 ![*"Nada como un buen dataset para hacer creíble a una civilización."*](figuras/prefacio.png){.portada-img width="100%"}
 
+
 Este libro es una **guía divulgativa** del universo narrativo *R-Stars*, el escenario de ciencia ficción que utilizamos como hilo conductor en los manuales técnicos del proyecto **R-Stars**: *R-Stars: La Guía* [@rstars-guia], *Estadística Empresarial* [@ee2026] y los que vendrán.
 
 No es un manual, ni un libro técnico, ni pretende enseñar nada de estadística, econometría o programación en R. Su propósito es más modesto —y probablemente más divertido—: reunir en un solo sitio, y contarlo con gusto narrativo, todo lo que hace falta saber sobre las compañías, los planetas, los personajes y las organizaciones que pueblan los ejercicios de los manuales serios. Así, cuando en el capítulo de regresión aparezca *Hyperdrive Express* con sede en Miranda, o cuando en un análisis clúster salga a relucir el *Informe Bluebird*, el lector no tendrá que reconstruir de memoria de qué le suena el nombre: sabrá exactamente de qué le hablamos.

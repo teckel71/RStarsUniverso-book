@@ -74,10 +74,10 @@ Nace así la **Base de Datos Interestelar**, hoy alimentada por las 300 compañ�
 
 En el momento en el que se ambientan los ejercicios de los manuales, el sector ha alcanzado su madurez:
 
-- **300 empresas** activas.
-- **30 planetas** con bases operativas.
-- **5 galaxias** conectadas por rutas regulares.
-- Más de **109.000 rutas comerciales** anuales.
-- Rentabilidad media en torno al **60,16%**, cifra que hace las delicias de los accionistas y las pesadillas de los reguladores.
+-   **300 empresas** activas.
+-   **30 planetas** con bases operativas.
+-   **5 galaxias** conectadas por rutas regulares.
+-   Más de **109.000 rutas comerciales** anuales.
+-   Rentabilidad media en torno al **60,16%**, cifra que hace las delicias de los accionistas y las pesadillas de los reguladores.
 
 El sector es maduro y rentable, pero no plácido: la piratería en las fronteras, las tormentas de radiación, la creciente competencia entre astilleros, la disputa permanente por la especia y la aparición de nichos digitales especializados mantienen a analistas y CEOs —humanos y no humanos— en permanente sobreaviso.
