@@ -8,6 +8,7 @@ knitr::opts_chunk$set(
   fig.align  = "center",
   out.width  = "90%"
 )
+source("_common.R")
 ```
 
 ![*Un ecosistema de libros. Y detrás, un mismo universo.*](figuras/frikistars.jpg){.portada-img width="100%"}
@@ -15,6 +16,13 @@ knitr::opts_chunk$set(
 ## Qué es R-Stars. {#que-es-rstars}
 
 *R-Stars* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde se recoge la instalación básica de R y RStudio, se proponen manuales para comenzar, y se listan los materiales originales del propio proyecto.
+
+```{r video-miguel-rstars, echo=FALSE, results='asis'}
+insertar_youtube(
+  id     = "PPbNrEfSkKI",
+  titulo = "¿Qué es R-Stars? En pocas palabras..."
+)
+```
 
 Dentro de R-Stars, los materiales originales están organizados como **libros bookdown** publicados en GitHub Pages. En el momento de escribir estas líneas los libros disponibles son:
 

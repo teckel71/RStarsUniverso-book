@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*"Nada como un buen dataset para hacer creíble a una civilización."*](figuras/00_prefacio.jpg){.portada-img width="100%"}
+![*"Nada como un buen dataset para hacer creíble a una civilización."*](figuras/prefacio.png){.portada-img width="100%"}
 
 Este libro es una **guía divulgativa** del universo narrativo *R-Stars*, el escenario de ciencia ficción que utilizamos como hilo conductor en los manuales técnicos del proyecto **R-Stars**: *R-Stars: La Guía* [@rstars-guia], *Estadística Empresarial* [@ee2026] y los que vendrán.
 
