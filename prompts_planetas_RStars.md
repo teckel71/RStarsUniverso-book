@@ -113,13 +113,13 @@ Descripción de las imágenes **ya existentes**, para fijar el estilo.
 
 > Planeta helado: esfera **blanca y azul pálido** de hielo y nieve, con casquetes glaciares que cubren casi toda la superficie, tormentas de nieve arremolinadas y grietas de hielo azulado; brillo frío y cegador; bajo el manto helado se adivinan tenues cordilleras. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Naboo · **imaginario (filmografía)** · *Star Wars*
+### Naboo · **imaginario (filmografía)** · *Star Wars OK*
 
 > Mundo exuberante y apacible, de tipo terrestre: grandes masas de tierra de un **verde intenso**, océanos y lagos de un azul turquesa luminoso, ríos serpenteantes y nubes suaves; ambiente cálido, idílico y fértil, con una sutil bruma atmosférica dorada en el limbo. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
 ## Galaxia del Triángulo
 
-### La Tierra (Final) · **planeta real (era final)** · homenaje a *Earth: Final Conflict*
+### La Tierra (Final) · **planeta real (era final)** · homenaje a *Earth: Final Conflict OK*
 
 > La **Tierra** en una era final y futura, reconocible por sus continentes y océanos pero mostrada en el **terminador crepuscular**: el hemisferio nocturno late con vastas retículas de luces de ciudad y un delicado **anillo de hábitats orbitales** y estructuras en construcción alrededor del planeta; auroras verdes en los polos; atmósfera dorada en el limbo; tono solemne, elegíaco y evocador. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
@@ -131,42 +131,42 @@ Descripción de las imágenes **ya existentes**, para fijar el estilo.
 
 > Mundo de tinte **verdoso-esmeralda**: atmósfera verde translúcida sobre continentes volcánicos oscuros y mares turbios; actividad tectónica y resplandores de lava en el lado nocturno; en órbita, una **luna fracturada** (Praxis) rodeada de un brillante anillo de escombros; ambiente severo, marcial y dramático. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Risa · **imaginario (filmografía)** · *Star Trek* (planeta-paraíso)
+### Risa · **imaginario (filmografía)** · *Star Trek* (planeta-paraíso) OK
 
 > Planeta-paraíso tropical: océanos de un azul turquesa luminoso salpicados de **archipiélagos verdes y atolones**, cielos despejados y clima idílico (controlado artificialmente); nubes cálidas dispersas y una luz dorada de resort; aspecto acogedor, sereno y placentero. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Romulus · **imaginario (filmografía)** · *Star Trek*
+### Romulus · **imaginario (filmografía)** · *Star Trek OK*
 
 > Mundo verde y templado, de atmósfera con un sutil **tinte esmeralda**, continentes boscosos y mares azul-verdosos; junto a él, su planeta hermano **Remus**, más oscuro, frío y medio en sombra, formando un sistema binario; luz lateral dramática, estética severa y elegante. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Vulcano · **imaginario (filmografía)** · *Star Trek*
+### Vulcano · **imaginario (filmografía)** · *Star Trek OK*
 
 > Mundo desértico y caluroso (**Vulcan**): esfera de tonos rojizos, ocres y anaranjados, con vastos desiertos, cordilleras escarpadas y apenas agua; atmósfera fina de tinte rojizo; luz intensa de una estrella cercana; aspecto árido, antiguo y austero, de sabiduría mineral. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-## Gran Nube de Magallanes
+## Gran Nube de Magallanes OK
 
 ### Miranda · **imaginario (filmografía)** · *Firefly / Serenity*
 
 > Mundo **terraformado** de tipo terrestre: océanos azules y continentes verdes bajo una atmósfera limpia y luminosa; sobre el lado nocturno, delicadas retículas de **luces de ciudades tecnológicas** y **estaciones orbitales** relucientes; belleza serena, casi becalmada, de utopía silenciosa; iluminación pulcra y brillante. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Mül · **imaginario (filmografía)** · *Valerian* (el planeta-perla)
+### Mül · **imaginario (filmografía)** · *Valerian* (el planeta-perla) OK
 
-> Mundo-perla paradisíaco: vastísimos **bajíos de agua turquesa y aguamarina** sobre arenas blancas y nacaradas, islas suaves y lagunas iridiscentes; atmósfera de tonos pastel —rosa, lavanda y oro— al amanecer; luz suave y difusa, con un **brillo perlado y onírico** en toda la escena; serenidad utópica. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
+> Mundo-perla paradisíaco: vastísimos **bajíos de agua turquesa y aguamarina** sobre arenas blancas y nacaradas, islas suaves y lagunas iridiscentes; atmósfera de tonos pastel —rosa, lavanda y oro— al amanecer; luz suave y difusa, con un **brillo perlado y onírico** en toda la escena; serenidad utópica. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
 ## Pequeña Nube de Magallanes
 
-### Kobol · **imaginario (filmografía)** · *Battlestar Galactica*
+### Kobol · **imaginario (filmografía)** · *Battlestar Galactica OK*
 
 > Mundo de tipo terrestre de aspecto **antiguo y misterioso**: continentes verdes cubiertos de vegetación densa y océanos azules, con bruma y nubes dispersas; el lado nocturno permanece **a oscuras** (mundo abandonado, sin luces de ciudad); atmósfera evocadora, con la sensación de ser una cuna olvidada de la humanidad. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Mann · **imaginario (filmografía)** · *Interstellar*
+### Mann · **imaginario (filmografía)** · *Interstellar OK*
 
 > Planeta helado y nublado: esfera **blanca y gris azulado** envuelta en gruesas capas de nubes congeladas, con una superficie de hielo perpetuo, sin agua líquida ni vegetación; luz débil y fría de una estrella lejana; aspecto gélido, remoto y silencioso, de belleza inhóspita. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Miller · **imaginario (filmografía)** · *Interstellar*
+### Miller · **imaginario (filmografía)** · *Interstellar OK*
 
 > Mundo **oceánico global**: superficie de agua somera y brillante que cubre todo el planeta, con reflejos plateados y enormes crestas de olas recorriéndolo; al fondo, dominando el cielo, un **agujero negro supermasivo** con su disco de acreción dorado curvándose sobre sí mismo (estilo *Gargantúa*), que dobla y distorsiona la luz a su alrededor; iluminación intensa y sobrecogedora. *Vista orbital a media distancia, encuadre 16:9; luz rasante que perfila la atmósfera; fondo de espacio profundo con campo de estrellas y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Zegema Beach · **imaginario (filmografía)** · *Starship Troopers* (mundo-balneario)
+### Zegema Beach · **imaginario (filmografía)** · *Starship Troopers* (mundo-balneario) OK
 
 > Mundo-balneario tropical: océanos turquesa cálidos con largas **cadenas de islas** de arena blanca, lagunas cristalinas y franjas de selva costera; cielos despejados y soleados, con luz dorada de vacaciones; en un extremo del planeta, unas **nubes de tormenta lejanas** introducen una sutil sombra ominosa (la amenaza latente que acabaría cayendo sobre este paraíso); aire de folleto turístico cósmico. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
