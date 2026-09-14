@@ -71,19 +71,19 @@ Descripción de las imágenes **ya existentes**, para fijar el estilo.
 
 ## Vía Láctea
 
-### Júpiter · **planeta real** · gigante gaseoso
+### Júpiter · **planeta real** · gigante gaseoso OK
 
 > El planeta real **Júpiter** visto desde el espacio: gigante gaseoso surcado por bandas paralelas de nubes crema, ocre, marrón y blanco (cinturones y zonas), con la **Gran Mancha Roja** como un enorme remolino ovalado; turbulencias, festones y tormentas ciclónicas en la atmósfera; a un lado, una o dos lunas galileanas como pequeños discos —**Ío**, anaranjada y volcánica, y **Europa**, helada y agrietada—; retroiluminado por el Sol, con un fino arco de luz en el limbo. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### Klendathu · **imaginario (filmografía)** · *Starship Troopers*
+### Klendathu · **imaginario (filmografía)** · *Starship Troopers OK*
 
 > Mundo hostil y árido: esfera de tonos pardo-anaranjados y óxido, superficie de cañones, mesetas rocosas y vastas llanuras desérticas surcadas por formaciones que recuerdan a colonias y madrigueras excavadas; atmósfera enrarecida de tinte rojizo; el planeta está rodeado por un **cinturón de escombros y asteroides** en órbita; luz dura, sombras marcadas y ambiente claramente amenazador. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### LV-223 · **imaginario (filmografía)** · *Prometheus*
+### LV-223 · **imaginario (filmografía)** · *Prometheus OK*
 
 > Luna rocosa gris y estéril, castigada por tormentas: montañas escarpadas y llanuras de roca oscura bajo un cielo tormentoso, con nubes de polvo y relámpagos en su atmósfera tenue; la luna **orbita un gran gigante gaseoso anillado** que domina buena parte del fondo; paleta fría gris-azulada y ambiente opresivo, de descubrimiento inquietante. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
-### LV-426 (Acheron) · **imaginario (filmografía)** · *Alien / Aliens*
+### LV-426 (Acheron) · **imaginario (filmografía)** · *Alien / Aliens OK*
 
 > Luna desolada azotada por tormentas perpetuas: esfera gris-azulada envuelta en densas nubes arremolinadas y bruma, con la superficie rocosa apenas visible entre los sistemas de tormenta; al fondo, el **gigante gaseoso Calpamos** y una luna hermana; iluminación lúgubre, dominante azul frío y una intensa sensación de aislamiento y desamparo. *Vista orbital a media distancia, encuadre 16:9; luz rasante de una estrella fuera de cuadro que perfila la atmósfera; fondo de espacio profundo con campo de estrellas, Vía Láctea y galaxias lejanas; fotorrealista, gran resolución, iluminación volumétrica, concept-art astronómico cinematográfico; sin texto ni marcas de agua.*
 
