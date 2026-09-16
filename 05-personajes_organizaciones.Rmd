@@ -24,7 +24,7 @@ Antiguo oficial de logística de la *Federación de Rutas Espaciales de Andróme
 
 ### Li Ti-Oh. {#li-ti-oh}
 
-Experta en transporte interestelar, radicada en Tatooine (Andrómeda). Autora del principal informe sectorial del año 2210 sobre orígenes, fortalezas y debilidades del comercio logístico. Sus análisis son de lectura obligada en las escuelas de negocio del sector.
+Experta en transporte interestelar, radicada en Tatooine (Andrómeda). Autora del principal informe sectorial del año 2150 sobre orígenes, fortalezas y debilidades del comercio logístico. Sus análisis son de lectura obligada en las escuelas de negocio del sector.
 
 ## La escuela AITM. {#escuela-aitm}
 
@@ -75,7 +75,7 @@ Organismo de **supervisión financiera** del sector, creado como brazo auditor i
 
 ### Autoridad Galáctica de Transporte Interestelar (AGTI). {#agti}
 
-Organismo encargado de la **concesión de licencias de operación** en rutas intergalácticas de alto valor estratégico. Sus procesos son especialmente estrictos en las rutas Coruscant–Arrakis y similares, donde la seguridad de la especia condiciona toda la logística del sector.
+Organismo encargado de la **concesión de licencias de operación** en rutas intergalácticas de alto valor estratégico. Sus procesos son especialmente estrictos en las rutas Coruscant–Arrakis y similares —que cruzan la **Gran Travesía**—, donde la seguridad de la especia condiciona toda la logística del sector.
 
 ### Federación de Rutas Espaciales de Andrómeda. {#fre-andromeda}
 

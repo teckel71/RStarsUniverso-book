@@ -319,7 +319,7 @@ for (k in names(roles)) {
 cat('</tbody></table></div>\n')
 ```
 
-Conviene recordar, por último, que muchos otros nombres del sector (*Nova Haulers*, *ExoCargo Alliance*, *Death Star Deliveries*, *Millennium Haulage*, *Tantive IV Cargo*, *Serenity Cargo Co.*…) no protagonizan ejercicios, sino que pueblan la base como **guiños** cinematográficos y literarios; su catálogo completo, con sus fuentes de inspiración, se recoge en el capítulo de Guiños (cap. 8).
+Conviene recordar, por último, que muchos otros nombres del sector (*Death Star Deliveries*, *Millennium Haulage*, *Tantive IV Cargo*, *Serenity Cargo Co.*…) no protagonizan ejercicios, sino que pueblan la base como **guiños** cinematográficos y literarios; su catálogo completo, con sus fuentes de inspiración, se recoge en el capítulo de Guiños (cap. 8).
 
 ## Los tres grandes astilleros. {#astilleros}
 
