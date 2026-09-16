@@ -42,6 +42,13 @@ El efecto sobre la agenda espacial fue radical: lo que se había concebido como 
 
 ## El hallazgo de Arrakis (c. 2110). {#hallazgo-arrakis}
 
+```{r video-tierra-arrakis, echo=FALSE, results='asis'}
+insertar_youtube(
+  id     = "iimtubUF9Zg",
+  titulo = "Tierra-Arrakis: un viaje de 150 000 años luz en un minuto."
+)
+```
+
 Durante las expediciones exploratorias de finales del siglo XXI, una de las primeras naves *warp* que se aventuró más allá del brazo de Orión detectó una **anomalía isotópica** en la señal espectrográfica de una lejana nube molecular con dirección a la Gran Nube de Magallanes. La firma coincidía, con inquietante precisión, con la de la proto-especia sintética que impulsaba a la propia nave —salvo que la señal era treinta órdenes de magnitud más intensa—.
 
 Rastreando el origen —una travesía al límite absoluto de la proto-especia, posible solo porque la Gran Nube de Magallanes, a unos 160.000 años luz, es la galaxia vecina más próxima—, los exploradores llegaron a **Arrakis**, un planeta desértico cuyas capas geológicas estaban literalmente saturadas de **especia natural**: un isómero de melangium mucho más puro y estable que cualquier síntesis lograda en laboratorio. Con especia natural, la escala del sector cambió de la noche a la mañana: las dos Nubes de Magallanes quedaban a pocos días de viaje, y Andrómeda y el Triángulo, al otro lado de la **Gran Travesía**, a unas semanas subjetivas. La era **intergaláctica** del transporte había comenzado.
@@ -65,7 +72,7 @@ En 2137, apenas dos años después del TLCI, el analista **Dr. Sagan Olbers** ac
 ```{r video-steiner-olbers, echo=FALSE, results='asis'}
 insertar_youtube(
   id     = "jzyDcOVfXMQ",
-  titulo = "Conversación Steiner-Olbers sobre la Base de Datos Interestelar"
+  titulo = "Conversación Steiner-Olbers sobre la Base de Datos Interestelar."
 )
 ```
 
