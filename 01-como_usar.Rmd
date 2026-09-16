@@ -17,13 +17,13 @@ source("_common.R")
 
 *R-Stars* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Se basa en la generación de un entorno de aprendizaje integral y coherente, aprovechando las herramientas de *Inteligencia Artificial*, con las que se interactúa de forma consistente para crear este entorno, de modo creativo y funcional. De esta manera, las palabras claves que podrían definir este proyecto son:
 
-**Creatividad, inteligencia artificial, innovación docente, entorno de aprendizaje.**
+*Creatividad, inteligencia artificial, innovación docente, entorno de aprendizaje.*
 
 Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde, entre otras cosas, se recoge la instalación básica de R y RStudio, y se listan los materiales originales del propio proyecto.
 
 ```{r video-miguel-rstars, echo=FALSE, results='asis'}
 insertar_youtube(
-  id     = "PPbNrEfSkKI",
+  id     = "JgB2Yt76G9k",
   titulo = "¿Qué es R-Stars? En pocas palabras..."
 )
 ```
@@ -34,7 +34,7 @@ En las labores docentes en diferentes asignaturas de la disciplina de Economía 
 
 -   No siempre se tiene acceso a datos adaptados, por su naturaleza o comportamiento estadístico, a los aprendizajes que se desean transmitir (ejemplo: estudiar las consecuencias que se extraen del análisis de una variable económica con una distribución campaniforme de “colas” pesadas).
 
--   A veces, los datos que se utilizaban en las clases de supuestos prácticos procedían de fuentes restringidas en su acceso y uso, lo que impedía generar materiales de libre acceso por la utilización de dichos datos (ejemplo: publicación de un capítulo de libro en el que se utilicen en un caso práctico datos de empresas reales de SABI u otras fuentes de acceso restringido).
+-   A veces, los datos que se utilizaban en las clases de supuestos prácticos procedían de fuentes restringidas en su difusión y uso, lo que impedía generar materiales de libre acceso por la utilización de dichos datos (ejemplo: publicación de un capítulo de libro en el que se utilicen en un caso práctico datos de empresas reales de SABI u otras fuentes de acceso restringido).
 
 El desarrollo de las herramientas de inteligencia artificial ha permitido crear algo hasta hace poco impensable: la generación de datos en masa que simulen casos reales, adaptados a los aspectos que se quieren tratar en las clases; pero con el suficiente grado de incertidumbre e incluso de “imperfecciones” que permitan asemejarse a un entorno de aprendizaje con un elevado grado de realismo.
 
@@ -46,18 +46,17 @@ No. La creación de la base de datos amplia, con capacidad para ser utilizada en
 
 En la actualidad, los elementos que constituyen el proyecto son:
 
--	Los datasets: https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro..html
+-   Los datasets: <https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro>..html
 
--	Dos manuales docentes cuyos ejemplos y prácticas se encuadran en el proyecto:
+-   Dos manuales docentes cuyos ejemplos y prácticas se encuadran en el proyecto:
 
-  -	Estadística Empresarial:  https://teckel71.github.io/EstadisticaEmpresarial-book/ 
+    -   Estadística Empresarial: <https://teckel71.github.io/EstadisticaEmpresarial-book/>
 
-  - R-Stars: La Guía (analítica de datos con R): https://teckel71.github.io/RStars-book/index.html
+    -   R-Stars: La Guía (analítica de datos con R): <https://teckel71.github.io/RStars-book/index.html>
 
--	Un libro “narrativo” de descripción del entorno de aprendizaje: personajes, cronologías, organizaciones, etc.: R-Stars, el Universo: https://teckel71.github.io/RStarsUniverso-book/
+-   Un libro “narrativo” de descripción del entorno de aprendizaje: personajes, cronologías, organizaciones, etc.: R-Stars, el Universo: <https://teckel71.github.io/RStarsUniverso-book/>
 
--	Una lista de vídeos cortos complementarios al “Universo” y de apoyo a los ejemplos de los libros: https://www.youtube.com/playlist?list=PLNUC4VF1PQlY
-
+-   Una lista de vídeos cortos complementarios al “Universo” y de apoyo a los ejemplos de los libros: <https://www.youtube.com/playlist?list=PLNUC4VF1PQlY>
 
 Todos los libros del proyecto son de acceso gratuito, están escritos en R Markdown con **bookdown** y publicados como sitios estáticos en GitHub Pages. La coherencia entre ellos es deliberada: comparten estética, tratamiento tipográfico y, sobre todo, el universo narrativo *R-Stars* que motiva este texto.
 
