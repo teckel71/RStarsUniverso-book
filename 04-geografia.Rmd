@@ -17,13 +17,22 @@ El universo conocido de *R-Stars* abarca **cinco galaxias**, cada una con sus mu
 
 ## Las cinco galaxias. {#cinco-galaxias}
 
+![*Vía Láctea.*](figuras/Via_Lactea.jpg){.portada-img width="100%"}
 - **Vía Láctea.** Galaxia espiral de tamaño medio. Sigue siendo el centro administrativo del sector por razones históricas (aquí nació la humanidad) más que por razones logísticas. Alberga la Tierra, Pandora y buena parte de las oficinas centrales de las compañías más antiguas.
+
+![*Galaxia de Andrómeda.*](figuras/Andromeda.jpg){.portada-img width="100%"}
 
 - **Galaxia de Andrómeda (M31).** Galaxia espiral, la más poblada del sector en número de mundos habitados. Andrómeda es hoy el verdadero **motor comercial** del universo *R-Stars*: en ella se encuentran Tatooine, Mustafar y la sede de la *Federación de Rutas Espaciales*.
 
+![*Galaxia del Triángulo.*](figuras/Triangulo.jpg){.portada-img width="100%"}
+
 - **Galaxia del Triángulo (M33).** Galaxia espiral menor. Menos poblada, pero estratégicamente situada entre la Vía Láctea y Andrómeda; muchas rutas intergalácticas la utilizan como escala técnica.
 
+![*Gran Nube de Magallones.*](figuras/G_Magallanes.jpg){.portada-img width="100%"}
+
 - **Gran Nube de Magallanes (LMC).** Galaxia irregular, rica en gas y con intensa formación estelar. Aloja **Arrakis** —y, por tanto, la práctica totalidad de la producción de especia— y una nutrida colonia de mundos mineros. El *Cinturón de Magallanes* que la rodea es célebre por sus tormentas de radiación.
+
+![*Pequeña Nube de Magallones.*](figuras/P_Magallanes.jpg){.portada-img width="100%"}
 
 - **Pequeña Nube de Magallanes (SMC).** Galaxia irregular, satélite de la anterior. Frontera efectiva del sector: más allá empieza el territorio no cartografiado, todavía objeto de expediciones especulativas.
 
