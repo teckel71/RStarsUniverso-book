@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 ```
 
 ![*Trescientas compañías, tres astilleros y un mercado que nunca duerme.*](figuras/06_companias.jpg){.portada-img width="100%"}
-
+<div style="height: 1rem;"></div>
 
 Trescientas compañías activas mueven casi ciento diez mil rutas anuales en cinco galaxias. Nadie las conoce todas —ni siquiera los analistas de la AITM las citan a diario—; pero un puñado de ellas concentra buena parte de las cabeceras del sector, y aparece de forma recurrente en los ejercicios de los manuales. Este capítulo repasa esas compañías, y presenta con algo más de detalle a los tres grandes fabricantes de cargueros: *Korrigan Heavy Works*, *Selene Dynamics* y *Arcturus Shipyards*.
 
