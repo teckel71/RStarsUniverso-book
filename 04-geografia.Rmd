@@ -11,33 +11,38 @@ knitr::opts_chunk$set(
 ```
 
 ![*Cinco galaxias, treinta planetas y una cantidad razonable de trámites aduaneros.*](figuras/mapa_galactico_final.jpg){.portada-img width="100%"}
+
 <div style="height: 1rem;"></div>
 
 El universo conocido de *R-Stars* abarca **cinco galaxias**, cada una con sus mundos, sus rutas y sus peculiaridades culturales. Conviene tener presente que las distancias, incluso con especia natural, siguen siendo considerables: una ruta intergaláctica típica implica varias semanas subjetivas de tránsito y una lista sorprendentemente larga de trámites aduaneros.
 
 ## Las cinco galaxias. {#cinco-galaxias}
 
-Las cinco galaxias que acogen el sector de transporte de mercancías interestelar integran el Sistema de Local de Galaxias, que son:
+Las cinco galaxias que acogen el sector de transporte de mercancías interestelar forman parte del **Grupo Local**, un conjunto de más de ochenta galaxias ligadas gravitatoriamente en el que Andrómeda y la Vía Láctea son, con diferencia, las dos mayores.
+
+Aunque los mapas comerciales las presentan como un bloque, las cinco galaxias no están repartidas de forma homogénea, sino agrupadas en dos **«barrios»** separados por un enorme vacío. En el primero, la **Vía Láctea** está escoltada por sus dos satélites: la **Gran Nube de Magallanes**, a unos 160.000 años luz, y la **Pequeña Nube de Magallanes**, a unos 200.000; ambas Nubes distan entre sí apenas 75.000 años luz. En el segundo, **Andrómeda** y la **Galaxia del Triángulo** forman una pareja casi igual de estrecha, con unos 750.000 años luz de separación. Entre los dos barrios median cerca de **2,5 millones de años luz** —prácticamente los mismos desde la Vía Láctea que desde las Nubes—: es la *Gran Travesía*, la ruta más larga, cara y rentable del sector, y el eje sobre el que gira buena parte de su negocio. Los cartógrafos del sector recuerdan, con cierta sorna, que la Gran Travesía se acorta unos 110 kilómetros cada segundo, porque Andrómeda y la Vía Láctea se aproximan la una a la otra y acabarán fusionándose dentro de unos 4.500 millones de años; ninguna aseguradora ofrece, de momento, pólizas a ese plazo.
+
+Estas son las cinco galaxias, ordenadas por barrios:
 
 ![*Vía Láctea.*](figuras/Via_Lactea.jpg){.portada-img width="100%"}
 
-- **Vía Láctea.** Galaxia espiral de tamaño medio. Sigue siendo el centro administrativo del sector por razones históricas (aquí nació la humanidad) más que por razones logísticas. Alberga la Tierra, Pandora y buena parte de las oficinas centrales de las compañías más antiguas.
-
-![*Galaxia de Andrómeda.*](figuras/Andromeda.jpg){.portada-img width="100%"}
-
-- **Galaxia de Andrómeda (M31).** Galaxia espiral, la más poblada del sector en número de mundos habitados. Andrómeda es hoy el verdadero **motor comercial** del universo *R-Stars*: en ella se encuentran Tatooine, Mustafar y la sede de la *Federación de Rutas Espaciales*.
-
-![*Galaxia del Triángulo.*](figuras/Triangulo.jpg){.portada-img width="100%"}
-
-- **Galaxia del Triángulo (M33).** Galaxia espiral menor. Menos poblada, pero estratégicamente situada entre la Vía Láctea y Andrómeda; muchas rutas intergalácticas la utilizan como escala técnica.
+**Vía Láctea.** Galaxia espiral barrada de unos 100.000 años luz de diámetro y entre 100.000 y 400.000 millones de estrellas; el Sol orbita a unos 26.000 años luz de su centro, donde se oculta el agujero negro supermasivo Sagitario A\*. Sigue siendo el **centro administrativo** del sector por razones históricas (aquí nació la humanidad) más que logísticas: queda en un extremo del mapa comercial, y cualquier envío a Andrómeda exige afrontar la Gran Travesía. Con **ocho planetas** es la galaxia con más mundos del catálogo y, empatada con Andrómeda, la que más compañías acoge (**84**). Alberga la **Tierra**, la **Luna** y **Pandora** —base de flota de *Selene Dynamics*—, la colonia industrial de **Júpiter**, **Klendathu** —base de *Korrigan Heavy Works* y, a la vez, una de las «zonas rojas» de piratería del sector— y los inquietantes **LV-223**, **LV-426** y **Planet P**. Aquí mantienen también sus oficinas centrales buena parte de las compañías más antiguas.
 
 ![*Gran Nube de Magallanes.*](figuras/G_Magallanes.jpg){.portada-img width="100%"}
 
-- **Gran Nube de Magallanes (LMC).** Galaxia irregular, rica en gas y con intensa formación estelar. Aloja **Arrakis** —y, por tanto, la práctica totalidad de la producción de especia— y una nutrida colonia de mundos mineros. El *Cinturón de Magallanes* que la rodea es célebre por sus tormentas de radiación.
+**Gran Nube de Magallanes (LMC).** Galaxia irregular y mayor satélite de la Vía Láctea, a unos 160.000 años luz y con unos 30.000 de diámetro. Rica en gas, contiene la **Nebulosa de la Tarántula**, la región de formación estelar más activa de todo el Grupo Local, y en 1987 fue escenario de la supernova más cercana observada desde 1604. En *R-Stars* es la galaxia de la especia: aloja **Arrakis** —y, con él, la práctica totalidad de la producción de especia—, además de **Mül**, **Miranda** —sede de *Hyperdrive Express*— y **Fhloston Paradise**. Con solo cuatro planetas reúne 52 compañías y **tres bases de astillero** (*Arcturus Shipyards* en Arrakis y Mül, *Selene Dynamics* en Miranda), la mayor densidad industrial del sector. El *Cinturón de Magallanes*, nombre que los pilotos dan al **Puente de Magallanes** —el filamento de gas que une ambas Nubes—, es célebre por sus tormentas de radiación.
 
 ![*Pequeña Nube de Magallanes.*](figuras/P_Magallanes.jpg){.portada-img width="100%"}
 
-- **Pequeña Nube de Magallanes (SMC).** Galaxia irregular, satélite de la anterior. Frontera efectiva del sector: más allá empieza el territorio no cartografiado, todavía objeto de expediciones especulativas.
+**Pequeña Nube de Magallanes (SMC).** Galaxia enana irregular, a unos 200.000 años luz, con apenas 7.000 de diámetro y unos pocos cientos de millones de estrellas; su forma desordenada se debe en buena parte a los tirones gravitatorios de la Gran Nube y de la Vía Láctea. Es la galaxia menos desarrollada del sector: **cuatro planetas** —el histórico **Kobol**, **Mann**, **Miller** y **Zegema Beach**—, solo 33 compañías y **ningún astillero con base de flota**. Su carácter periférico no se debe a la distancia, sino a la falta de inversión: pese a quedar a un paso de la Vía Láctea, vive a la sombra de su hermana mayor, y **Miller** arrastra una reputación de piratería que encarece cualquier ruta que la atraviese. De sus puertos parten, eso sí, las expediciones que remontan la **Corriente de Magallanes**, la larga estela de gas que las dos Nubes dejan tras de sí.
+
+![*Galaxia de Andrómeda.*](figuras/Andromeda.jpg){.portada-img width="100%"}
+
+**Galaxia de Andrómeda (M31).** La mayor galaxia del Grupo Local: una espiral de unos 220.000 años luz de diámetro y cerca de un billón de estrellas, situada a unos 2,5 millones de años luz y visible a simple vista desde la Tierra en noches oscuras. Es el verdadero **motor comercial** de *R-Stars*: con siete planetas iguala a la Vía Láctea en compañías (**84**), pero concentra los grandes puertos del sector —**Tatooine** (17 compañías), **Coruscant** y **Naboo** (16 cada uno)— y **cuatro de las doce bases de astillero**, más que ninguna otra galaxia: *Selene Dynamics* en Coruscant, *Korrigan Heavy Works* en Hoth y Mustafar, y *Arcturus Shipyards* en Tatooine. Completan la nómina **Dagobah**, **Endor**, la helada **Hoth** y la inestable **Mustafar**. En Andrómeda tiene también su sede la *Federación de Rutas Espaciales*.
+
+![*Galaxia del Triángulo.*](figuras/Triangulo.jpg){.portada-img width="100%"}
+
+**Galaxia del Triángulo (M33).** Tercera galaxia del Grupo Local en tamaño: una espiral de unos 60.000 años luz y unos 40.000 millones de estrellas, a unos 2,7 millones de años luz de la Tierra y a solo 750.000 de Andrómeda, de la que probablemente es satélite. Alberga **NGC 604**, una de las mayores regiones de formación estelar conocidas. Menos poblada que su vecina —47 compañías repartidas en siete planetas—, funciona como su **retaguardia logística**: muchas rutas internas del barrio de Andrómeda hacen en ella escala técnica, y reparte tres bases de astillero (*Arcturus Shipyards* en Nueva Caprica, *Selene Dynamics* en Risa y *Korrigan Heavy Works* en Romulus). Reúne además varios mundos históricos y diplomáticos —**Vulcano**, **Qo'noS**, **Romulus**, **Caprica** y **Nueva Caprica**—, el destino vacacional de **Risa** y la enigmática **La Tierra (Final)**.
 
 ## Planetas destacados. {#planetas}
 
@@ -173,10 +178,10 @@ catalogo <- tribble(
   "Pequeña Nube de Magallanes", "Zegema Beach", "Zegema_Beach.png", "Batty Haulage; Belter Haulage; Chekov Freight Lines; Cosmic Freights; Darth Vader Logistics; Millennium Haulage; Promethean Cargo Lines", NA
 )
 
-# Orden de galaxias, de dentro hacia la periferia del sector.
-orden_galaxias <- c("Vía Láctea", "Galaxia de Andrómeda",
-                     "Galaxia del Triángulo", "Gran Nube de Magallanes",
-                     "Pequeña Nube de Magallanes")
+# Orden de galaxias por barrios: Vía Láctea y sus satélites; Andrómeda y el Triángulo.
+orden_galaxias <- c("Vía Láctea", "Gran Nube de Magallanes",
+                     "Pequeña Nube de Magallanes", "Galaxia de Andrómeda",
+                     "Galaxia del Triángulo")
 ```
 
 ```{r catalogo-tablas, results='asis'}
@@ -222,7 +227,7 @@ for (g in orden_galaxias) {
 cat('</div>\n')
 ```
 
-En conjunto, el sector suma **300 compañías** de transporte repartidas por los treinta mundos, con Tatooine, Coruscant y Naboo a la cabeza en número de sedes, y **doce planetas** que acogen la base de flota de alguno de los tres astilleros. Los mundos sin astillero propio no carecen de cargueros —los reciben de los tres grandes fabricantes—, pero no figuran como puerto base de ninguna de sus naves en la muestra de la base `astilleros_48`.
+En conjunto, el sector suma **300 compañías** de transporte repartidas por los treinta mundos, con Tatooine y Klendathu (17 sedes cada uno) a la cabeza, seguidos de Coruscant y Naboo (16), y **doce planetas** que acogen la base de flota de alguno de los tres astilleros. Los mundos sin astillero propio no carecen de cargueros —los reciben de los tres grandes fabricantes—, pero no figuran como puerto base de ninguna de sus naves en la muestra de la base `astilleros_48`.
 
 ## Zonas de riesgo y nuevas fronteras. {#riesgos-fronteras}
 
