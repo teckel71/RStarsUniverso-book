@@ -15,7 +15,11 @@ source("_common.R")
 
 ## Qué es R-Stars. {#que-es-rstars}
 
-*R-Stars* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde se recoge la instalación básica de R y RStudio, se proponen manuales para comenzar, y se listan los materiales originales del propio proyecto.
+*R-Stars* es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Se basa en la generación de un entorno de aprendizaje integral y coherente, aprovechando las herramientas de *Inteligencia Artificial*, con las que se interactúa de forma consistente para crear este entorno, de modo creativo y funcional. De esta manera, las palabras claves que podrían definir este proyecto son:
+
+**Creatividad, inteligencia artificial, innovación docente, entorno de aprendizaje.**
+
+Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de **R** como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <https://blog.uclm.es/miguelangeltarancon/r-teca/>, donde, entre otras cosas, se recoge la instalación básica de R y RStudio, y se listan los materiales originales del propio proyecto.
 
 ```{r video-miguel-rstars, echo=FALSE, results='asis'}
 insertar_youtube(
@@ -24,13 +28,36 @@ insertar_youtube(
 )
 ```
 
-Dentro de R-Stars, los materiales originales están organizados como **libros bookdown** publicados en GitHub Pages. En el momento de escribir estas líneas los libros disponibles son:
+## Cómo nace R-Stars. {#como-nace-rstars}
 
-- **R-Stars: La Guía** (<https://teckel71.github.io/RStars-book/>). Guía práctica del uso de R para análisis de datos y modelización econométrica. Cubre desde el almacenamiento y la manipulación de datos hasta las técnicas de análisis multivariante y mapeado perceptual.
+En las labores docentes en diferentes asignaturas de la disciplina de Economía y ADE, y más concretamente en el área de la **Economía Cuantitativa y la Analítica de Datos**, surgió la necesidad de crear materiales docentes que contribuyeran a adquirir las competencias y habilidades asociadas mediante un modo empírico, práctico y didáctico, utilizando el lenguaje estadístico R. Al generar estos materiales, emergieron diversas limitaciones:
 
-- **Estadística Empresarial** (<https://teckel71.github.io/EstadisticaEmpresarial-book/>). Manual teórico-práctico de la asignatura *Estadística Empresarial* del Grado en Administración y Dirección de Empresas de la Universidad de Castilla-La Mancha.
+-   No siempre se tiene acceso a datos adaptados, por su naturaleza o comportamiento estadístico, a los aprendizajes que se desean transmitir (ejemplo: estudiar las consecuencias que se extraen del análisis de una variable económica con una distribución campaniforme de “colas” pesadas).
 
-- **R-Stars: El Universo** (este libro). Guía divulgativa del marco narrativo compartido por todos los manuales anteriores.
+-   A veces, los datos que se utilizaban en las clases de supuestos prácticos procedían de fuentes restringidas en su acceso y uso, lo que impedía generar materiales de libre acceso por la utilización de dichos datos (ejemplo: publicación de un capítulo de libro en el que se utilicen en un caso práctico datos de empresas reales de SABI u otras fuentes de acceso restringido).
+
+El desarrollo de las herramientas de inteligencia artificial ha permitido crear algo hasta hace poco impensable: la generación de datos en masa que simulen casos reales, adaptados a los aspectos que se quieren tratar en las clases; pero con el suficiente grado de incertidumbre e incluso de “imperfecciones” que permitan asemejarse a un entorno de aprendizaje con un elevado grado de realismo.
+
+Este es el corazón de R-Stars: una base de datos inicial de 300 casos x 28 variables técnicas/económicas. Todas las variables forman un sistema coherente desde el punto de vista contable y técnico/económico, y se han generado con reglas de comportamiento estadístico que incluyen diferente nivel de incertidumbre, casos atípicos, casos faltantes, y la casuística habitual en bases de datos reales. Posteriormente, esta base de datos se ha ampliado con [nuevos conjuntos de datos (datasets)](https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro..html "Bases de Datos R-Stars") pertenecientes al mismo entorno del proyecto. En definitiva, en la actualidad la masa de datos es de unos 10537 datos. Para que esta masa de datos tuviera sentido y pudiera ser analizado adecuadamente por los estudiantes, era necesario crear un contexto. Este marco fue quizá espurio, pero con margen para expandir casi sin límite la creatividad y, por qué no, estimulante: el sector del transporte de mercancías… *interestelar*.
+
+## **¿R-Stars es solo un conjunto de datos generados mediante inteligencia artificial?** {#no-solo-datos-rstars}
+
+No. La creación de la base de datos amplia, con capacidad para ser utilizada en supuestos de la analítica de datos y, a la vez, con alto grado de realismo, fue el germen. Pero el contexto que sirviese para interpretar los resultados de la analítica requería de una materialización, así como la intención de crear un entorno de aprendizaje integral. Por tanto, en el proyecto se integran otros elementos adicionales a los datos. El reto, además, era, para este cometido, seguir empleando herramientas de inteligencia artificial con el objetivo de evaluar su potencial para crear un entorno integral y coherente.
+
+En la actualidad, los elementos que constituyen el proyecto son:
+
+-	Los datasets: https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro..html
+
+-	Dos manuales docentes cuyos ejemplos y prácticas se encuadran en el proyecto:
+
+  -	Estadística Empresarial:  https://teckel71.github.io/EstadisticaEmpresarial-book/ 
+
+  - R-Stars: La Guía (analítica de datos con R): https://teckel71.github.io/RStars-book/index.html
+
+-	Un libro “narrativo” de descripción del entorno de aprendizaje: personajes, cronologías, organizaciones, etc.: R-Stars, el Universo: https://teckel71.github.io/RStarsUniverso-book/
+
+-	Una lista de vídeos cortos complementarios al “Universo” y de apoyo a los ejemplos de los libros: https://www.youtube.com/playlist?list=PLNUC4VF1PQlY
+
 
 Todos los libros del proyecto son de acceso gratuito, están escritos en R Markdown con **bookdown** y publicados como sitios estáticos en GitHub Pages. La coherencia entre ellos es deliberada: comparten estética, tratamiento tipográfico y, sobre todo, el universo narrativo *R-Stars* que motiva este texto.
 
@@ -40,9 +67,9 @@ Los manuales técnicos del proyecto usan el universo *R-Stars* como fuente de ej
 
 **Este libro es el "sitio de referencia" del universo.** Sirve, alternativamente, para:
 
-- **Leerlo antes**, de corrido, como una novela corta divulgativa que da contexto y hace que los manuales se disfruten más.
-- **Consultarlo puntualmente** desde los manuales cada vez que aparece un nombre propio nuevo (una empresa, un planeta, un personaje, una organización).
-- **Explorarlo por curiosidad**, con o sin manuales delante, como quien hojea la guía de un juego de rol o el "worldbook" de una saga.
+-   **Leerlo antes**, de corrido, como una novela corta divulgativa que da contexto y hace que los manuales se disfruten más.
+-   **Consultarlo puntualmente** desde los manuales cada vez que aparece un nombre propio nuevo (una empresa, un planeta, un personaje, una organización).
+-   **Explorarlo por curiosidad**, con o sin manuales delante, como quien hojea la guía de un juego de rol o el "worldbook" de una saga.
 
 Ninguno de los tres modos de lectura es superior a los otros. El libro está pensado para tolerar los tres.
 
@@ -54,16 +81,16 @@ El libro se divide en tres partes:
 
 **Parte II — El universo R-Stars.** El corazón del libro. Recorre, en un orden razonable, todo lo que hay que saber sobre el universo para moverse con soltura por los manuales:
 
-- La **cronología** del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2150.
-- La **física del plasma warp** (Cap. 3), para quien quiera saber por qué las naves de este universo se mueven a la velocidad a la que se mueven.
-- La **geografía galáctica** (Cap. 4): cinco galaxias, treinta planetas, sus zonas de riesgo y sus fronteras.
-- Los **personajes y organizaciones** (Cap. 5): dramatis personae del sector y las instituciones que lo regulan.
-- Las **compañías y astilleros** (Cap. 6): las principales empresas del transporte interestelar y los tres grandes fabricantes de cargueros.
+-   La **cronología** del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2150.
+-   La **física del plasma warp** (Cap. 3), para quien quiera saber por qué las naves de este universo se mueven a la velocidad a la que se mueven.
+-   La **geografía galáctica** (Cap. 4): cinco galaxias, treinta planetas, sus zonas de riesgo y sus fronteras.
+-   Los **personajes y organizaciones** (Cap. 5): dramatis personae del sector y las instituciones que lo regulan.
+-   Las **compañías y astilleros** (Cap. 6): las principales empresas del transporte interestelar y los tres grandes fabricantes de cargueros.
 
 **Parte III — Bajada a tierra.** Cierra el libro conectando el mundo narrativo con el trabajo técnico:
 
-- Las **bases de datos del proyecto** (Cap. 7), su estructura y su uso didáctico en cada manual.
-- Los **guiños cinematográficos y literarios** (Cap. 8), con la tabla de referencias que dará al lector aficionado a la ciencia ficción alguna alegría inesperada.
+-   Las **bases de datos del proyecto** (Cap. 7), su estructura y su uso didáctico en cada manual.
+-   Los **guiños cinematográficos y literarios** (Cap. 8), con la tabla de referencias que dará al lector aficionado a la ciencia ficción alguna alegría inesperada.
 
 Al final se incluyen un glosario integrado en el capítulo de guiños, la **bibliografía** general del proyecto y la **licencia**.
 

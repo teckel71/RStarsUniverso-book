@@ -1,5 +1,7 @@
 como-usar
 que-es-rstars
+como-nace-rstars
+no-solo-datos-rstars
 encaje
 organizacion
 advertencia
