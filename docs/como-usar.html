@@ -102,9 +102,12 @@
 <h2>
 <span class="header-section-number">1.1</span> Qué es R-Stars.<a class="anchor" aria-label="anchor" href="#que-es-rstars"><i class="fas fa-link"></i></a>
 </h2>
-<p><em>R-Stars</em> es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Se basa en la generación de un entorno de aprendizaje integral y coherente, aprovechando las herramientas de <em>Inteligencia Artificial</em>, con las que se interactúa de forma consistente para crear este entorno, de modo creativo y funcional. De esta manera, las palabras claves que podrían definir este proyecto son:</p>
+<p><em>R-Stars</em> es un proyecto docente de acceso libre pensado para acompañar el aprendizaje del análisis cuantitativo aplicado a la Economía y la Empresa. Se basa en la generación de un entorno de aprendizaje integral y coherente, aprovechando las herramientas de <em>inteligencia artificial</em>, con las que se interactúa de forma consistente para crear este entorno, de modo creativo y funcional. De esta manera, las palabras claves que podrían definir este proyecto son:</p>
 <p><em>Creatividad, inteligencia artificial, innovación docente, entorno de aprendizaje.</em></p>
 <p>Reúne recursos, referencias y libros escritos por el autor —y, cuando procede, por otras personas cuya obra encaja en la filosofía del proyecto— alrededor del uso de <strong>R</strong> como entorno de análisis estadístico y econométrico. El sitio principal del proyecto es <a href="https://blog.uclm.es/miguelangeltarancon/r-teca/" class="uri">https://blog.uclm.es/miguelangeltarancon/r-teca/</a>, donde, entre otras cosas, se recoge la instalación básica de R y RStudio, y se listan los materiales originales del propio proyecto.</p>
+<div style="height: 1rem;">
+
+</div>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
 <p><iframe src="https://www.youtube.com/embed/JgB2Yt76G9k" title="¿Qué es R-Stars? En pocas palabras..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 </iframe></p>
@@ -114,34 +117,36 @@
 <h2>
 <span class="header-section-number">1.2</span> Cómo nace R-Stars.<a class="anchor" aria-label="anchor" href="#como-nace-rstars"><i class="fas fa-link"></i></a>
 </h2>
-<p>En las labores docentes en diferentes asignaturas de la disciplina de Economía y ADE, y más concretamente en el área de la <strong>Economía Cuantitativa y la Analítica de Datos</strong>, surgió la necesidad de crear materiales docentes que contribuyeran a adquirir las competencias y habilidades asociadas mediante un modo empírico, práctico y didáctico, utilizando el lenguaje estadístico R. Al generar estos materiales, emergieron diversas limitaciones:</p>
+<p>En el transcurso, a lo largo de los años, de las labores docentes en diferentes asignaturas de la disciplina de Economía y ADE, y más concretamente en el área de la <strong>Economía Cuantitativa y la Analítica de Datos</strong>, surgió la necesidad de crear materiales que contribuyeran a adquirir las competencias y habilidades asociadas mediante una metodología prioritariamente empírica, práctica y didáctica, utilizando el lenguaje estadístico R. Al generar estos recursos, emergieron diversas limitaciones:</p>
 <ul>
-<li><p>No siempre se tiene acceso a datos adaptados, por su naturaleza o comportamiento estadístico, a los aprendizajes que se desean transmitir (ejemplo: estudiar las consecuencias que se extraen del análisis de una variable económica con una distribución campaniforme de “colas” pesadas).</p></li>
-<li><p>A veces, los datos que se utilizaban en las clases de supuestos prácticos procedían de fuentes restringidas en su difusión y uso, lo que impedía generar materiales de libre acceso por la utilización de dichos datos (ejemplo: publicación de un capítulo de libro en el que se utilicen en un caso práctico datos de empresas reales de SABI u otras fuentes de acceso restringido).</p></li>
+<li><p>No siempre se tenía (ni se tiene, en la actualidad) acceso a datos adaptados, por su naturaleza o comportamiento estadístico, a los aprendizajes que se desean transmitir (por ejemplo: si queremos estudiar estudiar las consecuencias que se extraen del análisis de una variable económica con una distribución campaniforme de “colas” pesadas, no siempre es fácil encontrar datos ajustados a esta característica en fuentes de libre acceso). Esto conllevaba, a veces, la obligación de proceder a diseñar datos simulados generados en “laboratorio”.</p></li>
+<li><p>A veces, los datos que se utilizaban en las clases de supuestos prácticos procedían de fuentes restringidas en su difusión y uso, lo que impedía compartir en libre acceso los materiales didácticos basados en tales datos (por ejemplo: publicación de un capítulo de libro en el que se utilicen, en un caso práctico, datos de empresas reales procedentes de la base de datos SABI u otras fuentes de acceso restringido).</p></li>
 </ul>
-<p>El desarrollo de las herramientas de inteligencia artificial ha permitido crear algo hasta hace poco impensable: la generación de datos en masa que simulen casos reales, adaptados a los aspectos que se quieren tratar en las clases; pero con el suficiente grado de incertidumbre e incluso de “imperfecciones” que permitan asemejarse a un entorno de aprendizaje con un elevado grado de realismo.</p>
-<p>Este es el corazón de R-Stars: una base de datos inicial de 300 casos x 28 variables. Estas variables forman un sistema coherente desde el punto de vista contable y técnico/económico, y se han generado con reglas de comportamiento estadístico que incluyen diferentes niveles de incertidumbre, casos atípicos, casos faltantes y otra casuística habitual en bases de datos reales. Posteriormente, la base de datos se ha ampliado con <a href="#id_0" title="Bases de Datos R-Stars">nuevos conjuntos de datos (datasets)</a> pertenecientes al mismo entorno del proyecto. En definitiva, en la actualidad la masa de datos es de unos 10537 datos.</p>
-<p>Para que esta masa de datos tuviera sentido y pudiera ser analizada adecuadamente por los estudiantes, era necesario crear un contexto. Este marco fue quizá espurio, pero con un margen de expansión casi sin límite en términos de creatividad y, por qué no, estimulante: el sector del transporte de mercancías… <em>interestelar</em>.</p>
+<p>El desarrollo de las herramientas de inteligencia artificial ha permitido crear algo hasta hace poco impensable: la generación de <em>datos en masa</em> que simulen casos reales, adaptados a los aspectos que se quieren tratar en las clases, pero con el suficiente grado de incertidumbre -e incluso de “imperfecciones”- que permitan asemejarse razonablemente a un entorno de aprendizaje real.</p>
+<p>Este es el corazón de R-Stars: una base de datos inicial de 300 casos x 28 variables. Estas variables forman un sistema coherente desde el punto de vista contable y técnico/económico, y se han generado con reglas de comportamiento estadístico que incluyen diferentes niveles de incertidumbre, casos atípicos, casos faltantes y otra casuística habitual en bases de datos reales. Posteriormente, la base de datos se ha ampliado con <a href="#id_0" title="Bases de Datos R-Stars">nuevos conjuntos de datos (datasets)</a> pertenecientes al mismo entorno del proyecto. En definitiva, en la actualidad la masa de datos disponibles en este proyecto es de unos 10537 datos.</p>
+<p>Para que esta masa de datos tuviera sentido y pudiera ser analizada adecuadamente por los estudiantes, era necesario crear un contexto. Era preciso que los estudiantes no perciban los datos como “una serie de datos aislados, generados <em>ad hoc</em>, sino como un <em>todo</em> de variables relacionadas que conforman un entorno de aprendizaje.</p>
+<p>Este marco fue quizá espurio, pero con un margen de expansión casi sin límite en términos de creatividad y, por qué no, estimulante: el sector del transporte de mercancías… <em>interestelar</em>.</p>
 </div>
 <div id="no-solo-datos-rstars" class="section level2" number="1.3">
 <h2>
 <span class="header-section-number">1.3</span> <strong>¿R-Stars es solo un conjunto de datos generados mediante inteligencia artificial?</strong><a class="anchor" aria-label="anchor" href="#no-solo-datos-rstars"><i class="fas fa-link"></i></a>
 </h2>
-<p>No. La creación de una base de datos amplia, con capacidad para ser utilizada en supuestos de la analítica de datos y, a la vez, con alto grado de realismo, fue el germen. Pero el contexto que sirviese para interpretar los resultados de la analítica requería de una materialización, así como la intención de crear un entorno de aprendizaje integral. Por tanto, en el proyecto se incluyen otros elementos adicionales a los datos. El reto, además, es, para este cometido, seguir empleando herramientas de inteligencia artificial con el objetivo de evaluar su potencial para crear un entorno amplio y coherente.</p>
+<p>No. La creación de una base de datos amplia, con capacidad para ser utilizada en supuestos de la analítica de datos y, a la vez, con alto grado de realismo, fue el germen. Pero el contexto que sirviese para interpretar los resultados de la analítica requería de una materialización, así como la intención de crear un entorno de aprendizaje integral. Por tanto, en el proyecto se incluyen otros elementos adicionales a los datos.</p>
+<p>El reto, además, es, para este cometido, seguir empleando herramientas de inteligencia artificial con el objetivo de evaluar su potencial para crear un entorno amplio y coherente.</p>
 <p>En la actualidad, los elementos que constituyen el proyecto son:</p>
 <ul>
-<li><p>Los datasets: <a href="https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro" class="uri">https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro</a>..html</p></li>
+<li><p>Los datasets: <a href="https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro..html" class="uri">https://teckel71.github.io/RStars-book/ap%C3%A9ndice-bases-de-datos-utilizadas-en-el-libro..html</a></p></li>
 <li>
 <p>Dos manuales docentes cuyos ejemplos y prácticas se encuadran en el proyecto:</p>
 <ul>
-<li><p>Estadística Empresarial: <a href="https://teckel71.github.io/EstadisticaEmpresarial-book/" class="uri">https://teckel71.github.io/EstadisticaEmpresarial-book/</a></p></li>
-<li><p>R-Stars: La Guía (analítica de datos con R): <a href="https://teckel71.github.io/RStars-book/index.html" class="uri">https://teckel71.github.io/RStars-book/index.html</a></p></li>
+<li><p>Estadística Empresarial: Manual básico de estadística descriptiva y modelos de probabilidad aplicados a la economía y empresa, ambientado en el Universo R-Stars: <a href="https://teckel71.github.io/EstadisticaEmpresarial-book/" class="uri">https://teckel71.github.io/EstadisticaEmpresarial-book/</a></p></li>
+<li><p>R-Stars: La Guía: Manual de uso del lenguaje R para la analítica de datos, desde los fundamentos de R hasta la aplicación de técnicas avanzadas: <a href="https://teckel71.github.io/RStars-book/index.html" class="uri">https://teckel71.github.io/RStars-book/index.html</a></p></li>
 </ul>
 </li>
 <li><p>Un libro “narrativo” de descripción del entorno de aprendizaje: personajes, cronologías, organizaciones, etc.: R-Stars, el Universo: <a href="https://teckel71.github.io/RStarsUniverso-book/" class="uri">https://teckel71.github.io/RStarsUniverso-book/</a></p></li>
 <li><p>Una lista de vídeos cortos complementarios al “Universo” y de apoyo a los ejemplos de los libros: <a href="https://www.youtube.com/playlist?list=PLNUC4VF1PQlY" class="uri">https://www.youtube.com/playlist?list=PLNUC4VF1PQlY</a></p></li>
 </ul>
-<p>Todos los libros del proyecto son de acceso gratuito, están escritos en R Markdown con <strong>bookdown</strong> y publicados como sitios estáticos en GitHub Pages. La coherencia entre ellos es deliberada: comparten estética, tratamiento tipográfico y, sobre todo, el universo narrativo <em>R-Stars</em> que motiva este texto.</p>
+<p>Los libros del proyecto son de acceso gratuito, están escritos en <em>R Markdown</em> con el paquete de R <strong>bookdown</strong> y publicados como sitios estáticos en <em>GitHub Pages</em>. La coherencia entre ellos es deliberada: comparten estética, tratamiento tipográfico y, sobre todo, el universo narrativo <em>R-Stars</em> que motiva este texto.</p>
 </div>
 <div id="encaje" class="section level2" number="1.4">
 <h2>
@@ -155,7 +160,7 @@
 <li>
 <strong>Consultarlo puntualmente</strong> desde los manuales cada vez que aparece un nombre propio nuevo (una empresa, un planeta, un personaje, una organización).</li>
 <li>
-<strong>Explorarlo por curiosidad</strong>, con o sin manuales delante, como quien hojea la guía de un juego de rol o el “worldbook” de una saga.</li>
+<strong>Explorarlo por curiosidad</strong>, con o sin manuales delante, como quien hojea la guía de un juego de rol o el <em>worldbook</em> de una saga.</li>
 </ul>
 <p>Ninguno de los tres modos de lectura es superior a los otros. El libro está pensado para tolerar los tres.</p>
 </div>
@@ -170,7 +175,7 @@
 <li>La <strong>cronología</strong> del sector interestelar (Cap. 2), desde los prolegómenos del siglo XXI hasta el presente narrativo de 2150.</li>
 <li>La <strong>física del plasma warp</strong> (Cap. 3), para quien quiera saber por qué las naves de este universo se mueven a la velocidad a la que se mueven.</li>
 <li>La <strong>geografía galáctica</strong> (Cap. 4): cinco galaxias, treinta planetas, sus zonas de riesgo y sus fronteras.</li>
-<li>Los <strong>personajes y organizaciones</strong> (Cap. 5): dramatis personae del sector y las instituciones que lo regulan.</li>
+<li>Los <strong>personajes y organizaciones</strong> (Cap. 5): <em>dramatis personae</em> del sector y las instituciones que lo regulan.</li>
 <li>Las <strong>compañías y astilleros</strong> (Cap. 6): las principales empresas del transporte interestelar y los tres grandes fabricantes de cargueros.</li>
 </ul>
 <p><strong>Parte III — Bajada a tierra.</strong> Cierra el libro conectando el mundo narrativo con el trabajo técnico:</p>
