@@ -37,6 +37,13 @@ En su primera versión, el *plasma warp* funcionaba con **proto-especia sintéti
 
 ## Primer contacto: no estábamos solos (2087–2110). {#primer-contacto}
 
+```{r video-no-estamos-solos, echo=FALSE, results='asis'}
+insertar_youtube(
+  id     = "0fXB-NRE5PQ",
+  titulo = "No estábamos solos en el Universo, no."
+)
+```
+
 Con las primeras rutas interestelares abiertas la humanidad descubrió con estupor que buena parte de los sistemas visitados estaban... **habitados**. La revelación resultó menos traumática de lo previsto por dos razones sorprendentes.
 
 **Primera: casi todas las especies encontradas eran humanoides.** Y no humanoides *estilo dibujo animado*, sino humanoides *desconcertantemente humanos*: bípedos, con dos ojos frontales, aparato fonador comparable, cinco dedos por mano (con alguna excepción anecdótica) y un rango de temperatura corporal perfectamente compatible con un apretón de manos. Los xenobiólogos llevan siglo y medio debatiendo si esta convergencia evolutiva es milagrosa, sospechosa o simplemente un fallo de originalidad del universo.
