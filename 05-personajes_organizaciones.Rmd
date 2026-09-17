@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 source("_common.R")
 ```
 
-![*Dramatis personae de un sector de trescientas compañías.*](figuras/05_personajes.jpg){.portada-img width="100%"}
+![*Gurney y Tasha, piloto y CEO de Shuttlepod Movers.*](figuras/Gurney_Tasha.jpeg){.portada-img width="100%"}
 <div style="height: 1rem;"></div>
 
 El sector no sería lo que es sin un puñado de personajes —analistas, científicos, magnates— cuyas decisiones han moldeado su desarrollo, y sin un puñado de organizaciones que vertebran su regulación y sus datos. Los manuales del proyecto los invocan a menudo; conviene tenerlos presentes.
@@ -20,9 +20,15 @@ El sector no sería lo que es sin un puñado de personajes —analistas, cientí
 
 ### Dr. Sagan Olbers. {#olbers}
 
+![*Sagan Olbers.*](figuras/Sagan_Olbers_data_scientist.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Antiguo oficial de logística de la *Federación de Rutas Espaciales de Andrómeda* y creador, en 2137, de la **Base de Datos Interestelar**. Se le atribuye una tenacidad legendaria y una paciencia todavía mayor: convencer a treinta magnates —de tres especies distintas— de compartir sus libros contables se considera, en algunos círculos, un logro comparable al descubrimiento del propio *plasma warp*.
 
 ### Li Ti-Oh. {#li-ti-oh}
+
+![*Li Ti-Oh.*](figuras/Li Ti-Oh_primer_plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 
 Experta en transporte interestelar, radicada en Tatooine (Andrómeda). Autora del principal informe sectorial del año 2150 sobre orígenes, fortalezas y debilidades del comercio logístico. Sus análisis son de lectura obligada en las escuelas de negocio del sector.
 
@@ -32,13 +38,22 @@ Bajo el paraguas de la **Agencia Interplanetaria de Transporte de Mercancías** 
 
 ### Dra. Xelia Bluebird. {#bluebird}
 
+![*Xelia Bluebird.*](figuras/Bluebird_primer_plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Responsable del célebre *Informe Bluebird*, que segmenta a las 300 compañías del sector según sus índices de **fidelización**, **diversificación** y **digitalización**. El informe se publica cada dos años y sus conclusiones mueven cotizaciones bursátiles.
 
 ### Dr. Oren Crestfall. {#crestfall}
 
+![*Oren Crestfall.*](figuras/Oren_primer_plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Analista técnico de la AITM. Dirige el *Informe Crestfall*, un estudio comparativo sobre la **fiabilidad** y el **rendimiento energético** de los cargueros producidos por los distintos astilleros. Sus *rankings* son temidos por los fabricantes y adorados por los aseguradores.
 
 ### Mara Qyà. {#qya}
+
+![*Mara Qyà.*](figuras/Mara_primer_plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 
 Directora de la **Autoridad Reguladora del Transporte Interestelar (ARTI)**, el organismo encargado de auditar la salud financiera de las compañías del sector. Formada en econometría aplicada en la Universidad de Arrakis, es conocida en los pasillos de la ARTI como *"la mujer que no firma nada sin un p-valor"*. Bajo su dirección, la ARTI ha endurecido las auditorías periódicas y ha convertido el análisis previo de datos —depuración de *missing values*, detección de *outliers*, estudio de correlaciones— en un requisito formal antes de cualquier informe regulatorio.
 
@@ -46,13 +61,22 @@ Directora de la **Autoridad Reguladora del Transporte Interestelar (ARTI)**, el 
 
 ### Romulus Steiner. {#steiner}
 
+![*Romulus Steiner.*](figuras/Romulus Steiner_Primer_Plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Máximo accionista y CEO histórico de *Arrakis Freight*. Nacido en el sistema homónimo, es —como su nombre delata— uno de los primeros altos ejecutivos **no humanos** del sector; hecho que hoy nadie se molesta en subrayar, pero que en la década de 2130 fue tema recurrente de tertulia. Su apoyo temprano al Dr. Olbers fue determinante para el nacimiento de la Base de Datos Interestelar. En círculos periodísticos se le conoce como *"el hombre —o lo que sea— que abrió los libros"*.
 
 ### Tasha Tachybaptus. {#tachybaptus}
 
+![*Tasha Tachybaptus.*](figuras/Tasha_primer_plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Actual CEO de *Shuttlepod Movers* (Sociedad Anónima Galáctica con sede en Arrakis). Su reto declarado es renovar la envejecida flota de la compañía sin comprometer su ya delicada liquidez; *"una ecuación con más incógnitas que ecuaciones"*, en palabras propias.
 
 ### Arg-us Korp. {#korp}
+
+![*Arg-us Korp.*](figuras/Arg-us Korp_primer_plano.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 
 Magnate reciente, tan poderoso como esquivo. Originario de un sistema fronterizo de la Galaxia del Triángulo, es asimismo de origen **no humano** y —según los pocos periodistas que han conseguido entrevistarle— tiene una noción del tiempo levemente distinta de la humana, lo que dificulta enormemente el cierre de las reuniones. Ha protagonizado en los últimos años una serie de adquisiciones estratégicas, la más sonada de las cuales es la compra de *Home One Cargo*, una firma especializada en nichos digitales de alto margen.
 
