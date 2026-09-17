@@ -22,6 +22,8 @@ La historia del transporte interestelar abarca poco más de siglo y medio, tiemp
 
 ## Los prolegómenos (siglo XXI). {#prolegomenos}
 
+![*La minería de mediados del siglo XXI.*](figuras/02_excavando.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 El transporte espacial comercial nace a mediados del siglo XXI, empujado por la escasez de recursos en la Tierra y el impulso privatizador de corporaciones pioneras. Compañías como *SpaceX* y *Blue Origin* inician la explotación sistemática del cinturón de asteroides y sientan, casi sin darse cuenta, las bases de una futura logística interplanetaria. En esta etapa el negocio consiste todavía en **arrastrar rocas** de un lado a otro del sistema solar, y los tiempos de tránsito se miden en meses.
 
 ## El salto cuántico: el plasma warp (2084). {#plasma-warp}
