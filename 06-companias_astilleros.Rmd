@@ -225,6 +225,9 @@ Sociedad Limitada Galáctica con base en **Mustafar** (Andrómeda), especializad
 
 ### Vader & Company. {#vader-co}
 
+![*Vader & Company*](figuras/Vader_and_company.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 ```{r ficha-vader, results='asis'}
 ficha_card("vader and company")
 ```
@@ -239,6 +242,8 @@ Una de las primeras compañías especializadas en cargamentos masivos a larga di
 
 ### Enterprise Logistics. {#enterprise}
 
+![*Enterprise Logistics.*](figuras/Enterprise_Logistics.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 ```{r ficha-enterprise, results='asis'}
 ficha_card("enterprise logistics")
 ```
@@ -254,6 +259,8 @@ Compañía tradicional con sede en **Naboo**, **pionera de rutas** y célebre po
 
 ### Excalibur Freight Systems. {#excalibur}
 
+![*Excalibur Freight Systems.*](figuras/Excalibur.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 ```{r ficha-excalibur, results='asis'}
 ficha_card("excalibur freight systems")
 ```
@@ -267,6 +274,8 @@ Compañía galáctica con sede en **Mül** y una de las flotas mejor valoradas d
 
 ### Home One Cargo. {#home-one}
 
+![*Home One Cargo.*](figuras/Home_One_Cargo.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 ```{r ficha-home-one, results='asis'}
 ficha_card("home one cargo")
 ```
@@ -340,12 +349,19 @@ El mercado de fabricación de cargueros está dominado por tres corporaciones. S
 
 ### Korrigan Heavy Works. {#korrigan}
 
+![*Korrigan Heavy Works.*](figuras/Korrigan.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 El fabricante clásico. Naves robustas, sobredimensionadas y algo caras de mantener, pero con una reputación de indestructibilidad que le mantiene una cuota de mercado estable.
 
 ### Selene Dynamics. {#selene}
 
+![*Selene Dynamics.*](figuras/Selene.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 El fabricante técnicamente más avanzado. Sus cargueros destacan sistemáticamente por un **rendimiento energético superior** y por una fiabilidad muy por encima de la media del sector. El *Informe Crestfall* la sitúa como referencia técnica desde hace tres bienios consecutivos.
 
 ### Arcturus Shipyards. {#arcturus}
+
+![*Arcturus Shipyards.*](figuras/Arcturus.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 
 El tercer gran fabricante. Estrategia agresiva de precios, catálogo amplio y presencia en todos los segmentos. Muy popular entre compañías medianas y en expansión.
