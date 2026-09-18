@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Trescientas compañías, tres astilleros y un mercado que nunca duerme.*](figuras/06_companias.jpg){.portada-img width="100%"}
+![*Trescientas compañías, tres astilleros y un mercado que nunca duerme.*](figuras/06-astillero.jpg){.portada-img width="100%"}
 <div style="height: 1rem;"></div>
 
 Trescientas compañías activas mueven casi ciento diez mil rutas anuales en cinco galaxias. Nadie las conoce todas —ni siquiera los analistas de la AITM las citan a diario—; pero un puñado de ellas concentra buena parte de las cabeceras del sector, y aparece de forma recurrente en los ejercicios de los manuales. Este capítulo repasa esas compañías, y presenta con algo más de detalle a los tres grandes fabricantes de cargueros: *Korrigan Heavy Works*, *Selene Dynamics* y *Arcturus Shipyards*.
@@ -128,6 +128,9 @@ ficha_card <- function(clave) {
 
 ### Hyperdrive Express. {#hyperdrive}
 
+![*Hyperdrive Express.*](figuras/Hyperdrive_Express.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 ```{r ficha-hyperdrive, results='asis'}
 ficha_card("hyperdrive express")
 ```
@@ -145,6 +148,8 @@ Compañía galáctica de tamaño medio con sede en **Miranda** (Gran Nube de Mag
 
 ### Arrakis Freight. {#arrakis-freight}
 
+![*Arrakis Freight.*](figuras/Arrakis_Freight.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 ```{r ficha-arrakis, results='asis'}
 ficha_card("arrakis freight")
 ```
@@ -162,6 +167,9 @@ Compañía histórica del sector, ligada desde su fundación a la exportación d
 
 ### Shuttlepod Movers. {#shuttlepod}
 
+![*Shuttlepod Movers.*](figuras/Shuttlepod_Movers.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 ```{r ficha-shuttlepod, results='asis'}
 ficha_card("shuttlepod movers")
 ```
@@ -178,6 +186,8 @@ Sociedad Anónima Galáctica con sede en **Arrakis**, flota **madura** de 47 car
 
 ### Corellian Freightworks. {#corellian}
 
+![*Corellian Freightworks.*](figuras/Corellian_Freightworks.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 ```{r ficha-corellian, results='asis'}
 ficha_card("corellian freightworks")
 ```
@@ -195,6 +205,9 @@ Sociedad Anónima Galáctica con sede en **Qo'noS** (Galaxia del Triángulo), pr
 - ***R-Stars: La Guía*, cap. 12**: una de las 15 compañías del mapa perceptual.
 
 ### Kaiju Haulage Co. {#kaiju}
+
+![*Kaiju Haulage Co.*](figuras/Kaiju_Haulage_Co.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
 
 ```{r ficha-kaiju, results='asis'}
 ficha_card("kaiju haulage co.")
