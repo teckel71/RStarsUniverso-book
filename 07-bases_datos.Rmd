@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![*Cinco ficheros Excel. Un universo de decisiones empresariales.*](figuras/07_datos.jpg){.portada-img width="100%"}
+![*Unas bases de datos. Un universo de decisiones empresariales.*](figuras/07_Servers.jpg){.portada-img width="100%"}
 <div style="height: 1rem;"></div>
 
 Todo el universo *R-Stars* se apoya, a efectos didácticos, en un conjunto de **bases de datos ficticias** que reproducen —con la lógica de una empresa real— los flujos financieros, operativos, laborales y regulatorios del sector. Este capítulo describe brevemente cada una de ellas y —lo que es más útil para el lector— indica **dónde aparecen** en los manuales del proyecto.
