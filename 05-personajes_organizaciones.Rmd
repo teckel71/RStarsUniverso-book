@@ -16,6 +16,13 @@ source("_common.R")
 
 El sector no sería lo que es sin un puñado de personajes —analistas, científicos, magnates— cuyas decisiones han moldeado su desarrollo, y sin un puñado de organizaciones que vertebran su regulación y sus datos. Los manuales del proyecto los invocan a menudo; conviene tenerlos presentes.
 
+```{r video-personajes, echo=FALSE, results='asis'}
+insertar_youtube(
+  id     = "8RYaLRjE8PY ",
+  titulo = "Personajes ilustres del Universo R-Stars."
+)
+```
+
 ## Los padres fundadores del dato. {#padres-dato}
 
 ### Dr. Sagan Olbers. {#olbers}
