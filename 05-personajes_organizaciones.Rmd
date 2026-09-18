@@ -18,7 +18,7 @@ El sector no sería lo que es sin un puñado de personajes —analistas, cientí
 
 ```{r video-personajes, echo=FALSE, results='asis'}
 insertar_youtube(
-  id     = "8RYaLRjE8PY ",
+  id     = "8RYaLRjE8PY",
   titulo = "Personajes ilustres del Universo R-Stars."
 )
 ```
