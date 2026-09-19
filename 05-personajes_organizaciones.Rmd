@@ -91,7 +91,12 @@ Magnate reciente, tan poderoso como esquivo. Originario de un sistema fronterizo
 
 ### Agencia Interplanetaria de Transporte de Mercancías (AITM). {#aitm}
 
-Organismo intergaláctico —y **multiespecífico**— encargado de **estudiar, segmentar y supervisar** el funcionamiento del sector. La AITM publica los informes de referencia (entre ellos los citados de Bluebird y Crestfall), mantiene las estadísticas oficiales y actúa como interlocutor técnico ante los organismos reguladores de las cinco galaxias. Su sede principal está en la Vía Láctea, con delegaciones permanentes en Andrómeda y Magallanes.
+![*Sede principal de la AITM, en un valle alpino a orillas de un lago glaciar de la Tierra.*](figuras/AITM.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
+Organismo intergaláctico —y **multiespecífico**— encargado de **estudiar, segmentar y supervisar** el funcionamiento del sector. La AITM publica los informes de referencia (entre ellos los citados de Bluebird y Crestfall), mantiene las estadísticas oficiales y actúa como interlocutor técnico ante los organismos reguladores de las cinco galaxias.
+
+Su **sede principal** se halla en la **Tierra** (Vía Láctea), en un valle alpino a orillas de un gran lago glaciar: un arco de pabellones bajos de hormigón visto, alerce y vidrio, con cubiertas vegetales que los funden en el paisaje y una torre esbelta de comunicaciones asomando sobre las montañas. En la plaza que da al lago, una larga hilera de banderas idénticas —una por sector y por especie— es la firma inconfundible de un organismo multiespecífico. Delegaciones permanentes en Andrómeda y Magallanes completan la red.
 
 ```{r video-aitm, echo=FALSE, results='asis'}
 insertar_youtube(
@@ -102,16 +107,36 @@ insertar_youtube(
 
 ### Autoridad Reguladora del Transporte Interestelar (ARTI). {#arti}
 
+![*Sede de la ARTI, sobre la llanura basáltica de un mare lunar, con la Tierra en el cielo.*](figuras/ARTI.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Organismo de **supervisión financiera** del sector, creado como brazo auditor independiente de la AITM. La ARTI tiene competencia para inspeccionar las cuentas de cualquier compañía de transporte interestelar, exigir la corrección de irregularidades y, en casos extremos, suspender temporalmente licencias de operación. Su directora actual, **Mara Qyà**, ha impuesto una cultura de análisis empírico riguroso: ningún informe de auditoría se emite sin un análisis previo de datos que incluya la depuración de valores faltantes, la detección de casos atípicos y el estudio de las relaciones entre las principales variables financieras.
+
+Su **sede** se levanta sobre la **Luna** (Vía Láctea), en la llanura basáltica de un *mare* con la Tierra visible en el cielo negro como un creciente azul. La deliberada asepsia del emplazamiento —tres compañías con sede en el satélite y ningún astillero— es la garantía de independencia del regulador: nada que auditar en la puerta de casa. El campus, austero y simétrico, se organiza en tres pabellones blancos de hormigón y titanio en torno a una plaza central; tres grandes **domos geodésicos** encierran los únicos jardines del edificio —árboles, céspedes y estanques—, el punto más verde a este lado del sistema Tierra-Luna. En los pasillos de la ARTI al emplazamiento se le llama, con cierta autocomplacencia, *"nuestra Basilea"*.
 
 ### Autoridad Galáctica de Transporte Interestelar (AGTI). {#agti}
 
+![*Sede de la AGTI, en una plataforma verde en voladizo sobre la ecumenópolis de Coruscant.*](figuras/AGTI.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Organismo encargado de la **concesión de licencias de operación** en rutas intergalácticas de alto valor estratégico. Sus procesos son especialmente estrictos en las rutas Coruscant–Arrakis y similares —que cruzan la **Gran Travesía**—, donde la seguridad de la especia condiciona toda la logística del sector.
+
+Su **sede** se alza en **Coruscant** (Andrómeda), el mundo con mayor densidad corporativa del sector y cabecera de la ruta crítica Coruscant–Arrakis. El edificio ocupa una plataforma en voladizo sobre la ecumenópolis: un volumen escalonado de tres niveles en acero bronce y vidrio, con terrazas ajardinadas y cascadas de hiedra que se descuelgan cientos de metros por los flancos de la megaestructura —una isla verde diseñada deliberadamente como contrapunto al mar dorado de luces urbanas que la rodea—. En un extremo de la plataforma, varios muelles de inspección alineados con precisión reciben a los solicitantes de licencia: una imagen tan elocuente que a los pilotos veteranos les basta con decir *"me toca subir a Coruscant"* para que se entienda todo.
 
 ### Federación de Rutas Espaciales de Andrómeda. {#fre-andromeda}
 
+![*Sede de la Federación, sobre una meseta al borde de las grandes cascadas de Naboo.*](figuras/Federacion_Andromeda.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Institución logística histórica de la galaxia de Andrómeda, en la que se formó el Dr. Olbers antes de fundar la Base de Datos Interestelar. Continúa coordinando las rutas comerciales de Andrómeda y actúa como órgano consultivo de la AITM en materia intergaláctica.
+
+Tiene su sede en **Naboo**, en lo alto de una meseta de arenisca al borde de una gran cascada de varios saltos. El complejo se organiza en planta radial, con una simbología perfectamente literal: una **Sala del Consejo** circular bajo una cúpula baja de cobre patinado, y varios brazos largos y bajos que se extienden desde ella como los radios de una rueda —arquitectura hecha memoria de las rutas históricas de Andrómeda—. Basalto pulido, cobre y cubiertas de sedum funden el edificio con el borde del acantilado; entre los brazos, jardines triangulares plantan cada uno un árbol nativo distinto. Fue aquí donde el joven Sagan Olbers, entonces oficial de logística, empezó a llevar registro sistemático de todo lo que pasaba por las escalas de la Federación —costumbre que años después desembocaría en la Base de Datos Interestelar.
 
 ### Asociación Sectorial de Transporte Interestelar (ASTI). {#asti}
 
+![*Sede de la ASTI, en un oasis cultivado al borde de un cañón de Tatooine.*](figuras/ASTI.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 Órgano de representación empresarial del sector. Encarga estudios de percepción y satisfacción de clientes —como el llevado a cabo por la consultora *Data-Evidence* que da lugar a la base `percepcion_interestelar`— y actúa como interlocutor colectivo del sector ante la AITM y los reguladores.
+
+Su **sede** se sitúa en **Tatooine** (Andrómeda), el planeta con más compañías del sector —17 sedes— y residencia habitual de Li Ti-Oh: cabía esperar que la asociación empresarial acabara asentándose allí. El edificio se levanta al borde de un cañón donde un antiguo acuífero alimenta un oasis cuidadosamente cultivado. La arquitectura es modernismo desértico sin concesiones —tierra apisonada ocre, arenisca y cobre cepillado— con muros macizos, aleros perforados que dibujan sombras precisas, torres de viento para refrigeración pasiva y cubiertas fotovoltaicas integradas como elemento arquitectónico. Tres patios interiores con palmeras datileras y estanques hacen habitable el conjunto; el oasis al pie, con sus huertos aterrazados, ha convertido a la sede de la ASTI en el destino tácito de todas las convenciones sectoriales de la galaxia.
