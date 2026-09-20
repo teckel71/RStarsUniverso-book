@@ -2,7 +2,7 @@
 
 Guía divulgativa del marco narrativo *R-Stars*, el escenario de ciencia
 ficción que da contexto a los manuales técnicos del proyecto
-[**R-Teca**](https://blog.uclm.es/miguelangeltarancon/r-teca/):
+[**R-Stars**](https://blog.uclm.es/miguelangeltarancon/r-teca/):
 
 - [R-Stars: La Guía](https://teckel71.github.io/RStars-book/)
 - [Estadística Empresarial](https://teckel71.github.io/EstadisticaEmpresarial-book/)
@@ -20,7 +20,7 @@ Pages en <https://teckel71.github.io/RStarsUniverso-book/>.
 
 - `index.Rmd` — Portada, metadatos y cabecera del libro.
 - `00-prefacio.Rmd` — Prefacio.
-- `01-como_usar.Rmd` — El proyecto R-Teca y cómo usar este libro.
+- `01-como_usar.Rmd` — El proyecto R-Stars y cómo usar este libro.
 - `02-cronologia.Rmd` — Cronología del sector interestelar.
 - `03-fisica_warp.Rmd` — La física del plasma warp.
 - `04-geografia.Rmd` — Geografía galáctica.

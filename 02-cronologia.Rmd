@@ -88,7 +88,7 @@ insertar_youtube(
 )
 ```
 
-Nace así la **Base de Datos Interestelar**, hoy alimentada por las 300 compañías del sector y considerada el activo informacional más valioso de la galaxia. Sin ella, los manuales del proyecto R-Teca no existirían.
+Nace así la **Base de Datos Interestelar**, hoy alimentada por las 300 compañías del sector y considerada el activo informacional más valioso de la galaxia. Sin ella, los manuales del proyecto R-Stars no existirían.
 
 ## El presente: 2150. {#presente}
 

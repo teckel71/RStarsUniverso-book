@@ -13,7 +13,7 @@ url: https://teckel71.github.io/RStarsUniverso-book/
 cover-image: figuras/RSU_portada.jpg
 description: |
   Guía divulgativa del universo narrativo R-Stars, el marco de ciencia
-  ficción que da contexto a los manuales del proyecto R-Teca (Estadística
+  ficción que da contexto a los manuales del proyecto R-Stars (Estadística
   Empresarial, R-Stars: La Guía y sucesivos).
 rights: "Copyright 2026 Miguel Ángel Tarancón Morán. Licencia CC BY-NC-ND 4.0."
 always_allow_html: true

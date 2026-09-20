@@ -33,7 +33,7 @@ Contiene información **financiera y operativa** de una muestra representativa d
 
 **Estructura**: 300 filas × 29 columnas. Incluye variables como `ACTIVO`, `FPIOS`, `ING`, `MARGEN`, `RES`, `SOLVENCIA`, `LIQUIDEZ`, `APALANCA`, `RENECO`, `RENFIN`, `EMPLEA`, `FJUR`, `FLOTA`, `COSTOP`, `CAPEX`, `IMD`, `EFLO`, `RUTAS`, `IDIG`, `IDIVERSE`, `IFIDE`, `GMEDRUT`, `DIST` y `BMAL`.
 
-Es la **base principal** del proyecto R-Teca: se utiliza en la mayor parte de los capítulos de los manuales, tanto en los de análisis univariante y bivariante como en los de análisis multivariante (regresión, análisis clúster y modelos log-lineales, entre otros).
+Es la **base principal** del proyecto R-Stars: se utiliza en la mayor parte de los capítulos de los manuales, tanto en los de análisis univariante y bivariante como en los de análisis multivariante (regresión, análisis clúster y modelos log-lineales, entre otros).
 
 ## `trabajadores`. {#trabajadores}
 
