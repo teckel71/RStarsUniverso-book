@@ -64,6 +64,7 @@ Se recogen a continuación algunos términos que aparecen recurrentemente en los
 - **Base de Datos Interestelar.** Registro unificado —creado en 2137 por el Dr. Sagan Olbers— con la información operativa y financiera de las 300 compañías del sector. Fuente primaria de los datos utilizados en los manuales.
 - **CG / SLG / SAG.** Compañía Galáctica / Sociedad Limitada Galáctica / Sociedad Anónima Galáctica. Las tres formas jurídicas armonizadas por el TLCI.
 - **Cinturón de Magallanes.** Nombre que dan los pilotos al Puente de Magallanes, el filamento de gas que une las dos Nubes de Magallanes. Célebre por sus tormentas de radiación.
+- **Data-Evidence.** Consultora de análisis de datos y econometría aplicada con sede en Tatooine, dirigida por Li Ti-Oh. Autora de los estudios que protagonizan los capítulos 9, 10 y 12 de *R-Stars: La Guía*.
 - **Especia (natural).** Isómero natural de melangium extraído en Arrakis. Combustible único del *plasma warp* para viajes intergalácticos.
 - **Gran Travesía.** Ruta de unos 2,5 millones de años luz que separa el barrio de la Vía Láctea (con las dos Nubes de Magallanes) del de Andrómeda y el Triángulo. La más larga, cara y rentable del sector.
 - **Melangium.** Isótopo transuránico artificial ($^{297}$Mg) cuyo estado isomérico metaestable es la base física del *plasma warp*.

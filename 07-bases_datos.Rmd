@@ -61,7 +61,7 @@ Las 100 compañías están extraídas de `interestelar_300`, y las variables com
 
 ## `percepcion_interestelar`. {#percepcion-interestelar}
 
-Contiene las **valoraciones medias** que 30 clientes frecuentes han otorgado a **15 compañías** del sector en **6 atributos de servicio**, utilizando una escala Likert de 1 (muy deficiente) a 7 (excelente). La encuesta fue diseñada por la consultora *Data-Evidence* por encargo de la ASTI, con el objetivo de construir un mapa perceptual del sector.
+Contiene las **valoraciones medias** que 30 clientes frecuentes han otorgado a **15 compañías** del sector en **6 atributos de servicio**, utilizando una escala Likert de 1 (muy deficiente) a 7 (excelente). La encuesta fue diseñada por la consultora *[Data-Evidence](#data-evidence)*, dirigida por [Li Ti-Oh](#li-ti-oh), por encargo de la ASTI, con el objetivo de construir un mapa perceptual del sector.
 
 **Estructura**: 15 filas × 7 columnas (`EMPRESA`, `FIABILIDAD`, `PUNTUALIDAD`, `SEGURIDAD`, `PRECIO`, `ATENCION`, `INNOVACION`).
 

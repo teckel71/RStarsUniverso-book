@@ -101,3 +101,5 @@ En el momento en el que se ambientan los ejercicios de los manuales, el sector h
 -   Rentabilidad media en torno al **60,16%**, cifra que hace las delicias de los accionistas y las pesadillas de los reguladores.
 
 El sector es maduro y rentable, pero no plácido: la piratería en las fronteras, las tormentas de radiación, la creciente competencia entre astilleros, la disputa permanente por la especia y la aparición de nichos digitales especializados mantienen a analistas y CEOs —humanos y no humanos— en permanente sobreaviso.
+
+Es también el tiempo de los analistas. Junto a los informes oficiales de la AITM, la opinión del sector la marcan cada vez más las consultoras privadas, y ninguna tanto como *[Data-Evidence](#data-evidence)*, con sede en Tatooine. Fundada en 2141 por antiguos estadísticos de la AITM, dio el salto en 2148, cuando la veterana analista y divulgadora **[Li Ti-Oh](#li-ti-oh)** —dos décadas en los medios especializados del sector— aceptó su dirección ejecutiva. Su informe sectorial de 2150 y los estudios que la consultora ha elaborado para *Dixitaliza*, la AGTI y la ASTI protagonizan varios de los ejercicios de *R-Stars: La Guía*.
