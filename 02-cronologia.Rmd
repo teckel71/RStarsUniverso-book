@@ -56,7 +56,7 @@ El efecto sobre la agenda espacial fue radical: lo que se había concebido como 
 
 ```{r video-tierra-arrakis, echo=FALSE, results='asis'}
 insertar_youtube(
-  id     = "iimtubUF9Zg",
+  id     = "jBBlL61houw",
   titulo = "Tierra-Arrakis: un viaje de 150 000 años luz en un minuto."
 )
 ```
