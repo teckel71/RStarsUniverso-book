@@ -9,8 +9,10 @@ _main_files/
 _main.log
 *_files/figure-html/
 
-# Archivos de salida intermedios LaTeX
+# Archivos de salida intermedios LaTeX (salvo el diseño del PDF)
 *.tex
+!/preamble.tex
+!/pdf/*.tex
 *.aux
 *.log
 *.out
@@ -18,3 +20,10 @@ _main.log
 
 # RStudio Connect / shinyapps.io
 rsconnect/
+
+# Carpetas temporales de compilación del PDF (el PDF final se copia a docs/)
+/_build/
+/_pdf/
+
+# Copias de seguridad locales
+BACKUP_*

@@ -29,6 +29,8 @@ El transporte espacial comercial nace a mediados del siglo XXI, empujado por la 
 ## El salto cuántico: el plasma warp (2084). {#plasma-warp}
 
 ![*Primera expedición al espacio con plasma warp: lanzadera "And Beyond"*](figuras/02-And_Beyond.jpg){.portada-img width="100%"}
+<div style="height: 1rem;"></div>
+
 En 2084 un equipo mixto de físicos e ingenieros descubre —según cuenta la leyenda, casi por accidente— el fenómeno conocido como **plasma warp**: una configuración magnetohidrodinámica capaz de deformar localmente la métrica del espacio-tiempo y propulsar una nave a velocidades efectivamente equivalentes a las de la luz. El descubrimiento se anuncia oficialmente un martes, se patenta el miércoles, y el viernes ya cotizaba en bolsa.
 
 Meses después, la lanzadera *And Beyond* despegaba desde Papúa-Nueva Guinea en la primera expedición tripulada en la que se utilizaba, como combustible, el *plasma warp*. Se llegó (y volvió) hasta la órbita de Plutón, todo en un tiempo ridículamente corto. El reverso de la moneda fue el coste del proyecto, ridículamente... elevado. La tripulación de esta primera travesía fueron los científicos Alan Parsons, Wendy O. Williams y Katrina Leskanich, cuyos nombres quedaron grabados en letras doradas en la Historia de la carrera espacial junto a otros como Yuri Gagarin, Valentina Tereshkova o Neil Amstrong.
